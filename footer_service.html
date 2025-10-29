@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kangol</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/kangol.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    
+    <div id="searchPanel" class="fixed">
+        <form>
+            <div class="relative">
+                <input type="search" placeholder="Search" title="search bar" class="qsRG15">
+                <input type="submit" value="Search" title="search button" class="absolute">
+            </div>
+        </form>
+    </div>
+
+    <div id="cartPanel" class="fixed">
+        <h2 class="qsMD18 relative">CART<input type="button" value="close" class="closeBtn absolute" title="close cart panel"></h2>
+        <p class="haveProd qsRG18 active"><span>2</span>Item In Bag</p>
+        <p class="noneProd qsRG18">You have no items in your shopping bag.</p>
+        <ul class="clearFixL">
+            <li>
+                <figure class="AclearFixL">
+                    <img src="images/sample_cart_product_01.png" alt="wooly Floral Beret">
+                    <figcaption>
+                        <dl class="flex column">
+                            <dt class="qsRG18"><a href="detail_woolyFloralBeret.html">Wooly Floral Beret</a></dt>
+                            <dd class="loPrice">
+                                <strong class="qsRG18 priceElement">56.25</strong>
+                                <del class="qsMD13 priceElement">75.00</del>
+                            </dd>
+                            <dd class="qsRG13 optionDo">
+                                <span>Cream</span>
+                                <span>S</span>
+                            </dd>
+                        </dl>
+                        <input type="button" value="-" title="remove button">
+                        <span class="qTy qsLT13">1</span>
+                        <input type="button" value="+" title="plus button">
+                        <input type="button" class="qsRG13" value="Remove" title="delete button">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure class="AclearFixL">
+                    <img src="images/sample_cart_product_02.png" alt="Summer Prep 504 Ivy Cap">
+                    <figcaption>
+                        <dl class="flex column">
+                            <dt class="qsRG18"><a href="detail_summerPrep504LvyCap.html">Summer Prep 504 Ivy Cap</a></dt>                            
+                            <dd class="loPrice">
+                                <strong class="qsRG18 priceElement">70.00</strong>
+                            </dd>
+                            <dd class="qsRG13 optionDo">
+                                <span>Moonstruck</span>
+                                <span>S</span>
+                            </dd>
+                        </dl>
+                        <input type="button" value="-" title="remove button">
+                        <span class="qTy qsLT13">1</span>
+                        <input type="button" value="+" title="plus button">
+                        <input type="button" class="qsRG13" value="Remove" title="delete button">
+                    </figcaption>
+                </figure>
+            </li>
+        </ul>
+        <div>
+            <h3 class="qsRG18">Bag Subtotal</h3>
+            <form action="account_checkout01.html">
+                <strong class="priceElement qsRG30">126.25</strong>
+                <input type="submit" class="btn qsMD15 aDj" value="CHECKOUT" title="checkout button">
+            </form>
+        </div>
+    </div>
+    
+    <header class="fixed">
+        <div class="clearFix">
+            <h1>
+                <a href="index.html"><img src="images/logo.svg" alt="main Kangol"></a>
+            </h1>
+            <nav class="TMfixed">
+                <h2 class="qsMD18 menuTitle TMrelative">MENU<input type="button" value="close" class="closeBtn TMabsolute" title="close cart panel"></h2>
+                <ul class="qsMD15L">
+                    <li>
+                        <b>Hats By Style</b>
+                        <ol>
+                            <li><a href="list_caps504_01.html">504 Caps</a></li>
+                            <li><a href="list_caps507_01.html">507 Caps</a></li>
+                            <li><a href="list_armycaps.html">Army Caps</a></li>
+                            <li><a href="list_spacecaps.html">Spacecaps</a></li>
+                            <li><a href="list_spitfires.html">Spitfires</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <b>Hats By Fabric</b>
+                        <ol>
+                            <li><a href="list_bamboo.html">Bamboo</a></li>
+                            <li><a href="list_bermuda.html">Bermuda</a></li>
+                            <li><a href="list_cotton_01.html">Cotton</a></li>
+                            <li><a href="list_fauxfur.html">Faux Fur</a></li>
+                            <li><a href="list_furgora.html">Furgora</a></li>
+                            <li><a href="list_wool_01.html">Wool</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <b>Collections</b>
+                        <ol>
+                            <li><a href="list_iconsberets.html">Icons-Berets</a></li>
+                            <li><a href="list_collaborations.html">Collaborations</a></li>
+                            <li><a href="list_uscollection.html">US Collection</a></li>
+                            <li><a href="list_newarrivals01.html">New Arrivals</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <b>Clothing &amp; Accessories</b>
+                        <ol>
+                            <li><a href="list_newarrivals02.html">New Arrivals</a></li>
+                            <li><a href="list_allaccessories.html">All Accessories</a></li>
+                            <li><a href="list_bagpacks.html">Backpacks &amp; Bags</a></li>
+                            <li><a href="list_bottoms.html">Bottoms</a></li>
+                            <li><a href="list_wallets.html">Wallets</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_giftcards.html">Gift Cards</a>
+                    </li>
+                    <li>
+                        <a href="account_myAccount.html">Account</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul>
+                <li><input type="button" value="search" title="search pannel button" class="panelBtn" data-panel="searchPanel"></li>
+                <li><a href="account_myAccount.html">account</a></li>
+                <li>
+                    <button class="panelBtn" data-panel="cartPanel">
+                        <span class="qsMD12">2</span>
+                    </button>
+                </li>
+                <li class="menu">
+                    <button class="mui">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <article class="serviceContainer">
+        <h2 class="qsRG60">Terms of Service</h2>
+        <ul class="qsRG18">
+            <li>
+                <h3 class="qsRG42">WEBSITE TERMS AND CONDITIONS OF USE</h3>
+                <p>By using this web site, you indicate your agreement to the following terms and conditions of use without any limitation or qualification. Please read these terms and conditions carefully before using this web site. kangol.com may at any time revise these terms and conditions by updating these materials. You are bound by any such revisions and should therefore regularly visit this page to review the then current terms and conditions to which you are bound.</p>
+            </li>
+            <li>
+                <h3 class="qsRG42">COPYRIGHT</h3>
+                <p>All content included on this web site, such as text, graphics, logos, button icons, images, audio clips, data compilations, and software, is the property of kangol.com or its content suppliers and protected by United States and international copyright laws. The compilation of all content on this web site is the exclusive property of kangol.com and protected by U.S. and international copyright laws. All software used on this web site is the property of kangol.com or its software suppliers and protected by United States and international copyright laws.</p>
+                <p>The use of this content by you, or anyone else authorized by you, is prohibited unless specifically permitted herein. Any unauthorized use of the images may violate copyright laws, trademark laws, the laws of privacy and publicity, and communications regulations and statutes. All trademarks, service marks, trade names, logos and icons used by kangol.com or any affiliated company are proprietary to kangol.com or that affiliate. Nothing contained on the web site should be construed as granting, by implication, estoppel, or otherwise, any license or right to use any trademark or service mark displayed on this web site without the written permission of kangol.com or such third party that may own the trademarks or service marks displayed on this web site. Your use of the trademarks or service marks displayed on this web site, or any other content on this web site, except as provided herein, is strictly prohibited.</p>
+                <p>Inquiries concerning use of kangol.com's trademarks, service marks, trade names, logos, icons, copyrights or other intellectual property should be addressed to:</p>
+                <address>
+                    <span>kangol.com</span>
+                    <span>50 Denver Road, Suite 1</span>
+                    <span>Denver, PA 17517</span>
+                    <dl class="clearFix">
+                        <dt>P :</dt>
+                        <dd>1-717-336-0165</dd>
+                        <dt>F :</dt>
+                        <dd>1-888-428-7329</dd>
+                    </dl>
+                </address>
+                <p>kangol.com is free to use any ideas, concepts, know-how, or techniques contained in any communication you send to this web site for any purpose whatsoever, including, but not limited to, developing and marketing products using such information.</p>
+            </li>
+            <li>
+                <h3 class="qsRG42">TRADEMARK/SERVICE MARK NOTICES</h3>
+                <p>All trademarks, service marks, trade names and logos used by kangol.com or its subsidiaries are trademarks or service marks of kangol.com and/or its subsidiaries. kangol.com is very protective of its trademarks and service marks and has registered such marks with the United States Patent and Trademark Office and/or claims common law rights in these marks. All use of these marks must be with kangol.com's permission. kangol.com will file appropriate legal actions to enjoin the unauthorized use of these marks. Under the law, kangol.com would be entitled to collect your profits, our actual damages and, perhaps, even its attorneys' fees and statutory damages.</p>
+            </li>
+            <li>
+                <h3 class="qsRG42">DISCLAIMER OF WARRANTIES</h3>
+                <p>kangol.com MAY PROVIDE LINKS AND POINTERS TO INTERNET WEB SITES MAINTAINED BY THIRD PARTIES. kangol.com DOES NOT OPERATE OR CONTROL IN ANY RESPECT ANY INFORMATION, PRODUCTS OR SERVICES ON THESE THIRD-PARTY WEB SITES. THE MATERIALS IN THE kangol.com WEB SITE AND THE THIRD-PARTY WEB SITES ARE PROVIDED "AS IS" AND "AS AVAILABLE" AND WITHOUT WARRANTIES OF ANY KIND EITHER EXPRESS OR IMPLIED. TO THE FULLEST EXTENT PERMISSIBLE PURSUANT TO APPLICABLE LAW, kangol.com DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.</p>
+                <p>kangol.com DOES NOT WARRANT THAT THE FUNCTIONS CONTAINED IN THE MATERIALS WILL BE UNINTERRUPTED, TIMELY, SECURE OR ERROR-FREE, THAT DEFECTS WILL BE CORRECTED, OR THAT THE kangol.com WEB SITE, INCLUDING BULLETIN BOARDS, OR THE SERVER THAT MAKES IT AVAILABLE, ARE FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS. kangol.com DOES NOT WARRANT OR MAKE ANY REPRESENTATIONS REGARDING THE USE OR THE RESULTS OF THE USE OF THE MATERIALS IN THE kangol.com WEB SITE OR IN THIRD-PARTY WEB SITES IN TERMS OF THEIR CORRECTNESS, ACCURACY, TIMELINESS, RELIABILITY OR OTHERWISE. YOU ASSUME THE ENTIRE COST OF ALL NECESSARY MAINTENANCE, REPAIR OR CORRECTION. kangol.com MAKES NO WARRANTY REGARDING ANY GOODS OR SERVICES PURCHASED OR OBTAINED THROUGH THE kangol.com WEB SITE OR THE NEWSLETTERS OR ANY TRANSACTIONS ENTERED INTO, DIRECTLY OR INDIRECTLY, THROUGH THE kangol.com WEB SITE OR THE NEWSLETTERS.</p>
+                <p>YOU UNDERSTAND AND AGREE THAT ANY MATERIAL AND/OR DATA DOWNLOADED OR OTHERWISE OBTAINED THROUGH THE USE OF THE kangol.com WEB SITE OR THE NEWSLETTERS IS AT YOUR OWN DISCRETION AND RISK AND THAT YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR LOSS OF DATA THAT RESULTS FROM THE DOWNLOAD OF SUCH MATERIAL AND/OR DATA.</p>
+                <p>NO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN, OBTAINED BY YOU FROM kangol.com OR THROUGH OR FROM THE kangol.com WEB SITE, BULLETIN BOARDS OR NEWSLETTERS SHALL CREATE ANY WARRANTY.</p>
+            </li>
+            <li>
+                <h3 class="qsRG42">LIMITATION OF LIABILITY</h3>
+                <p>UNDER NO CIRCUMSTANCES, INCLUDING, BUT NOT LIMITED TO, NEGLIGENCE, SHALL kangol.com, OR ITS AFFILIATES BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES THAT RESULT FROM THE USE OF, OR THE INABILITY TO USE, kangol.com CONTENT EVEN IF kangol.com OR A kangol.com AUTHORIZED REPRESENTATIVE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. APPLICABLE LAW MAY NOT ALLOW THE LIMITATION OR EXCLUSION OF LIABILITY OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATION OR EXCLUSION MAY NOT APPLY TO YOU. YOU SPECIFICALLY ACKNOWLEDGE AND AGREE THAT kangol.com IS NOT LIABLE FOR ANY DEFAMATORY, OFFENSIVE OR ILLEGAL CONDUCT OF ANY USER. IF YOU ARE DISSATISFIED WITH ANY kangol.com CONTENT, OR WITH ANY OF kangol.com'S TERMS AND CONDITIONS, YOUR SOLE AND EXCLUSIVE REMEDY IS TO DISCONTINUE USING THE kangol.com WEB SITE AND/OR kangol.com'S SERVICES. In no event shall kangol.com's total liability to you for all damages, losses, and causes of action exceed the amount paid by you to access this web site. kangol.com assumes no responsibility and shall not be liable for any damages to, or viruses that may infect, your computer equipment or other property on account of your access to, use of, or browsing in this web site or your downloading of any materials, data, text, images, video or audio from this web site.</p>
+            </li>
+            <li>
+                <h3 class="qsRG42">RESTRICTIONS ON USE OF MATERIALS</h3>
+                <p>This web site is owned and operated by kangol.com. Permission is granted to access and navigate around this web site with a computer using HTML browser software, solely for personal, non-commercial use. You may not distribute, adapt or create derivative works, retransmit, reuse, repost or use the content of this web site for public or commercial purposes, including the text, images, audio and video, without kangol.com's written permission.</p>
+                <p>Except as otherwise permitted by kangol.com, no materials from www.kangol.com or any other web site owned, operated, licensed or controlled by kangol.com may be copied, reproduced, republished, uploaded, posted, transmitted or distributed in any way. You may download material displayed on this web site for non-commercial, personal use only provided you also retain all copyright and other proprietary notices contained on the materials. kangol.com does not warrant or represent that your use of materials displayed on this web site will not infringe rights of third parties not owned by or affiliated with kangol.com.</p>
+            </li>
+            <li>
+                <h3 class="qsRG42">INDEMNITY</h3>
+                <p>You agree to indemnify and hold kangol.com and its subsidiaries, affiliates, officers, agents, co-branders or other partners, and employees, harmless from any claim or demand, including reasonable attorney's fees, made by any third party due to or arising out of content you submit, post to, upload or transmit through the kangol.com web site, your use of the kangol.com web site, Newsletters, your connection to the kangol.com web site and Newsletters, your violation of the Terms and Conditions, or your violations of the rights of any person or entity.</p>
+            </li>
+            <li>
+                <h3 class="qsRG42">TERMINATION</h3>
+                <p>This agreement is effective until terminated by kangol.com, at any time with or without notice. In the event of termination, you are no longer authorized to access the Newsletters or the kangol.com web site, including, without limitation, Bulletin Boards, and the restrictions imposed on you with respect to material downloaded from the Newsletters and the kangol.com web site, the disclaimers, indemnities and limitations of liabilities set forth in this agreement, shall survive.</p>
+            </li>
+            <li>
+                <h3 class="qsRG42">MODIFICATION OF TERMS AND CONDITIONS</h3>
+                <p>Upon notice published on the kangol.com web site, or such other notice as may be given; kangol.com may amend or modify these Terms and Conditions, or impose new conditions on use, at any time. Your use of this service after such notice shall be deemed to constitute acceptance of the new Terms and Conditions.</p>
+            </li>
+            <li>
+                <h3 class="qsRG42">MODIFICATION OF WEB SITE</h3>
+                <p>kangol.com may modify or discontinue the kangol.com web site with or without notice to you and without liability to you or any third party.</p>
+            </li>
+            <li>
+                <h3 class="qsRG42">OTHER</h3>
+                <p>This agreement constitutes the entire agreement between kangol.com and you with respect to the subject matter contained in this agreement and supersedes all previous and contemporaneous agreements, proposals and communications, written and oral. This agreement shall be governed by and construed in accordance with the laws of the Commonwealth of Pennsylvania without giving effect to any principles or conflicts of law. If any provision of this agreement shall be unlawful, void or for any reason unenforceable, then that provision shall be deemed severable from this agreement and shall not affect the validity and enforceability of any remaining provisions. The section titles in the Terms and Conditions are for convenience only and have no legal or contractual effect.</p>
+            </li>
+            <li>
+                <h3 class="qsRG42">COOKIES</h3>
+                <p>kangol.com uses a feature of your web browser called a “cookie” to assign a unique identification to your computer. Cookies are files that your browser places on your computer's hard drive. We use these cookie files to track your clicks as you go through our site, to keep track of items you put into your shopping cart, to tell us whether you have visited kangol.com previously, and to help us determine whether you came to kangol.com from a particular internet link or banner advertisement. kangol.com does not and cannot use cookies to retrieve personal information about you from your computer. Read more about cookies here.</p>
+            </li>
+            <li>
+                <h3 class="qsRG42">TEXTING</h3>
+                <p>If you elect to receive marketing text messages from us, either via our website or by sending a text message indicating your consent, you are providing your prior express written consent to receive recurring marketing or promotional Text text messages from us (each, a “Text Message”) sent through an automatic telephone dialing system. These may include cart abandon messages. Message frequency varies. This service is optional and is not a condition for purchase. You can opt-out of receiving any further Text Messages from us at any time by replying “STOP” to any Text Message you receive from us. For help, reply “HELP” to any Text Message you receive from us or email textsupport@wunderkind.co.In addition to any fee of which you are notified, your mobile provider’s message and data rates may apply to our confirmation Text Message and all subsequent Text Message correspondence according to your individual rate plan provided by your wireless carrier. Please consult your mobile service carrier’s pricing plan to determine the charges for browsing data and sending and receiving Text Messages. Under no circumstances will we or our affiliates be responsible for any Text messaging or wireless charges incurred by you or by a person that has access to your wireless device or telephone number. If your carrier does not permit Text messages, you may not receive the Text Messages. Neither we nor the wireless carriers (such as T-Mobile) will be liable for any delays in the receipt of, or failure to deliver, any Text Messages, as delivery is subject to effective transmission from your network operator. Text Message services are provided on an “AS IS” basis. Data obtained from you in connection with any Text Message services may include your cell phone number, your provider’s name, and the date, time, and content of your text messages. We may use this information in accordance with our Privacy Policy to contact you and to provide the services you request from us. For more information on how we use telephone numbers, please read our Privacy Policy. If you change or deactivate the phone number you provided, you have an affirmative obligation to update your account information and the phone number(s) attached to your account to prevent us from inadvertently communicating with anyone who acquires any phone number(s) previously attributed to you, and any new phone number(s) you attach to your account may receive our standard marketing Text Messages unless you also unsubscribe via the above procedures.</p>
+            </li>
+            <li>
+                <h3 class="qsRG42">PRIVACY POLICY</h3>
+                <p>kangol.com is committed to protecting our customers' privacy and security. We do not share your information outside our company or sell your information to third parties. Read our full Privacy Policy here.</p>
+            </li>
+        </ul>
+        <input type="button" value="Back" class="backBtn qsMD15" title="back page">
+    </article>
+
+    <footer>
+        <section class="qsRG15">
+            <h2>
+                <img src="images/logo_footer.png" alt="Kangol">
+            </h2>
+            <div class="conTent DTclearFixL">
+                <div>
+                    <b class="qsMD18">Contact Tel</b>
+                    <a href="tel:18668526465">1-866-8-KANGOL (1-866-852-6465)</a>
+                </div>
+                <nav>
+                    <b class="qsMD18">Customer Service</b>
+                    <ul>
+                        <li><a href="account_myOrdersHave.html">Track Your Order</a></li>
+                        <li><a href="account_myOrdersHave.html">Start a Return</a></li>
+                        <li><a href="footer_ordering.html">Ordering</a></li>
+                        <li><a href="footer_promotions.html">Promotions</a></li>
+                        <li><a href="footer_shipping.html">Shipping</a></li>
+                        <li><a href="footer_returns.html">Returns</a></li>
+                        <li><a href="list_giftcards.html">Gift Cards</a></li>
+                        <li><a href="footer_contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <b class="qsMD18">Resources</b>
+                    <ul>
+                        <li><a href="footer_size.html">Size Chart</a></li>
+                        <li><a href="footer_handingcare.html">Handling and Care</a></li>
+                        <li><a href="footer_journal.html">Journal</a></li>
+                        <li><a href="footer_reviews.html">Reviews</a></li>
+                        <li><a href="footer_glossary.html">Glossary</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <b class="qsMD18">About Us</b>
+                    <ul>
+                        <li><a href="footer_aboutus.html">Who We Are</a></li>
+                        <li><a href="footer_service.html">Terms of Service</a></li>
+                        <li><a href="footer_securitypolicy.html">Security &amp; Privacy Policy</a></li>
+                        <li><a href="footer_webaccessibility.html">Website Accessibility</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <b class="qsMD18">Stay Connected</b>
+                    <ol>
+                        <li><a href="https://www.instagram.com/kangol" target="_blank"><img src="images/sns_icon_01.png" alt="kangol instagram site"></a></li>
+                        <li><a href="https://kr.pinterest.com/Kangol_Usa" target="_blank"><img src="images/sns_icon_02.png" alt="kangol pinterest site"></a></li>
+                        <li><a href="https://www.facebook.com/kangol.headwear.usa" target="_blank"><img src="images/sns_icon_03.png" alt="kangol meta site"></a></li>
+                    </ol>
+                    <form>
+                        <div class="relative">
+                            <input type="email" placeholder="Email address" class="qsRG15" title="Email address" required>
+                        </div>
+                        <input type="submit"  value="SUBSCRIBE" class="anotherBtn qsMD15" title="SUBSCRIBE">
+                    </form>
+                    <p class="qsMD12 subscribeText">Your subscription has been completed.</p>
+                </div>
+            </div>
+        </section>   
+        <div>
+            <hr>
+            <p class="qsRG13">© 2024 Kangol.com. All rights reserved. KANGOL™ AND KANGOL KANGAROO™ ARE TRADEMARKS OWNED BY KANGOL, LLC AND USED UNDER AUTHORIZED LICENSE.</p>
+        </div>
+    </footer>
+</body>
+</html>

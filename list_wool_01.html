@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kangol</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/kangol.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    
+    <div id="searchPanel" class="fixed">
+        <form>
+            <div class="relative">
+                <input type="search" placeholder="Search" title="search bar" class="qsRG15">
+                <input type="submit" value="Search" title="search button" class="absolute">
+            </div>
+        </form>
+    </div>
+
+    <div id="cartPanel" class="fixed">
+        <h2 class="qsMD18 relative">CART<input type="button" value="close" class="closeBtn absolute" title="close cart panel"></h2>
+        <p class="haveProd qsRG18 active"><span>2</span>Item In Bag</p>
+        <p class="noneProd qsRG18">You have no items in your shopping bag.</p>
+        <ul class="clearFixL">
+            <li>
+                <figure class="AclearFixL">
+                    <img src="images/sample_cart_product_01.png" alt="wooly Floral Beret">
+                    <figcaption>
+                        <dl class="flex column">
+                            <dt class="qsRG18"><a href="detail_woolyFloralBeret.html">Wooly Floral Beret</a></dt>
+                            <dd class="loPrice">
+                                <strong class="qsRG18 priceElement">56.25</strong>
+                                <del class="qsMD13 priceElement">75.00</del>
+                            </dd>
+                            <dd class="qsRG13 optionDo">
+                                <span>Cream</span>
+                                <span>S</span>
+                            </dd>
+                        </dl>
+                        <input type="button" value="-" title="remove button">
+                        <span class="qTy qsLT13">1</span>
+                        <input type="button" value="+" title="plus button">
+                        <input type="button" class="qsRG13" value="Remove" title="delete button">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure class="AclearFixL">
+                    <img src="images/sample_cart_product_02.png" alt="Summer Prep 504 Ivy Cap">
+                    <figcaption>
+                        <dl class="flex column">
+                            <dt class="qsRG18"><a href="detail_summerPrep504LvyCap.html">Summer Prep 504 Ivy Cap</a></dt>                            
+                            <dd class="loPrice">
+                                <strong class="qsRG18 priceElement">70.00</strong>
+                            </dd>
+                            <dd class="qsRG13 optionDo">
+                                <span>Moonstruck</span>
+                                <span>S</span>
+                            </dd>
+                        </dl>
+                        <input type="button" value="-" title="remove button">
+                        <span class="qTy qsLT13">1</span>
+                        <input type="button" value="+" title="plus button">
+                        <input type="button" class="qsRG13" value="Remove" title="delete button">
+                    </figcaption>
+                </figure>
+            </li>
+        </ul>
+        <div>
+            <h3 class="qsRG18">Bag Subtotal</h3>
+            <form action="account_checkout01.html">
+                <strong class="priceElement qsRG30">126.25</strong>
+                <input type="submit" class="btn qsMD15 aDj" value="CHECKOUT" title="checkout button">
+            </form>
+        </div>
+    </div>
+    
+    <header class="fixed">
+        <div class="clearFix">
+            <h1>
+                <a href="index.html"><img src="images/logo.svg" alt="main Kangol"></a>
+            </h1>
+            <nav class="TMfixed">
+                <h2 class="qsMD18 menuTitle TMrelative">MENU<input type="button" value="close" class="closeBtn TMabsolute" title="close cart panel"></h2>
+                <ul class="qsMD15">
+                    <li>
+                        <b>Hats By Style</b>
+                        <ol>
+                            <li><a href="list_caps504_01.html">504 Caps</a></li>
+                            <li><a href="list_caps507_01.html">507 Caps</a></li>
+                            <li><a href="list_armycaps.html">Army Caps</a></li>
+                            <li><a href="list_spacecaps.html">Spacecaps</a></li>
+                            <li><a href="list_spitfires.html">Spitfires</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <b>Hats By Fabric</b>
+                        <ol>
+                            <li><a href="list_bamboo.html">Bamboo</a></li>
+                            <li><a href="list_bermuda.html">Bermuda</a></li>
+                            <li><a href="list_cotton_01.html">Cotton</a></li>
+                            <li><a href="list_fauxfur.html">Faux Fur</a></li>
+                            <li><a href="list_furgora.html">Furgora</a></li>
+                            <li><a href="list_wool_01.html">Wool</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <b>Collections</b>
+                        <ol>
+                            <li><a href="list_iconsberets.html">Icons-Berets</a></li>
+                            <li><a href="list_collaborations.html">Collaborations</a></li>
+                            <li><a href="list_uscollection.html">US Collection</a></li>
+                            <li><a href="list_newarrivals01.html">New Arrivals</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <b>Clothing &amp; Accessories</b>
+                        <ol>
+                            <li><a href="list_newarrivals02.html">New Arrivals</a></li>
+                            <li><a href="list_allaccessories.html">All Accessories</a></li>
+                            <li><a href="list_bagpacks.html">Backpacks &amp; Bags</a></li>
+                            <li><a href="list_bottoms.html">Bottoms</a></li>
+                            <li><a href="list_wallets.html">Wallets</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_giftcards.html">Gift Cards</a>
+                    </li>
+                    <li>
+                        <a href="account_myAccount.html">Account</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul>
+                <li><input type="button" value="search" title="search pannel button" class="panelBtn" data-panel="searchPanel"></li>
+                <li><a href="account_myAccount.html">account</a></li>
+                <li>
+                    <button class="panelBtn" data-panel="cartPanel">
+                        <span class="qsMD12">2</span>
+                    </button>
+                </li>
+                <li class="menu">
+                    <button class="mui">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="listContainer">
+        <div class="splitForm DTclearFixL">
+            <h2 class="qsRG50 flex between">
+                <span>W</span>
+                <span>O</span>
+                <span>O</span>
+                <span>L</span>
+            </h2>
+            <img src="images/list_ex_wool.png" alt="wool list main image">
+        </div>
+        <ul class="DTclearFixL">
+            <li>
+                <a href="detail_flexfitFlatPeakBaseball.html" class="relative">
+                    <img src="images/detail_wool_01_Black.jpg" alt="flexfitFlatPeakBaseball image">
+                    <b class="qsMD18 absolute flex between wrap">
+                        <i>FLEXFIT</i>
+                        <i>FLAT</i>
+                        <i>PEAK</i>
+                        <i>BASEBALL</i>
+                    </b>
+                    <div class="flex">
+                        <strong class="qsRG15 priceElement">45.00</strong>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="detail_3dWoolFlexfitBaseball.html" class="relative">
+                    <img src="images/detail_wool_02_WhiteBlack.jpg" alt="3dWoolFlexfitBaseball image">
+                    <b class="qsMD18 absolute flex between wrap">
+                        <i>3D</i>
+                        <i>WOOL</i>
+                        <i>FLEXFIT</i>
+                        <i>BASEBALL</i>
+                    </b>
+                    <div class="flex">
+                        <strong class="qsRG15 priceElement">40.00</strong>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="detail_woolFlexfitBaseball.html" class="relative">
+                    <img src="images/detail_wool_03_BarnRed.jpg" alt="woolFlexfitBaseball image">
+                    <b class="qsMD18 absolute flex between wrap">
+                        <i>WOOL</i>
+                        <i>FLEXFIT</i>
+                        <i>BASEBALL</i>
+                    </b>
+                    <div class="flex">
+                        <strong class="qsRG15 priceElement">40.00</strong>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="detail_barclayTrilby.html" class="relative">
+                    <img src="images/detail_wool_04_Black.jpg" alt="barclayTrilby image">
+                    <b class="qsMD18 absolute flex between wrap">
+                        <i>BARCLAY</i>
+                        <i>TRILBY</i>
+                        <mark class="qsMD15 absolute">SALE</mark>
+                    </b>
+                    <div class="flex">
+                        <strong class="qsRG15 priceElement">112.50</strong>
+                        <del class="qsRG15 priceElement">150.00</del>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="detail_polishedPlayer.html" class="relative">
+                    <img src="images/detail_wool_05_Black.jpg" alt="polishedPlayer image">
+                    <b class="qsMD18 absolute flex between wrap">
+                        <i>POLISHED</i>
+                        <i>PLAYER</i>
+                        <mark class="qsMD15 absolute">SALE</mark>
+                    </b>
+                    <div class="flex">
+                        <strong class="qsRG15 priceElement">120.00</strong>
+                        <del class="qsRG15 priceElement">160.00</del>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="detail_polishedPorkPie.html" class="relative">
+                    <img src="images/detail_wool_06_Black.jpg" alt="polishedPorkPie image">
+                    <b class="qsMD18 absolute flex between wrap">
+                        <i>POLISHED</i>
+                        <i>PORK</i>
+                        <i>PIE</i>
+                        <mark class="qsMD15 absolute">SALE</mark>
+                    </b>
+                    <div class="flex">
+                        <strong class="qsRG15 priceElement">120.00</strong>
+                        <del class="qsRG15 priceElement">160.00</del>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="detail_woolClery.html" class="relative">
+                    <img src="images/detail_wool_07_Black.jpg" alt="woolClery image">
+                    <b class="qsMD18 absolute flex between wrap">
+                        <i>WOOL</i>
+                        <i>CLERY</i>
+                    </b>
+                    <div class="flex">
+                        <strong class="qsRG15 priceElement">80.00</strong>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="detail_woolBigAppleCap.html" class="relative">
+                    <img src="images/detail_wool_08_Black.jpg" alt="woolBigAppleCap image">
+                    <b class="qsMD18 absolute flex between wrap">
+                        <i>WOOL</i>
+                        <i>BIG</i>
+                        <i>APPLE</i>
+                        <i>CAP</i>
+                    </b>
+                    <div class="flex">
+                        <strong class="qsRG15 priceElement">80.00</strong>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="detail_litefeltPlayer.html" class="relative">
+                    <img src="images/detail_wool_09_Black.jpg" alt="litefeltPlayer image">
+                    <b class="qsMD18 absolute flex between wrap">
+                        <i>LITEFELT®</i>
+                        <i>PLAYER</i>
+                        <mark class="qsMD15 absolute">SALE</mark>
+                    </b>
+                    <div class="flex">
+                        <strong class="qsRG15 priceElement">93.75</strong>
+                        <del class="qsRG15 priceElement">125.00</del>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="detail_modelaineBeret.html" class="relative">
+                    <img src="images/detail_wool_10_Camel.jpg" alt="modelaineBeret image">
+                    <b class="qsMD18 absolute flex between wrap">
+                        <i>MODELAINE</i>
+                        <i>BERET</i>
+                        <mark class="qsMD15 absolute">SALE</mark>
+                    </b>
+                    <div class="flex">
+                        <strong class="qsRG15 priceElement">30.00</strong>
+                        <del class="qsRG15 priceElement">60.00</del>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="detail_montyWoolBeret.html" class="relative">
+                    <img src="images/detail_wool_11_Black.jpg" alt="montyWoolBeret image">
+                    <b class="qsMD18 absolute flex between wrap">
+                        <i>MONTY®</i>
+                        <i>WOOL</i>
+                        <i>BERET</i>
+                    </b>
+                    <div class="flex">
+                        <strong class="qsRG15 priceElement">65.00</strong>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="detail_anglobasqueBeret.html" class="relative">
+                    <img src="images/detail_wool_12_Black.jpg" alt="anglobasqueBeret image">
+                    <b class="qsMD18 absolute flex between wrap">
+                        <i>ANGLOBASQUE</i>
+                        <i>BERET</i>
+                    </b>
+                    <div class="flex">
+                        <strong class="qsRG15 priceElement">65.00</strong>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="detail_woolPlayer.html" class="relative">
+                    <img src="images/detail_wool_13_Black.jpg" alt="woolPlayer image">
+                    <b class="qsMD18 absolute flex between wrap">
+                        <i>WOOL</i>
+                        <i>PLAYER</i>
+                    </b>
+                    <div class="flex">
+                        <strong class="qsRG15 priceElement">75.00</strong>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="detail_woolMowbray.html" class="relative">
+                    <img src="images/detail_wool_14_Black.jpg" alt="woolMowbray image">
+                    <b class="qsMD18 absolute flex between wrap">
+                        <i>WOOL</i>
+                        <i>MOWBRAY</i>
+                        <mark class="qsMD15 absolute">SALE</mark>
+                    </b>
+                    <div class="flex">
+                        <strong class="qsRG15 priceElement">37.00</strong>
+                        <del class="qsRG15 priceElement">75.00</del>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="detail_woolEnfield.html" class="relative">
+                    <img src="images/detail_wool_15_Black.jpg" alt="woolEnfield image">
+                    <b class="qsMD18 absolute flex between wrap">
+                        <i>WOOL</i>
+                        <i>ENFIELD</i>
+                        <mark class="qsMD15 absolute">SALE</mark>
+                    </b>
+                    <div class="flex">
+                        <strong class="qsRG15 priceElement">52.50</strong>
+                        <del class="qsRG15 priceElement">70.00</del>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="detail_woolJaxBeret.html" class="relative">
+                    <img src="images/detail_wool_16_Flannel.jpg" alt="woolJaxBeret image">
+                    <b class="qsMD18 absolute flex between wrap">
+                        <i>WOOL</i>
+                        <i>JAX</i>
+                        <i>BERET</i>
+                        <mark class="qsMD15 absolute">SALE</mark>
+                    </b>
+                    <div class="flex">
+                        <strong class="qsRG15 priceElement">35.00</strong>
+                        <del class="qsRG15 priceElement">70.00</del>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <div class="paging relative">
+            <a href="list_wool_01.html"><img src="images/bul_arrow.png" alt="back page"></a>
+            <ol class="mpMD20">
+                <li class="active"><a href="list_wool_01.html">1</a></li>
+                <li><a href="list_wool_02.html">2</a></li>
+            </ol>
+            <a href="list_wool_02.html"><img src="images/bul_arrow.png" alt="next page"></a>
+            <span class="qsRG20 absolute">Items of <b>22</b></span>
+        </div>
+    </section>
+    <div class="qsRG18 listPager DTclearFixL">
+        <small>Previous<a href="list_furgora.html" class="qsRG42">Furgora</a></small>
+        <small>Next<a href="list_bamboo.html" class="qsRG42">Bamboo</a></small>
+    </div>
+
+    <footer>
+        <section class="qsRG15">
+            <h2>
+                <img src="images/logo_footer.png" alt="Kangol">
+            </h2>
+            <div class="conTent DTclearFixL">
+                <div>
+                    <b class="qsMD18">Contact Tel</b>
+                    <a href="tel:18668526465">1-866-8-KANGOL (1-866-852-6465)</a>
+                </div>
+                <nav>
+                    <b class="qsMD18">Customer Service</b>
+                    <ul>
+                        <li><a href="account_myOrdersHave.html">Track Your Order</a></li>
+                        <li><a href="account_myOrdersHave.html">Start a Return</a></li>
+                        <li><a href="footer_ordering.html">Ordering</a></li>
+                        <li><a href="footer_promotions.html">Promotions</a></li>
+                        <li><a href="footer_shipping.html">Shipping</a></li>
+                        <li><a href="footer_returns.html">Returns</a></li>
+                        <li><a href="list_giftcards.html">Gift Cards</a></li>
+                        <li><a href="footer_contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <b class="qsMD18">Resources</b>
+                    <ul>
+                        <li><a href="footer_size.html">Size Chart</a></li>
+                        <li><a href="footer_handingcare.html">Handling and Care</a></li>
+                        <li><a href="footer_journal.html">Journal</a></li>
+                        <li><a href="footer_reviews.html">Reviews</a></li>
+                        <li><a href="footer_glossary.html">Glossary</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <b class="qsMD18">About Us</b>
+                    <ul>
+                        <li><a href="footer_aboutus.html">Who We Are</a></li>
+                        <li><a href="footer_service.html">Terms of Service</a></li>
+                        <li><a href="footer_securitypolicy.html">Security &amp; Privacy Policy</a></li>
+                        <li><a href="footer_webaccessibility.html">Website Accessibility</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <b class="qsMD18">Stay Connected</b>
+                    <ol>
+                        <li><a href="https://www.instagram.com/kangol" target="_blank"><img src="images/sns_icon_01.png" alt="kangol instagram site"></a></li>
+                        <li><a href="https://kr.pinterest.com/Kangol_Usa" target="_blank"><img src="images/sns_icon_02.png" alt="kangol pinterest site"></a></li>
+                        <li><a href="https://www.facebook.com/kangol.headwear.usa" target="_blank"><img src="images/sns_icon_03.png" alt="kangol meta site"></a></li>
+                    </ol>
+                    <form>
+                        <div class="relative">
+                            <input type="email" placeholder="Email address" class="qsRG15" title="Email address" required>
+                        </div>
+                        <input type="submit"  value="SUBSCRIBE" class="anotherBtn qsMD15" title="SUBSCRIBE">
+                    </form>
+                    <p class="qsMD12 subscribeText">Your subscription has been completed.</p>
+                </div>
+            </div>
+        </section>   
+        <div>
+            <hr>
+            <p class="qsRG13">© 2024 Kangol.com. All rights reserved. KANGOL™ AND KANGOL KANGAROO™ ARE TRADEMARKS OWNED BY KANGOL, LLC AND USED UNDER AUTHORIZED LICENSE.</p>
+        </div>
+    </footer>
+</body>
+</html>

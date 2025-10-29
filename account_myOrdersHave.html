@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kangol</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/kangol.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    
+    <div id="searchPanel" class="fixed">
+        <form>
+            <div class="relative">
+                <input type="search" placeholder="Search" title="search bar" class="qsRG15">
+                <input type="submit" value="Search" title="search button" class="absolute">
+            </div>
+        </form>
+    </div>
+
+    <div id="cartPanel" class="fixed">
+        <h2 class="qsMD18 relative">CART<input type="button" value="close" class="closeBtn absolute" title="close cart panel"></h2>
+        <p class="haveProd qsRG18 active"><span>2</span>Item In Bag</p>
+        <p class="noneProd qsRG18">You have no items in your shopping bag.</p>
+        <ul class="clearFixL">
+            <li>
+                <figure class="AclearFixL">
+                    <img src="images/sample_cart_product_01.png" alt="wooly Floral Beret">
+                    <figcaption>
+                        <dl class="flex column">
+                            <dt class="qsRG18"><a href="detail_woolyFloralBeret.html">Wooly Floral Beret</a></dt>
+                            <dd class="loPrice">
+                                <strong class="qsRG18 priceElement">56.25</strong>
+                                <del class="qsMD13 priceElement">75.00</del>
+                            </dd>
+                            <dd class="qsRG13 optionDo">
+                                <span>Cream</span>
+                                <span>S</span>
+                            </dd>
+                        </dl>
+                        <input type="button" value="-" title="remove button">
+                        <span class="qTy qsLT13">1</span>
+                        <input type="button" value="+" title="plus button">
+                        <input type="button" class="qsRG13" value="Remove" title="delete button">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure class="AclearFixL">
+                    <img src="images/sample_cart_product_02.png" alt="Summer Prep 504 Ivy Cap">
+                    <figcaption>
+                        <dl class="flex column">
+                            <dt class="qsRG18"><a href="detail_summerPrep504LvyCap.html">Summer Prep 504 Ivy Cap</a></dt>                            
+                            <dd class="loPrice">
+                                <strong class="qsRG18 priceElement">70.00</strong>
+                            </dd>
+                            <dd class="qsRG13 optionDo">
+                                <span>Moonstruck</span>
+                                <span>S</span>
+                            </dd>
+                        </dl>
+                        <input type="button" value="-" title="remove button">
+                        <span class="qTy qsLT13">1</span>
+                        <input type="button" value="+" title="plus button">
+                        <input type="button" class="qsRG13" value="Remove" title="delete button">
+                    </figcaption>
+                </figure>
+            </li>
+        </ul>
+        <div>
+            <h3 class="qsRG18">Bag Subtotal</h3>
+            <form action="account_checkout01.html">
+                <strong class="priceElement qsRG30">126.25</strong>
+                <input type="submit" class="btn qsMD15 aDj" value="CHECKOUT" title="checkout button">
+            </form>
+        </div>
+    </div>
+    
+    <header class="fixed">
+        <div class="clearFix">
+            <h1>
+                <a href="index.html"><img src="images/logo.svg" alt="main Kangol"></a>
+            </h1>
+            <nav class="TMfixed">
+                <h2 class="qsMD18 menuTitle TMrelative">MENU<input type="button" value="close" class="closeBtn TMabsolute" title="close cart panel"></h2>
+                <ul class="qsMD15">
+                    <li>
+                        <b>Hats By Style</b>
+                        <ol>
+                            <li><a href="list_caps504_01.html">504 Caps</a></li>
+                            <li><a href="list_caps507_01.html">507 Caps</a></li>
+                            <li><a href="list_armycaps.html">Army Caps</a></li>
+                            <li><a href="list_spacecaps.html">Spacecaps</a></li>
+                            <li><a href="list_spitfires.html">Spitfires</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <b>Hats By Fabric</b>
+                        <ol>
+                            <li><a href="list_bamboo.html">Bamboo</a></li>
+                            <li><a href="list_bermuda.html">Bermuda</a></li>
+                            <li><a href="list_cotton_01.html">Cotton</a></li>
+                            <li><a href="list_fauxfur.html">Faux Fur</a></li>
+                            <li><a href="list_furgora.html">Furgora</a></li>
+                            <li><a href="list_wool_01.html">Wool</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <b>Collections</b>
+                        <ol>
+                            <li><a href="list_iconsberets.html">Icons-Berets</a></li>
+                            <li><a href="list_collaborations.html">Collaborations</a></li>
+                            <li><a href="list_uscollection.html">US Collection</a></li>
+                            <li><a href="list_newarrivals01.html">New Arrivals</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <b>Clothing &amp; Accessories</b>
+                        <ol>
+                            <li><a href="list_newarrivals02.html">New Arrivals</a></li>
+                            <li><a href="list_allaccessories.html">All Accessories</a></li>
+                            <li><a href="list_bagpacks.html">Backpacks &amp; Bags</a></li>
+                            <li><a href="list_bottoms.html">Bottoms</a></li>
+                            <li><a href="list_wallets.html">Wallets</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_giftcards.html">Gift Cards</a>
+                    </li>
+                    <li>
+                        <a href="account_myAccount.html">Account</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul>
+                <li><input type="button" value="search" title="search pannel button" class="panelBtn" data-panel="searchPanel"></li>
+                <li><a href="account_myAccount.html">account</a></li>
+                <li>
+                    <button class="panelBtn" data-panel="cartPanel">
+                        <span class="qsMD12">2</span>
+                    </button>
+                </li>
+                <li class="menu">
+                    <button class="mui">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="accountContainer">
+        <div class="dashLeft">
+            <h2 class="qsRG60">My Account</h2>
+            <div class="dashBar qsRG15">
+                <ol>
+                    <li><a href="account_myAccount.html">Dashboard</a></li>
+                    <li class="active">My Orders</li>
+                    <li><a href="account_storeCredit.html">Store Credit</a></li>
+                    <li><a href="account_giftcards.html">Gift Card</a></li>
+                </ol>
+                <a href="index_after.html">Log Out</a>
+            </div>
+        </div>
+        <div class="personalInfo">
+            <h3 class="qsMD20">My Orders</h3>
+            <ul class="haveOrder">
+                <li class="clearFix">
+                    <span class="dayTime clearFix"><time datetime="2024-07-15" class="qsRG15">24.07.15</time><em class="qsRG13">NO.20240715A0091</em></span>
+                    <img src="images/detail_collections_03_Cream.jpg" alt="Wooly Floral Beret">
+                    <div class="qsRG13 orderInfo">
+                        <dl>
+                            <dt class="qsRG18">Wooly Floral Beret</dt>
+                            <dd>Cream<span>S</span></dd>
+                        </dl>
+                        <div>
+                            <b>Address</b>
+                            <address>
+                                <span>jeongin park</span>
+                                <span>215 Gyeyang-daero, Gyeyang-gu, Incheon</span>
+                                <span>example@gmail.com</span>
+                                <span>010-1234-5678</span>
+                            </address>
+                            <b>Total Amount</b>
+                            <strong class="priceElement">56.25</strong>
+                        </div>
+                    </div>
+                    <div class="statusInfo">
+                        <ol class="flex">
+                            <li class="active">delivery ready</li>
+                            <li class="active">delivery shipping</li>
+                            <li class="active">delivery complete</li>
+                        </ol>
+                        <input type="button" value="RETURN ORDER" class="btn odPanelBtn qsMD15 aDj" title="return order button" data-panel="reOrder1Panel">
+                        <input type="button" value="WRITE A REVIEW" class="btn odPanelBtn qsMD15 aDj" title="write review button" data-panel="wReview1Panel">
+                    </div>
+                    <div id="reOrder1Panel" class="tabPage">
+                        <h4 class="qsMD20">Return and Exchange</h4>
+                        <p class="qsMD15">Your order number is in your order confirmation email and on your invoice. Enter it below to start your return.</p>
+                        <form>
+                            <ol class="flexCome DTclearFixL">
+                                <li>
+                                    <input type="text" placeholder="20240715A0091" class="qsMD15" title="order number" readonly>
+                                </li>
+                                <li class="writeContent">
+                                    <input type="email" placeholder="Email" class="qsMD15 invalidUse" title="write email" required>
+                                    <p class="qsMD12">Please enter a valid email address <br> (Ex: johndoe@domain.com).</p>
+                                </li>
+                                <li class="selectComponent relative">
+                                    <input type="button" value="Reason for Return" class="qsMD15" title="review option select">
+                                    <ul class="qsRG15 selectOption">
+                                        <li class="active">Reason for Return</li>
+                                        <li>Quality dissatisfaction</li>
+                                        <li>Damage and product defects</li>
+                                        <li>Wrong delivery</li>
+                                        <li>Delivery delay</li>
+                                        <li>Buy multiple products</li>
+                                    </ul>
+                                </li>
+                            </ol>
+                            <span class="qsRG18">Total Refund Amount</span>
+                            <strong class="priceElement qsRG30">56.25</strong>
+                            <input type="submit" value="REQUEST" class="btn qsMD15 aDj" title="request">
+                        </form>
+                    </div>
+                    <div id="wReview1Panel" class="tabPage">
+                        <h4 class="qsMD20">Write A Review</h4>
+                        <span class="qsMD18 AclearFixR">Rate your experience *<small class="qsMD13">* required fields</small></span>
+                        <ol class="starCount AclearFixL">
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                        </ol>
+                        <form action="account_myOrders.html">
+                            <ul class="writeOrderText qsMD18 clearFix">
+                                <li>
+                                    <label for="writeRtion">Write a review *</label>
+                                    <textarea id="writeRtion" placeholder="Tell us what you like or disliket" class="qsMD15 invalidUse writeOpinion" required></textarea>
+                                </li>
+                                <li>
+                                    <label for="addTitle">Add a headline *</label>
+                                    <input type="text" id="addTitle" placeholder="Summarize your experience" class="qsMD15 invalidUse" required>
+                                    <p class="qsMD12">This is a required field.</p>
+                                </li>
+                                <li>
+                                    <label for="writeRtionName">Your name *</label>
+                                    <input type="text" id="writeRtionName" class="qsMD15 invalidUse" required>
+                                    <p class="qsMD12">This is a required field.</p>
+                                </li>
+                                <li>
+                                    <label for="writeRtionEmail">Your email address *</label>
+                                    <input type="email" id="writeRtionEmail" class="qsMD15 invalidUse" required>
+                                    <p class="qsMD12">This is a required field.</p>
+                                </li>
+                            </ul>
+                            <input type="submit" value="POST" class="btn qsMD15 aDj">
+                        </form>
+                    </div>
+                </li>
+                <li class="clearFix">
+                    <span class="dayTime clearFix"><time datetime="2024-07-15" class="qsRG15">24.07.15</time><em class="qsRG13">NO.20240715A0091</em></span>
+                    <img src="images/detail_collections_03_Cream.jpg" alt="Wooly Floral Beret">
+                    <div class="qsRG13 orderInfo">
+                        <dl>
+                            <dt class="qsRG18">Wooly Floral Beret</dt>
+                            <dd>Cream<span>S</span></dd>
+                        </dl>
+                        <div>
+                            <b>Address</b>
+                            <address>
+                                <span>jeongin park</span>
+                                <span>215 Gyeyang-daero, Gyeyang-gu, Incheon</span>
+                                <span>example@gmail.com</span>
+                                <span>010-1234-5678</span>
+                            </address>
+                            <b>Total Amount</b>
+                            <strong class="priceElement">56.25</strong>
+                        </div>
+                    </div>
+                    <div class="statusInfo">
+                        <ol class="flex">
+                            <li class="active">delivery ready</li>
+                            <li class="active">delivery shipping</li>
+                            <li>delivery complete</li>
+                        </ol>
+                        <input type="button" value="RETURN ORDER" class="btn odPanelBtn qsMD15 aDj" title="return order button" data-panel="reOrder2Panel">
+                    </div>
+                    <div id="reOrder2Panel" class="tabPage">
+                        <h4 class="qsMD20">Return and Exchange</h4>
+                        <p class="qsMD15">Your order number is in your order confirmation email and on your invoice. Enter it below to start your return.</p>
+                        <form action="account_myOrders.html">
+                            <ol class="flexCome DTclearFixL">
+                                <li>
+                                    <input type="text" placeholder="20240715A0091" class="qsMD15" title="order number" readonly>
+                                </li>
+                                <li class="writeContent">
+                                    <input type="email" placeholder="Email" class="qsMD15 invalidUse" title="write email" required>
+                                    <p class="qsMD12">Please enter a valid email address <br> (Ex: johndoe@domain.com).</p>
+                                </li>
+                                <li class="selectComponent relative">
+                                    <input type="button" value="Reason for Return" class="qsMD15" title="review option select">
+                                    <ul class="qsRG15 selectOption">
+                                        <li class="active">Reason for Return</li>
+                                        <li>Quality dissatisfaction</li>
+                                        <li>Damage and product defects</li>
+                                        <li>Wrong delivery</li>
+                                        <li>Delivery delay</li>
+                                        <li>Buy multiple products</li>
+                                    </ul>
+                                </li>
+                            </ol>
+                            <span class="qsRG18">Total Refund Amount</span>
+                            <strong class="priceElement qsRG30">56.25</strong>
+                            <input type="submit" value="REQUEST" class="btn qsMD15 aDj" title="request">
+                        </form>
+                    </div>
+                </li>
+                <li class="clearFix relative">
+                    <div id="cancelOrderPopup" class="absolute">
+                        <p class="qsMD24">Do you want to cancel your order?</p>
+                        <span class="flex center">
+                            <button type="button" class="anotherBtn qsMD15" value="yes">YES</button>
+                            <button type="button" class="anotherBtn qsMD15" value="no">NO</button>
+                        </span>
+                    </div>
+                    <span class="dayTime clearFix"><time datetime="2024-07-15" class="qsRG15">24.07.15</time><em class="qsRG13">NO.20240715A0091</em></span>
+                    <img src="images/detail_collections_03_Cream.jpg" alt="Wooly Floral Beret">
+                    <div class="qsRG13 orderInfo">
+                        <dl>
+                            <dt class="qsRG18">Wooly Floral Beret</dt>
+                            <dd>Cream<span>S</span></dd>
+                        </dl>
+                        <div>
+                            <b>Address</b>
+                            <address>
+                                <span>jeongin park</span>
+                                <span>215 Gyeyang-daero, Gyeyang-gu, Incheon</span>
+                                <span>example@gmail.com</span>
+                                <span>010-1234-5678</span>
+                            </address>
+                            <b>Total Amount</b>
+                            <strong class="priceElement">56.25</strong>
+                        </div>
+                    </div>
+                    <div class="statusInfo">
+                        <ol class="flex">
+                            <li class="active">delivery ready</li>
+                            <li>delivery shipping</li>
+                            <li>delivery complete</li>
+                        </ol>
+                        <input type="button" value="CANCEL ORDER" class="btn popupBtn cancelOpen qsMD15 aDj" title="cancel order button" data-popup="cancelOrderPopup">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <section class="qsRG15">
+            <h2>
+                <img src="images/logo_footer.png" alt="Kangol">
+            </h2>
+            <div class="conTent DTclearFixL">
+                <div>
+                    <b class="qsMD18">Contact Tel</b>
+                    <a href="tel:18668526465">1-866-8-KANGOL (1-866-852-6465)</a>
+                </div>
+                <nav>
+                    <b class="qsMD18">Customer Service</b>
+                    <ul>
+                        <li><a href="account_myOrdersHave.html">Track Your Order</a></li>
+                        <li><a href="account_myOrdersHave.html">Start a Return</a></li>
+                        <li><a href="footer_ordering.html">Ordering</a></li>
+                        <li><a href="footer_promotions.html">Promotions</a></li>
+                        <li><a href="footer_shipping.html">Shipping</a></li>
+                        <li><a href="footer_returns.html">Returns</a></li>
+                        <li><a href="list_giftcards.html">Gift Cards</a></li>
+                        <li><a href="footer_contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <b class="qsMD18">Resources</b>
+                    <ul>
+                        <li><a href="footer_size.html">Size Chart</a></li>
+                        <li><a href="footer_handingcare.html">Handling and Care</a></li>
+                        <li><a href="footer_journal.html">Journal</a></li>
+                        <li><a href="footer_reviews.html">Reviews</a></li>
+                        <li><a href="footer_glossary.html">Glossary</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <b class="qsMD18">About Us</b>
+                    <ul>
+                        <li><a href="footer_aboutus.html">Who We Are</a></li>
+                        <li><a href="footer_service.html">Terms of Service</a></li>
+                        <li><a href="footer_securitypolicy.html">Security &amp; Privacy Policy</a></li>
+                        <li><a href="footer_webaccessibility.html">Website Accessibility</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <b class="qsMD18">Stay Connected</b>
+                    <ol>
+                        <li><a href="https://www.instagram.com/kangol" target="_blank"><img src="images/sns_icon_01.png" alt="kangol instagram site"></a></li>
+                        <li><a href="https://kr.pinterest.com/Kangol_Usa" target="_blank"><img src="images/sns_icon_02.png" alt="kangol pinterest site"></a></li>
+                        <li><a href="https://www.facebook.com/kangol.headwear.usa" target="_blank"><img src="images/sns_icon_03.png" alt="kangol meta site"></a></li>
+                    </ol>
+                    <form>
+                        <div class="relative">
+                            <input type="email" placeholder="Email address" class="qsRG15" title="Email address" required>
+                        </div>
+                        <input type="submit"  value="SUBSCRIBE" class="anotherBtn qsMD15" title="SUBSCRIBE">
+                    </form>
+                    <p class="qsMD12 subscribeText">Your subscription has been completed.</p>
+                </div>
+            </div>
+        </section>   
+        <div>
+            <hr>
+            <p class="qsRG13">© 2024 Kangol.com. All rights reserved. KANGOL™ AND KANGOL KANGAROO™ ARE TRADEMARKS OWNED BY KANGOL, LLC AND USED UNDER AUTHORIZED LICENSE.</p>
+        </div>
+    </footer>
+</body>
+</html>

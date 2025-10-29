@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kangol</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/kangol.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    
+    <div id="searchPanel" class="fixed">
+        <form>
+            <div class="relative">
+                <input type="search" placeholder="Search" title="search bar" class="qsRG15">
+                <input type="submit" value="Search" title="search button" class="absolute">
+            </div>
+        </form>
+    </div>
+
+    <div id="cartPanel" class="fixed">
+        <h2 class="qsMD18 relative">CART<input type="button" value="close" class="closeBtn absolute" title="close cart panel"></h2>
+        <p class="haveProd qsRG18 active"><span>2</span>Item In Bag</p>
+        <p class="noneProd qsRG18">You have no items in your shopping bag.</p>
+        <ul class="clearFixL">
+            <li>
+                <figure class="AclearFixL">
+                    <img src="images/sample_cart_product_01.png" alt="wooly Floral Beret">
+                    <figcaption>
+                        <dl class="flex column">
+                            <dt class="qsRG18"><a href="detail_woolyFloralBeret.html">Wooly Floral Beret</a></dt>
+                            <dd class="loPrice">
+                                <strong class="qsRG18 priceElement">56.25</strong>
+                                <del class="qsMD13 priceElement">75.00</del>
+                            </dd>
+                            <dd class="qsRG13 optionDo">
+                                <span>Cream</span>
+                                <span>S</span>
+                            </dd>
+                        </dl>
+                        <input type="button" value="-" title="remove button">
+                        <span class="qTy qsLT13">1</span>
+                        <input type="button" value="+" title="plus button">
+                        <input type="button" class="qsRG13" value="Remove" title="delete button">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure class="AclearFixL">
+                    <img src="images/sample_cart_product_02.png" alt="Summer Prep 504 Ivy Cap">
+                    <figcaption>
+                        <dl class="flex column">
+                            <dt class="qsRG18"><a href="detail_summerPrep504LvyCap.html">Summer Prep 504 Ivy Cap</a></dt>                            
+                            <dd class="loPrice">
+                                <strong class="qsRG18 priceElement">70.00</strong>
+                            </dd>
+                            <dd class="qsRG13 optionDo">
+                                <span>Moonstruck</span>
+                                <span>S</span>
+                            </dd>
+                        </dl>
+                        <input type="button" value="-" title="remove button">
+                        <span class="qTy qsLT13">1</span>
+                        <input type="button" value="+" title="plus button">
+                        <input type="button" class="qsRG13" value="Remove" title="delete button">
+                    </figcaption>
+                </figure>
+            </li>
+        </ul>
+        <div>
+            <h3 class="qsRG18">Bag Subtotal</h3>
+            <form action="account_checkout01.html">
+                <strong class="priceElement qsRG30">126.25</strong>
+                <input type="submit" class="btn qsMD15 aDj" value="CHECKOUT" title="checkout button">
+            </form>
+        </div>
+    </div>
+    
+    <header class="fixed">
+        <div class="clearFix">
+            <h1>
+                <a href="index.html"><img src="images/logo.svg" alt="main Kangol"></a>
+            </h1>
+            <nav class="TMfixed">
+                <h2 class="qsMD18 menuTitle TMrelative">MENU<input type="button" value="close" class="closeBtn TMabsolute" title="close cart panel"></h2>
+                <ul class="qsMD15">
+                    <li>
+                        <b>Hats By Style</b>
+                        <ol>
+                            <li><a href="list_caps504_01.html">504 Caps</a></li>
+                            <li><a href="list_caps507_01.html">507 Caps</a></li>
+                            <li><a href="list_armycaps.html">Army Caps</a></li>
+                            <li><a href="list_spacecaps.html">Spacecaps</a></li>
+                            <li><a href="list_spitfires.html">Spitfires</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <b>Hats By Fabric</b>
+                        <ol>
+                            <li><a href="list_bamboo.html">Bamboo</a></li>
+                            <li><a href="list_bermuda.html">Bermuda</a></li>
+                            <li><a href="list_cotton_01.html">Cotton</a></li>
+                            <li><a href="list_fauxfur.html">Faux Fur</a></li>
+                            <li><a href="list_furgora.html">Furgora</a></li>
+                            <li><a href="list_wool_01.html">Wool</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <b>Collections</b>
+                        <ol>
+                            <li><a href="list_iconsberets.html">Icons-Berets</a></li>
+                            <li><a href="list_collaborations.html">Collaborations</a></li>
+                            <li><a href="list_uscollection.html">US Collection</a></li>
+                            <li><a href="list_newarrivals01.html">New Arrivals</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <b>Clothing &amp; Accessories</b>
+                        <ol>
+                            <li><a href="list_newarrivals02.html">New Arrivals</a></li>
+                            <li><a href="list_allaccessories.html">All Accessories</a></li>
+                            <li><a href="list_bagpacks.html">Backpacks &amp; Bags</a></li>
+                            <li><a href="list_bottoms.html">Bottoms</a></li>
+                            <li><a href="list_wallets.html">Wallets</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_giftcards.html">Gift Cards</a>
+                    </li>
+                    <li>
+                        <a href="account_myAccount.html">Account</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul>
+                <li><input type="button" value="search" title="search pannel button" class="panelBtn" data-panel="searchPanel"></li>
+                <li><a href="account_myAccount.html">account</a></li>
+                <li>
+                    <button class="panelBtn" data-panel="cartPanel">
+                        <span class="qsMD12">2</span>
+                    </button>
+                </li>
+                <li class="menu">
+                    <button class="mui">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <article class="serviceContainer">
+        <h2 class="qsRG60">Ordering</h2>
+        <ul class="qsRG18">
+            <li>
+                <h3 class="qsRG42">Ordering Information</h3>
+                <h4 class="qsRG30">Final Sale, Sale</h4>
+                <p>* Sale price applies to select styles in the Private Sale category. The extra 15% discount is reflected in the price shown. All sales are final and may not be returned. Quantities are extremely limited. Excludes select styles, gift cards, tax, shipping, and previous purchases. Discount does not combine with other coupons. Ends 7/28/24; 11:59 PM PT.</p>
+            </li>
+            <li>
+                <h3 class="qsRG42">Purchasing</h3>
+                <h4 class="qsRG30">Placing an Order</h4>
+                <p>It is exceptionally easy to purchase products from kangol.com. You can purchase two ways:</p>
+                <ol>
+                    <li>Online - Place an order directly on our site using a credit card</li>
+                    <li>Phone - Call toll-free 1-866-852-6465</li>
+                </ol>
+                <h4 class="qsRG30">Web Site Orders</h4>
+                <p>Online ordering is available 24 hours every day and is the quickest way to receive product from kangol.com!</p>
+                <ol>
+                    <li>Select the product(s) you want to order, indicating the quantity for each item, and then place your item(s) into your shopping cart.</li>
+                    <li>Fill in the required credit card information.</li>
+                    <li>Provide a valid billing address for your credit card and phone number.</li>
+                    <li>Provide a valid shipping address if different from your billing address.</li>
+                    <li>You will receive a shipment confirmation via e-mail as soon as your order has shipped.</li>
+                </ol>
+                <h4 class="qsRG30">Online Safety</h4>
+                <p>It is safe to order with us. When you use your credit card to shop at kangol.com, your transaction is secure and your privacy is protected. Our servers provide advanced encryption technology to safeguard your personal information.</p>
+            </li>
+            <li>
+                <h3 class="qsRG42">Payment Options</h3>
+                <h4 class="qsRG30">Forms of Payment Accepted:</h4>
+                <p>Kangol.com proudly accepts the following forms of payment:</p>
+                <ol>
+                    <li>Visa</li>
+                    <li>MasterCard</li>
+                    <li>American Express</li>
+                    <li>Discover</li>
+                    <li>PayPal</li>
+                    <li>Amazon Pay</li>
+                    <li>Sezzle</li>
+                </ol>
+                <p>All charges will be in United States dollars. Please check Currency Converter if needed.<br>Please Note: Visa Giftcards are not applicable at kangolstore.com due to address verification.</p>
+            </li>
+            <li>
+                <h3 class="qsRG42">Order Processing</h3>
+                <h4 class="qsRG30">When will my order be processed?</h4>
+                <p>Orders are processed the day that we receive them and are usually shipped within one to two business days thereafter.</p>
+                <h4 class="qsRG30">Order Confirmation</h4>
+                <p>When the order has been submitted online, you will automatically receive an e-mail confirmation. Additionally, you will be provided your order number on the order confirmation page. Please make note of this number in case you have questions regarding your order.</p>
+                <h4 class="qsRG30">Order Status</h4>
+                <p>To check the status of your order you can visit our web site and track your purchase through your account or e-mail us anytime at . Please include your name, address, and order confirmation number in addition to your question so that we may assist you as quickly as possible. If you are a registered member of kangolstore.com, you can login to your account to view your order status.</p>
+                <h4 class="qsRG30">Backorders</h4>
+                <p>On occasion we may temporarily run out of stock if an item is in high demand. When that happens, we will immediately email you with the expected shipping date. Most items that are backordered should return to stock within 2 weeks. We will contact you once the item is back in stock to advise you that it is available for purchase.</p>
+            </li>
+            <li>
+                <h3 class="qsRG42">Canceling an Order</h3>
+                <h4 class="qsRG30">Order Changes</h4>
+                <p>If we have not yet shipped your order, you may request a change or cancellation to your order by emailing us at or calling us at 1-866-8-KANGOL. Be sure to include your name, address, and order confirmation number with your email and provide complete details on the information that you would like to correct or change. Once we've changed your order, we will send you an email confirmation. If we are unable to change or cancel your order, we will notify you immediately. If your order has already shipped, we are unable to cancel or modify the order. Shipping charges will not be refunded and will be the customer’s responsibility if the order is refused upon receipt.</p>
+            </li>
+            <li>
+                <h3 class="qsRG42">Promotions</h3>
+                <h4 class="qsRG30">Coupons</h4>
+                <ol>
+                    <li>One coupon per customer. Excludes select styles, Gift cards, tax, shipping, and previous purchases. Discount does not combine with other coupons.</li>
+                </ol>
+                <h4 class="qsRG30">Kangol Gift Card Disclaimer on Promotional Gift Cards</h4>
+                <ol>
+                    <li>Treat this promotional gift card code as cash. Note that the value of it will not be replaced if it is lost or stolen. This code is redeemable for Kangol.com merchandise only.</li>
+                    <li>This promotional gift card code is valid for two years from the date of issuance.</li>
+                    <li>It is redeemable at Kangol.com for goods and services not exceeding the remaining balance on the promotional electronic gift card.</li>
+                    <li>Important Card Information: For gift card balance, terms and expiration date, email customerservice@kangol.com. Note this card is property of the issuer.</li>
+                    <li>Your use of this gift card constitutes acceptance of these terms: $25 free e-Gift Card bonus valid on purchases of $90 before tax and shipping and after discount. $25 e-gift card will be sent to the email address used to place the order in a separate email after order has shipped. Offer ends 6/12/21; 11:59PM PST.</li>
+                    <li>This gift card may be applied toward any purchase made on the website Kangol.com. This gift card is not exchangeable for cash.</li>
+                    <li>Gift Cards purchased do not have an expiration date.</li>
+                </ol>
+            </li>
+        </ul>
+        <input type="button" value="Back" class="backBtn qsMD15" title="back page">
+    </article>
+
+    <footer>
+        <section class="qsRG15">
+            <h2>
+                <img src="images/logo_footer.png" alt="Kangol">
+            </h2>
+            <div class="conTent DTclearFixL">
+                <div>
+                    <b class="qsMD18">Contact Tel</b>
+                    <a href="tel:18668526465">1-866-8-KANGOL (1-866-852-6465)</a>
+                </div>
+                <nav>
+                    <b class="qsMD18">Customer Service</b>
+                    <ul>
+                        <li><a href="account_myOrdersHave.html">Track Your Order</a></li>
+                        <li><a href="account_myOrdersHave.html">Start a Return</a></li>
+                        <li><a href="footer_ordering.html">Ordering</a></li>
+                        <li><a href="footer_promotions.html">Promotions</a></li>
+                        <li><a href="footer_shipping.html">Shipping</a></li>
+                        <li><a href="footer_returns.html">Returns</a></li>
+                        <li><a href="list_giftcards.html">Gift Cards</a></li>
+                        <li><a href="footer_contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <b class="qsMD18">Resources</b>
+                    <ul>
+                        <li><a href="footer_size.html">Size Chart</a></li>
+                        <li><a href="footer_handingcare.html">Handling and Care</a></li>
+                        <li><a href="footer_journal.html">Journal</a></li>
+                        <li><a href="footer_reviews.html">Reviews</a></li>
+                        <li><a href="footer_glossary.html">Glossary</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <b class="qsMD18">About Us</b>
+                    <ul>
+                        <li><a href="footer_aboutus.html">Who We Are</a></li>
+                        <li><a href="footer_service.html">Terms of Service</a></li>
+                        <li><a href="footer_securitypolicy.html">Security &amp; Privacy Policy</a></li>
+                        <li><a href="footer_webaccessibility.html">Website Accessibility</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <b class="qsMD18">Stay Connected</b>
+                    <ol>
+                        <li><a href="https://www.instagram.com/kangol" target="_blank"><img src="images/sns_icon_01.png" alt="kangol instagram site"></a></li>
+                        <li><a href="https://kr.pinterest.com/Kangol_Usa" target="_blank"><img src="images/sns_icon_02.png" alt="kangol pinterest site"></a></li>
+                        <li><a href="https://www.facebook.com/kangol.headwear.usa" target="_blank"><img src="images/sns_icon_03.png" alt="kangol meta site"></a></li>
+                    </ol>
+                    <form>
+                        <div class="relative">
+                            <input type="email" placeholder="Email address" class="qsRG15" title="Email address" required>
+                        </div>
+                        <input type="submit"  value="SUBSCRIBE" class="anotherBtn qsMD15" title="SUBSCRIBE">
+                    </form>
+                    <p class="qsMD12 subscribeText">Your subscription has been completed.</p>
+                </div>
+            </div>
+        </section>   
+        <div>
+            <hr>
+            <p class="qsRG13">© 2024 Kangol.com. All rights reserved. KANGOL™ AND KANGOL KANGAROO™ ARE TRADEMARKS OWNED BY KANGOL, LLC AND USED UNDER AUTHORIZED LICENSE.</p>
+        </div>
+    </footer>
+</body>
+</html>

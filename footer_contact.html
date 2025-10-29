@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kangol</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/kangol.js"></script>
+    <script>
+      async function init() {
+        await customElements.whenDefined('gmp-map');
+
+        const map = document.querySelector('gmp-map');
+        const marker = document.querySelector('gmp-advanced-marker');
+        const placePicker = document.querySelector('gmpx-place-picker');
+        const infowindow = new google.maps.InfoWindow();
+
+        map.innerMap.setOptions({
+          mapTypeControl: false
+        });
+
+        placePicker.addEventListener('gmpx-placechange', () => {
+          const place = placePicker.value;
+
+          if (!place.location) {
+            window.alert(
+              "No details available for input: '" + place.name + "'"
+            );
+            infowindow.close();
+            marker.position = null;
+            return;
+          }
+
+          if (place.viewport) {
+            map.innerMap.fitBounds(place.viewport);
+          } else {
+            map.center = place.location;
+            map.zoom = 17;
+          }
+
+          marker.position = place.location;
+          infowindow.setContent(
+            `<strong>${place.displayName}</strong><br>
+             <span>${place.formattedAddress}</span>
+          `);
+          infowindow.open(map.innerMap, marker);
+        });
+      }
+
+      document.addEventListener('DOMContentLoaded', init);
+    </script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/@googlemaps/extended-component-library/0.6.11/index.min.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    
+    <div id="searchPanel" class="fixed">
+        <form>
+            <div class="relative">
+                <input type="search" placeholder="Search" title="search bar" class="qsRG15">
+                <input type="submit" value="Search" title="search button" class="absolute">
+            </div>
+        </form>
+    </div>
+
+    <div id="cartPanel" class="fixed">
+        <h2 class="qsMD18 relative">CART<input type="button" value="close" class="closeBtn absolute" title="close cart panel"></h2>
+        <p class="haveProd qsRG18 active"><span>2</span>Item In Bag</p>
+        <p class="noneProd qsRG18">You have no items in your shopping bag.</p>
+        <ul class="clearFixL">
+            <li>
+                <figure class="AclearFixL">
+                    <img src="images/sample_cart_product_01.png" alt="wooly Floral Beret">
+                    <figcaption>
+                        <dl class="flex column">
+                            <dt class="qsRG18"><a href="detail_woolyFloralBeret.html">Wooly Floral Beret</a></dt>
+                            <dd class="loPrice">
+                                <strong class="qsRG18 priceElement">56.25</strong>
+                                <del class="qsMD13 priceElement">75.00</del>
+                            </dd>
+                            <dd class="qsRG13 optionDo">
+                                <span>Cream</span>
+                                <span>S</span>
+                            </dd>
+                        </dl>
+                        <input type="button" value="-" title="remove button">
+                        <span class="qTy qsLT13">1</span>
+                        <input type="button" value="+" title="plus button">
+                        <input type="button" class="qsRG13" value="Remove" title="delete button">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure class="AclearFixL">
+                    <img src="images/sample_cart_product_02.png" alt="Summer Prep 504 Ivy Cap">
+                    <figcaption>
+                        <dl class="flex column">
+                            <dt class="qsRG18"><a href="detail_summerPrep504LvyCap.html">Summer Prep 504 Ivy Cap</a></dt>                            
+                            <dd class="loPrice">
+                                <strong class="qsRG18 priceElement">70.00</strong>
+                            </dd>
+                            <dd class="qsRG13 optionDo">
+                                <span>Moonstruck</span>
+                                <span>S</span>
+                            </dd>
+                        </dl>
+                        <input type="button" value="-" title="remove button">
+                        <span class="qTy qsLT13">1</span>
+                        <input type="button" value="+" title="plus button">
+                        <input type="button" class="qsRG13" value="Remove" title="delete button">
+                    </figcaption>
+                </figure>
+            </li>
+        </ul>
+        <div>
+            <h3 class="qsRG18">Bag Subtotal</h3>
+            <form action="account_checkout01.html">
+                <strong class="priceElement qsRG30">126.25</strong>
+                <input type="submit" class="btn qsMD15 aDj" value="CHECKOUT" title="checkout button">
+            </form>
+        </div>
+    </div>
+    
+    <header class="fixed">
+        <div class="clearFix">
+            <h1>
+                <a href="index.html"><img src="images/logo.svg" alt="main Kangol"></a>
+            </h1>
+            <nav class="TMfixed">
+                <h2 class="qsMD18 menuTitle TMrelative">MENU<input type="button" value="close" class="closeBtn TMabsolute" title="close cart panel"></h2>
+                <ul class="qsMD15">
+                    <li>
+                        <b>Hats By Style</b>
+                        <ol>
+                            <li><a href="list_caps504_01.html">504 Caps</a></li>
+                            <li><a href="list_caps507_01.html">507 Caps</a></li>
+                            <li><a href="list_armycaps.html">Army Caps</a></li>
+                            <li><a href="list_spacecaps.html">Spacecaps</a></li>
+                            <li><a href="list_spitfires.html">Spitfires</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <b>Hats By Fabric</b>
+                        <ol>
+                            <li><a href="list_bamboo.html">Bamboo</a></li>
+                            <li><a href="list_bermuda.html">Bermuda</a></li>
+                            <li><a href="list_cotton_01.html">Cotton</a></li>
+                            <li><a href="list_fauxfur.html">Faux Fur</a></li>
+                            <li><a href="list_furgora.html">Furgora</a></li>
+                            <li><a href="list_wool_01.html">Wool</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <b>Collections</b>
+                        <ol>
+                            <li><a href="list_iconsberets.html">Icons-Berets</a></li>
+                            <li><a href="list_collaborations.html">Collaborations</a></li>
+                            <li><a href="list_uscollection.html">US Collection</a></li>
+                            <li><a href="list_newarrivals01.html">New Arrivals</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <b>Clothing &amp; Accessories</b>
+                        <ol>
+                            <li><a href="list_newarrivals02.html">New Arrivals</a></li>
+                            <li><a href="list_allaccessories.html">All Accessories</a></li>
+                            <li><a href="list_bagpacks.html">Backpacks &amp; Bags</a></li>
+                            <li><a href="list_bottoms.html">Bottoms</a></li>
+                            <li><a href="list_wallets.html">Wallets</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_giftcards.html">Gift Cards</a>
+                    </li>
+                    <li>
+                        <a href="account_myAccount.html">Account</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul>
+                <li><input type="button" value="search" title="search pannel button" class="panelBtn" data-panel="searchPanel"></li>
+                <li><a href="account_myAccount.html">account</a></li>
+                <li>
+                    <button class="panelBtn" data-panel="cartPanel">
+                        <span class="qsMD12">2</span>
+                    </button>
+                </li>
+                <li class="menu">
+                    <button class="mui">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <article class="contactContainer">
+        <h2 class="qsRG60">Contact Us</h2>
+        <div>
+            <div class="qsRG18 callUs">
+                <h3 class="qsRG42">Call Us or Email Us</h3>
+                <div>
+                    <h4 class="qsRG24">Customer Care</h4>
+                    <p>Hours : 8am-5:30pm ET, Mon-Fri</p>
+                    <dl>
+                        <dt>E :</dt>
+                        <dd><a href="mailto:customerservice@kangol.com">customerservice@kangol.com</a></dd>
+                        <dt>T :</dt>
+                        <dd><a href="tel:+18668526465">1-866-8-KANGOL (1-866-852-6465)</a></dd>
+                        <dt>T :</dt>
+                        <dd><a href="tel:+4401946818213">+44 019 468 18213 (international)</a></dd>
+                    </dl>
+                </div>
+                <div>
+                    <h4 class="qsRG24">Holidays</h4>
+                    <p>Our office and warehouse are closed on weekends and the following holidays. Any emails will be answered on the next business day:</p>
+                    <ol>
+                        <li>&#183; New Year's Day (January 1st or the closest weekday)</li>
+                        <li>&#183; Good Friday (Friday before Easter)</li>
+                        <li>&#183; Memorial Day (last Monday in May)</li>
+                        <li>&#183; Independence Day (July 4th)</li>
+                        <li>&#183; Labor Day (first Monday in September)</li>
+                        <li>&#183; Thanksgiving Day (fourth Thursday in November)</li>
+                        <li>&#183; Christmas Day (December 25th or the closest weekday)</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="sendUs">
+                <form action="footer_contact.html">
+                    <h3 class="qsRG42 DTclearFixR">Send a Message<mark class="qsLT15">* Required Fields</mark></h3>
+                    <p class="qsRG18">Use our form to send us a message, and we'll respond as soon as possible.</p>
+                    <fieldset>
+                        <ol class="writeContent qsMD12 contactSend">
+                            <li>
+                                <label for="accountName" class="qsLT15">* Name</label>
+                                <input type="text" id="accountName" placeholder="ex > park jeongin" class="qsMD15 invalidUse" required>
+                                <p>This is a required field.</p>
+                            </li>
+                            <li>
+                                <label for="accountEmail" class="qsLT15">* Email</label>
+                                <input type="email" id="accountEmail" placeholder="examples@examples.com" class="qsMD15 invalidUse" required>
+                                <p>Please enter a valid email address (Ex: johndoe@domain.com).</p>
+                            </li>
+                            <li>
+                                <label for="accountPNumber" class="qsLT15">* Phone Number</label>
+                                <input type="tel" id="accountPNumber" placeholder="ex > 010-1234-5678" maxlength="13" class="qsMD15 invalidUse onlyNumber" required>
+                                <p>This is a required field.</p>
+                            </li>
+                            <li>
+                                <label for="accountMind" class="qsLT15">* What’s on your mind?</label>
+                                <textarea id="accountMind" class="qsMD15 invalidUse" required></textarea>
+                            </li>
+                        </ol>
+                    </fieldset>
+                    <input type="submit" value="SUBMIT" class="qsMD15 btn aDj" title="next button">
+                    <span class="qsMD12">Thanks for contacting us. We'll get back you as soon as possible.</span>
+                </form>
+            </div>
+        </div>
+        <div>
+            <div class="qsRG18 aroundStore">
+                <h3 class="qsRG42">Wholesale Contacts</h3>
+                <p>The following information is for our wholesale and advertising partners. If you are a retail customer, please use the contact inforomation or form in the above section.</p>
+                <div>
+                    <h4 class="qsRG24">Kangol Headwear USA</h4>
+                    <p>Sales and Marketing Office</p>
+                    <dl class="clearFix">
+                        <dt>T :</dt>
+                        <dd><a href="tel:+1212981984">+1-212-981-984</a></dd>
+                        <dt>F :</dt>
+                        <dd>+1-212-981-9901</dd>
+                        <dt>E :</dt>
+                        <dd><a href="mailto:inquiry@kangol.com">inquiry@kangol.com</a></dd>
+                    </dl>
+                </div>
+                <div>
+                    <h4 class="qsRG24">US PR Contact</h4>
+                    <address>
+                        <span>Exposure USA</span>
+                        <span>393 Broadway</span>
+                        <span>New York City, NY 10013, USA</span>
+                    </address>
+                    <dl class="clearFix">
+                        <dt>T :</dt>
+                        <dd><a href="tel:+12122262530">+1-212-226-2530</a></dd>
+                        <dt>F :</dt>
+                        <dd>+1-212-226-2628</dd>
+                    </dl>
+                </div>
+                <div>
+                    <h4 class="qsRG24">Kangol Headwear Europe</h4>
+                    <dl class="clearFix">
+                        <dt>Linda Parker:</dt>
+                        <dd><a href="mailto:lparker@bollmanhats.com">lparker@bollmanhats.com</a></dd>
+                        <dt>Rafael Zabalgogeazcoa:</dt>
+                        <dd><a href="mailto:rafaelz@kangolheadweareurope.com">rafaelz@kangolheadweareurope.com</a></dd>
+                        <dt>Sales and Marketing: T:</dt>
+                        <dd><a href="tel:+441946810312">+44 (0) 194 681 0312</a></dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="map">
+                <gmpx-api-loader key="AIzaSyDhVtWnEEp8dCPk_KzC_ojLkIJoXGRP4uE" solution-channel="GMP_GE_mapsandplacesautocomplete_v2">
+                </gmpx-api-loader>
+                <gmp-map center="40.246,-76.051" zoom="18" map-id="c54ba54b93cdc5a1592dd15a">
+                <div slot="control-block-start-inline-start" class="place-picker-container">
+                    <gmpx-place-picker placeholder="Enter an address"></gmpx-place-picker>
+                </div>
+                <gmp-advanced-marker></gmp-advanced-marker>
+                </gmp-map>
+            </div>
+        </div>
+        <input type="button" value="Back" class="backBtn qsMD15" title="back page">
+    </article>
+
+    <footer>
+        <section class="qsRG15">
+            <h2>
+                <img src="images/logo_footer.png" alt="Kangol">
+            </h2>
+            <div class="conTent DTclearFixL">
+                <div>
+                    <b class="qsMD18">Contact Tel</b>
+                    <a href="tel:18668526465">1-866-8-KANGOL (1-866-852-6465)</a>
+                </div>
+                <nav>
+                    <b class="qsMD18">Customer Service</b>
+                    <ul>
+                        <li><a href="account_myOrdersHave.html">Track Your Order</a></li>
+                        <li><a href="account_myOrdersHave.html">Start a Return</a></li>
+                        <li><a href="footer_ordering.html">Ordering</a></li>
+                        <li><a href="footer_promotions.html">Promotions</a></li>
+                        <li><a href="footer_shipping.html">Shipping</a></li>
+                        <li><a href="footer_returns.html">Returns</a></li>
+                        <li><a href="list_giftcards.html">Gift Cards</a></li>
+                        <li><a href="footer_contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <b class="qsMD18">Resources</b>
+                    <ul>
+                        <li><a href="footer_size.html">Size Chart</a></li>
+                        <li><a href="footer_handingcare.html">Handling and Care</a></li>
+                        <li><a href="footer_journal.html">Journal</a></li>
+                        <li><a href="footer_reviews.html">Reviews</a></li>
+                        <li><a href="footer_glossary.html">Glossary</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <b class="qsMD18">About Us</b>
+                    <ul>
+                        <li><a href="footer_aboutus.html">Who We Are</a></li>
+                        <li><a href="footer_service.html">Terms of Service</a></li>
+                        <li><a href="footer_securitypolicy.html">Security &amp; Privacy Policy</a></li>
+                        <li><a href="footer_webaccessibility.html">Website Accessibility</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <b class="qsMD18">Stay Connected</b>
+                    <ol>
+                        <li><a href="https://www.instagram.com/kangol" target="_blank"><img src="images/sns_icon_01.png" alt="kangol instagram site"></a></li>
+                        <li><a href="https://kr.pinterest.com/Kangol_Usa" target="_blank"><img src="images/sns_icon_02.png" alt="kangol pinterest site"></a></li>
+                        <li><a href="https://www.facebook.com/kangol.headwear.usa" target="_blank"><img src="images/sns_icon_03.png" alt="kangol meta site"></a></li>
+                    </ol>
+                    <form>
+                        <div class="relative">
+                            <input type="email" placeholder="Email address" class="qsRG15" title="Email address" required>
+                        </div>
+                        <input type="submit"  value="SUBSCRIBE" class="anotherBtn qsMD15" title="SUBSCRIBE">
+                    </form>
+                    <p class="qsMD12 subscribeText">Your subscription has been completed.</p>
+                </div>
+            </div>
+        </section>   
+        <div>
+            <hr>
+            <p class="qsRG13">© 2024 Kangol.com. All rights reserved. KANGOL™ AND KANGOL KANGAROO™ ARE TRADEMARKS OWNED BY KANGOL, LLC AND USED UNDER AUTHORIZED LICENSE.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kangol</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/kangol.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    
+    <div id="searchPanel" class="fixed">
+        <form>
+            <div class="relative">
+                <input type="search" placeholder="Search" title="search bar" class="qsRG15">
+                <input type="submit" value="Search" title="search button" class="absolute">
+            </div>
+        </form>
+    </div>
+
+    <div id="cartPanel" class="fixed">
+        <h2 class="qsMD18 relative">CART<input type="button" value="close" class="closeBtn absolute" title="close cart panel"></h2>
+        <p class="haveProd qsRG18 active"><span>2</span>Item In Bag</p>
+        <p class="noneProd qsRG18">You have no items in your shopping bag.</p>
+        <ul class="clearFixL">
+            <li>
+                <figure class="AclearFixL">
+                    <img src="images/sample_cart_product_01.png" alt="wooly Floral Beret">
+                    <figcaption>
+                        <dl class="flex column">
+                            <dt class="qsRG18"><a href="detail_woolyFloralBeret.html">Wooly Floral Beret</a></dt>
+                            <dd class="loPrice">
+                                <strong class="qsRG18 priceElement">56.25</strong>
+                                <del class="qsMD13 priceElement">75.00</del>
+                            </dd>
+                            <dd class="qsRG13 optionDo">
+                                <span>Cream</span>
+                                <span>S</span>
+                            </dd>
+                        </dl>
+                        <input type="button" value="-" title="remove button">
+                        <span class="qTy qsLT13">1</span>
+                        <input type="button" value="+" title="plus button">
+                        <input type="button" class="qsRG13" value="Remove" title="delete button">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure class="AclearFixL">
+                    <img src="images/sample_cart_product_02.png" alt="Summer Prep 504 Ivy Cap">
+                    <figcaption>
+                        <dl class="flex column">
+                            <dt class="qsRG18"><a href="detail_summerPrep504LvyCap.html">Summer Prep 504 Ivy Cap</a></dt>                            
+                            <dd class="loPrice">
+                                <strong class="qsRG18 priceElement">70.00</strong>
+                            </dd>
+                            <dd class="qsRG13 optionDo">
+                                <span>Moonstruck</span>
+                                <span>S</span>
+                            </dd>
+                        </dl>
+                        <input type="button" value="-" title="remove button">
+                        <span class="qTy qsLT13">1</span>
+                        <input type="button" value="+" title="plus button">
+                        <input type="button" class="qsRG13" value="Remove" title="delete button">
+                    </figcaption>
+                </figure>
+            </li>
+        </ul>
+        <div>
+            <h3 class="qsRG18">Bag Subtotal</h3>
+            <form action="account_checkout01.html">
+                <strong class="priceElement qsRG30">126.25</strong>
+                <input type="submit" class="btn qsMD15 aDj" value="CHECKOUT" title="checkout button">
+            </form>
+        </div>
+    </div>
+    
+    <header class="fixed">
+        <div class="clearFix">
+            <h1>
+                <a href="index.html"><img src="images/logo.svg" alt="main Kangol"></a>
+            </h1>
+            <nav class="TMfixed">
+                <h2 class="qsMD18 menuTitle TMrelative">MENU<input type="button" value="close" class="closeBtn TMabsolute" title="close cart panel"></h2>
+                <ul class="qsMD15">
+                    <li>
+                        <b>Hats By Style</b>
+                        <ol>
+                            <li><a href="list_caps504_01.html">504 Caps</a></li>
+                            <li><a href="list_caps507_01.html">507 Caps</a></li>
+                            <li><a href="list_armycaps.html">Army Caps</a></li>
+                            <li><a href="list_spacecaps.html">Spacecaps</a></li>
+                            <li><a href="list_spitfires.html">Spitfires</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <b>Hats By Fabric</b>
+                        <ol>
+                            <li><a href="list_bamboo.html">Bamboo</a></li>
+                            <li><a href="list_bermuda.html">Bermuda</a></li>
+                            <li><a href="list_cotton_01.html">Cotton</a></li>
+                            <li><a href="list_fauxfur.html">Faux Fur</a></li>
+                            <li><a href="list_furgora.html">Furgora</a></li>
+                            <li><a href="list_wool_01.html">Wool</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <b>Collections</b>
+                        <ol>
+                            <li><a href="list_iconsberets.html">Icons-Berets</a></li>
+                            <li><a href="list_collaborations.html">Collaborations</a></li>
+                            <li><a href="list_uscollection.html">US Collection</a></li>
+                            <li><a href="list_newarrivals01.html">New Arrivals</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <b>Clothing &amp; Accessories</b>
+                        <ol>
+                            <li><a href="list_newarrivals02.html">New Arrivals</a></li>
+                            <li><a href="list_allaccessories.html">All Accessories</a></li>
+                            <li><a href="list_bagpacks.html">Backpacks &amp; Bags</a></li>
+                            <li><a href="list_bottoms.html">Bottoms</a></li>
+                            <li><a href="list_wallets.html">Wallets</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_giftcards.html">Gift Cards</a>
+                    </li>
+                    <li>
+                        <a href="account_myAccount.html">Account</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul>
+                <li><input type="button" value="search" title="search pannel button" class="panelBtn" data-panel="searchPanel"></li>
+                <li><a href="account_myAccount.html">account</a></li>
+                <li>
+                    <button class="panelBtn" data-panel="cartPanel">
+                        <span class="qsMD12">2</span>
+                    </button>
+                </li>
+                <li class="menu">
+                    <button class="mui">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <article class="serviceContainer">
+        <h2 class="qsRG60">Shipping</h2>
+        <ul class="qsRG18">
+            <li>
+                <h3 class="qsRG42">Shipping Information</h3>
+                <h4 class="qsRG30">What are the shipping costs and options?</h4>
+                <p>We offer shipping services to almost anywhere in the world. Please remember that orders are generally shipped within two business days of receipt and, therefore, two (2) business days should be added to the corresponding delivery time shown with your shipping choice.</p>    
+                <p>Please note that any delays once a shipment has left our warehouse, or damaged, lost, or stolen packages, are the responsibility of the carrier.</p>
+                <h4 class="qsRG30">Free Shipping Information</h4>
+                <p>Orders of $49 or more qualify for free shipping anywhere in the continental United States. This excludes Alaska, Hawaii and US Territories. Orders that have selected free shipping will be sent using the FedEx Ground service.</p>
+            </li>
+            <li>
+                <h3 class="qsRG42">Shipping Rates and Times</h3>
+                <div>
+                    <h4 class="qsRG30">Continental US</h4>
+                    <b class="qsMD18">FedEx Ground:</b>
+                    <p>Packages are delivered Monday through Friday. There are no deliveries on Saturday.</p>
+                    <em>Estimated delivery times:</em>
+                    <ol>
+                        <li>East Coast: 1-3 business days (3-5 days from order date)</li>
+                        <li>West Coast: 3-5 business days (5-7 days from order date)</li>
+                    </ol>
+                    <b class="qsMD18">Fed Ex 2-Day:</b>
+                    <p>Guaranteed to be delivered within two business days of the shipment date if ordered by 1:00PM (Eastern).<br>Note: FedEx Ground cannot deliver to P.O. Boxes. Please choose SmartPost or a non-PO Box address.</p>
+                    <em>Estimated delivery times:</em>
+                    <ol>
+                        <li>Continental US: 2 business days from day shipped (3-4 business days from order date)</li>
+                    </ol>
+                    <b class="qsMD18">Fed Ex Overnemght:</b>
+                    <p>Guaranteed to be delivered within two business days of the shipment date if ordered by 1:00PM (Eastern).<br>Note: FedEx Ground cannot deliver to P.O. Boxes. Please choose SmartPost or a non-PO Box address.</p>
+                    <em>Estimated delivery times:</em>
+                    <ol>
+                        <li>Continental US: 1 business day from day shipped (2-3 business days from order date)</li>
+                    </ol>
+                </div>
+                <div>
+                    <h4 class="qsRG30">APO/FPO</h4>
+                    <p>Kangol does ship to US Military addresses. If you are shipping to a PO box or a Military APO/FPO destination, please choose FedEx SmartPost®. Please select United States as your country, and the appropriate Armed Forces region as your state.</p>
+                </div>
+                <div>
+                    <h4 class="qsRG30">Alaska and Hawaii</h4>
+                    <p>We ship to Alaska and Hawaii using FedEx 2-Day mail only. Please note that due to this, we cannot ship to PO Boxes in these states.</p>
+                </div>
+                <div>
+                    <h4 class="qsRG30">US Territories</h4>
+                    <p>We ship to US Territories using United States Postal Service Priority Mail only.</p>
+                </div>
+                <div>
+                    <h4 class="qsRG30">Canada</h4>
+                    <b class="qsMD18">FedEx International:</b>
+                    <p>Note that shipments to Canada may be subject to delays in customs</p>
+                    <ol>
+                        <li>Economy: 4-5 days</li>
+                        <li>Express: 2-4 days</li>
+                    </ol>
+                    <em>Canadian Orders and NAFTA</em>
+                    <p>Most goods and products individuals import into Canada are subject to the Goods and Services Tax (GST) of five percent. The GST is calculated after customs duties have been applied.</p>
+                    <p>You will also have to pay the applicable Canadian Provincial Sales Tax (PST) or Quebec Sales Tax (QST). The provincial retail sales tax rates vary from province to province, as do the goods and services to which the tax is applied and the way the tax is applied.</p>
+                    <p>In Canadian provinces with a Harmonized Sales Tax (HST) (New Brunswick, Nova Scotia, and Newfounuland and Labrador, Ontario and British Columbia), you'll be charged the HST, rather than separate GST and provincial sales tax.</p>
+                    <p>Because of the North American Free Trade Agreement (NAFTA), Canadians do not have to pay duty on most American and Mexican manufactured items. But be careful. Just because you buy an item from a U.S. store does not mean it was made in the United States. It's quite possible it was imported into the United States first and, if so, you may be charged duty when it comes into Canada.</p>    
+                </div>
+                <div>
+                    <h4 class="qsRG30">Other International Shipping</h4>
+                    <p>We will ship almost anywhere in the world. All transactions are in US Dollars. Please check currency converter if needed. If for some reason we can’t get it to you, we will notify you. Duties and taxes are not yet included in the cost of shipping. It is also possible for a third party to be responsible for duty and/or tax fees. Custom officials of the importing country assess duties and taxes based on the information provided on the air waybill, the commercial invoice or other relevant documents related to the shipment.</p>
+                    <p>International shipping uses the United States Postal Service Priority Mail service.</p>
+                </div>
+                <div>
+                    <h4 class="qsRG30">Shipping From Our EU Site</h4>
+                    <p>For eu.kangol.com customers, we ship using DHL. Please note that due to complications from the UK leaving the European Union, we cannot ship to the UK from eu.kangol.com.  Please use Kangol.com for UK orders.</p>
+                </div>
+            </li>
+            <li>
+                <h3 class="qsRG42">Holiday Shipping</h3>
+                <p>Our office and warehouse are closed on weekends and the following holidays:</p>
+                <ol>
+                    <li>New Year's Day (December 31th-January 1st)</li>
+                    <li>Good Friday (Friday before Easter)</li>
+                    <li>Memorial Day (last Monday in May)</li>
+                    <li>Independence Day (July 4th)</li>
+                    <li>Labor Day (first Monday in September)</li>
+                    <li>Thanksgiving Day (fourth Thursday in November)</li>
+                    <li>Christmas Day (December 24th &amp; 25th or the closest week day)</li>
+                </ol>
+            </li>
+        </ul>
+        <input type="button" value="Back" class="backBtn qsMD15" title="back page">
+    </article>
+
+    <footer>
+        <section class="qsRG15">
+            <h2>
+                <img src="images/logo_footer.png" alt="Kangol">
+            </h2>
+            <div class="conTent DTclearFixL">
+                <div>
+                    <b class="qsMD18">Contact Tel</b>
+                    <a href="tel:18668526465">1-866-8-KANGOL (1-866-852-6465)</a>
+                </div>
+                <nav>
+                    <b class="qsMD18">Customer Service</b>
+                    <ul>
+                        <li><a href="account_myOrdersHave.html">Track Your Order</a></li>
+                        <li><a href="account_myOrdersHave.html">Start a Return</a></li>
+                        <li><a href="footer_ordering.html">Ordering</a></li>
+                        <li><a href="footer_promotions.html">Promotions</a></li>
+                        <li><a href="footer_shipping.html">Shipping</a></li>
+                        <li><a href="footer_returns.html">Returns</a></li>
+                        <li><a href="list_giftcards.html">Gift Cards</a></li>
+                        <li><a href="footer_contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <b class="qsMD18">Resources</b>
+                    <ul>
+                        <li><a href="footer_size.html">Size Chart</a></li>
+                        <li><a href="footer_handingcare.html">Handling and Care</a></li>
+                        <li><a href="footer_journal.html">Journal</a></li>
+                        <li><a href="footer_reviews.html">Reviews</a></li>
+                        <li><a href="footer_glossary.html">Glossary</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <b class="qsMD18">About Us</b>
+                    <ul>
+                        <li><a href="footer_aboutus.html">Who We Are</a></li>
+                        <li><a href="footer_service.html">Terms of Service</a></li>
+                        <li><a href="footer_securitypolicy.html">Security &amp; Privacy Policy</a></li>
+                        <li><a href="footer_webaccessibility.html">Website Accessibility</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <b class="qsMD18">Stay Connected</b>
+                    <ol>
+                        <li><a href="https://www.instagram.com/kangol" target="_blank"><img src="images/sns_icon_01.png" alt="kangol instagram site"></a></li>
+                        <li><a href="https://kr.pinterest.com/Kangol_Usa" target="_blank"><img src="images/sns_icon_02.png" alt="kangol pinterest site"></a></li>
+                        <li><a href="https://www.facebook.com/kangol.headwear.usa" target="_blank"><img src="images/sns_icon_03.png" alt="kangol meta site"></a></li>
+                    </ol>
+                    <form>
+                        <div class="relative">
+                            <input type="email" placeholder="Email address" class="qsRG15" title="Email address" required>
+                        </div>
+                        <input type="submit"  value="SUBSCRIBE" class="anotherBtn qsMD15" title="SUBSCRIBE">
+                    </form>
+                    <p class="qsMD12 subscribeText">Your subscription has been completed.</p>
+                </div>
+            </div>
+        </section>   
+        <div>
+            <hr>
+            <p class="qsRG13">© 2024 Kangol.com. All rights reserved. KANGOL™ AND KANGOL KANGAROO™ ARE TRADEMARKS OWNED BY KANGOL, LLC AND USED UNDER AUTHORIZED LICENSE.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kangol</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/kangol.js"></script>
+    <script src="js/detailImgSwap.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    
+    <div id="searchPanel" class="fixed">
+        <form>
+            <div class="relative">
+                <input type="search" placeholder="Search" title="search bar" class="qsRG15">
+                <input type="submit" value="Search" title="search button" class="absolute">
+            </div>
+        </form>
+    </div>
+
+    <div id="cartPanel" class="fixed">
+        <h2 class="qsMD18 relative">CART<input type="button" value="close" class="closeBtn absolute" title="close cart panel"></h2>
+        <p class="haveProd qsRG18 active"><span>2</span>Item In Bag</p>
+        <p class="noneProd qsRG18">You have no items in your shopping bag.</p>
+        <ul class="clearFixL">
+            <li>
+                <figure class="AclearFixL">
+                    <img src="images/sample_cart_product_01.png" alt="wooly Floral Beret">
+                    <figcaption>
+                        <dl class="flex column">
+                            <dt class="qsRG18"><a href="detail_woolyFloralBeret.html">Wooly Floral Beret</a></dt>
+                            <dd class="loPrice">
+                                <strong class="qsRG18 priceElement">56.25</strong>
+                                <del class="qsMD13 priceElement">75.00</del>
+                            </dd>
+                            <dd class="qsRG13 optionDo">
+                                <span>Cream</span>
+                                <span>S</span>
+                            </dd>
+                        </dl>
+                        <input type="button" value="-" title="remove button">
+                        <span class="qTy qsLT13">1</span>
+                        <input type="button" value="+" title="plus button">
+                        <input type="button" class="qsRG13" value="Remove" title="delete button">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure class="AclearFixL">
+                    <img src="images/sample_cart_product_02.png" alt="Summer Prep 504 Ivy Cap">
+                    <figcaption>
+                        <dl class="flex column">
+                            <dt class="qsRG18"><a href="detail_summerPrep504LvyCap.html">Summer Prep 504 Ivy Cap</a></dt>                            
+                            <dd class="loPrice">
+                                <strong class="qsRG18 priceElement">70.00</strong>
+                            </dd>
+                            <dd class="qsRG13 optionDo">
+                                <span>Moonstruck</span>
+                                <span>S</span>
+                            </dd>
+                        </dl>
+                        <input type="button" value="-" title="remove button">
+                        <span class="qTy qsLT13">1</span>
+                        <input type="button" value="+" title="plus button">
+                        <input type="button" class="qsRG13" value="Remove" title="delete button">
+                    </figcaption>
+                </figure>
+            </li>
+        </ul>
+        <div>
+            <h3 class="qsRG18">Bag Subtotal</h3>
+            <form action="account_checkout01.html">
+                <strong class="priceElement qsRG30">126.25</strong>
+                <input type="submit" class="btn qsMD15 aDj" value="CHECKOUT" title="checkout button">
+            </form>
+        </div>
+    </div>
+    
+    <header class="fixed">
+        <div class="clearFix">
+            <h1>
+                <a href="index.html"><img src="images/logo.svg" alt="main Kangol"></a>
+            </h1>
+            <nav class="TMfixed">
+                <h2 class="qsMD18 menuTitle TMrelative">MENU<input type="button" value="close" class="closeBtn TMabsolute" title="close cart panel"></h2>
+                <ul class="qsMD15">
+                    <li>
+                        <b>Hats By Style</b>
+                        <ol>
+                            <li><a href="list_caps504_01.html">504 Caps</a></li>
+                            <li><a href="list_caps507_01.html">507 Caps</a></li>
+                            <li><a href="list_armycaps.html">Army Caps</a></li>
+                            <li><a href="list_spacecaps.html">Spacecaps</a></li>
+                            <li><a href="list_spitfires.html">Spitfires</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <b>Hats By Fabric</b>
+                        <ol>
+                            <li><a href="list_bamboo.html">Bamboo</a></li>
+                            <li><a href="list_bermuda.html">Bermuda</a></li>
+                            <li><a href="list_cotton_01.html">Cotton</a></li>
+                            <li><a href="list_fauxfur.html">Faux Fur</a></li>
+                            <li><a href="list_furgora.html">Furgora</a></li>
+                            <li><a href="list_wool_01.html">Wool</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <b>Collections</b>
+                        <ol>
+                            <li><a href="list_iconsberets.html">Icons-Berets</a></li>
+                            <li><a href="list_collaborations.html">Collaborations</a></li>
+                            <li><a href="list_uscollection.html">US Collection</a></li>
+                            <li><a href="list_newarrivals01.html">New Arrivals</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <b>Clothing &amp; Accessories</b>
+                        <ol>
+                            <li><a href="list_newarrivals02.html">New Arrivals</a></li>
+                            <li><a href="list_allaccessories.html">All Accessories</a></li>
+                            <li><a href="list_bagpacks.html">Backpacks &amp; Bags</a></li>
+                            <li><a href="list_bottoms.html">Bottoms</a></li>
+                            <li><a href="list_wallets.html">Wallets</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_giftcards.html">Gift Cards</a>
+                    </li>
+                    <li>
+                        <a href="account_myAccount.html">Account</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul>
+                <li><input type="button" value="search" title="search pannel button" class="panelBtn" data-panel="searchPanel"></li>
+                <li><a href="account_myAccount.html">account</a></li>
+                <li>
+                    <button class="panelBtn" data-panel="cartPanel">
+                        <span class="qsMD12">2</span>
+                    </button>
+                </li>
+                <li class="menu">
+                    <button class="mui">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </header>   
+
+    <div class="detailContainer">
+        <div class="showProd">
+            <img src="images/detail_504_30_.jpg" alt="Wool 504">
+        </div>
+        <aside>
+            <div>
+                <h2 class="qsRG42 DTclearFixR">Wool 504 <mark class="qsMD15">SALE</mark></h2>
+                <strong class="priceElement qsRG30">32.50</strong>
+                <del class="priceElement qsRG20">65.00</del>
+                <div class="starRating">
+                    <span class="starPrint0 qsBD15">
+                        <b>0 Reviews</b>
+                    </span>
+                    <span class="qsBD15">
+                        <b>0 Questions / 0 Answers</b>
+                    </span>
+                </div>
+                <div class="prodColor">
+                    <b class="qsMD18">Color <em class="qsRG13">Marine Teal</em></b>
+                    <div class="flex wrap">
+                        <button type="button" class="active"><img src="images/color_MarineTeal_01.jpg" alt="MarineTeal"></button>
+                        <button type="button"><img src="images/color_DigitalLavender_03.jpg" alt="DigitalLavender"></button>
+                        <button type="button"><img src="images/color_StarryBlue_01.jpg" alt="StarryBlue"></button>
+                        <button type="button"><img src="images/color_PapayaMilk_01.jpg" alt="PapayaMilk"></button>
+                        <button type="button"><img src="images/color_Nickel_01.jpg" alt="Nickel"></button>
+                        <button type="button"><img src="images/color_DeepSprings_02.jpg" alt="DeepSprings"></button>
+                        <button type="button"><img src="images/color_Vino_01.jpg" alt="Vino"></button>
+                        <button type="button"><img src="images/color_Tobacco_01.jpg" alt="Tobacco"></button>
+                        <button type="button"><img src="images/color_Red_01.jpg" alt="Red"></button>
+                        <button type="button"><img src="images/color_Mahogany_01.jpg" alt="Mahogany"></button>
+                        <button type="button"><img src="images/color_Glacier_01.jpg" alt="Glacier"></button>
+                        <button type="button"><img src="images/color_Flannel_01.jpg" alt="Flannel"></button>
+                        <button type="button"><img src="images/color_Espresso_01.jpg" alt="Espresso"></button>
+                        <button type="button"><img src="images/color_DarkFlannel_01.jpg" alt="DarkFlannel"></button>
+                        <button type="button"><img src="images/color_DarkBlue_01.jpg" alt="DarkBlue"></button>
+                        <button type="button"><img src="images/color_Cranberry_01.jpg" alt="Cranberry"></button>
+                        <button type="button"><img src="images/color_Camel_01.jpg" alt="Camel"></button>
+                        <button type="button"><img src="images/color_BlackGold_01.jpg" alt="BlackGold"></button>
+                        <button type="button"><img src="images/color_Black_01.jpg" alt="Black"></button>
+                    </div>
+                </div>
+                <div class="prodSize">
+                    <b class="qsMD18">Size<a href="footer_size.html" class="qsRG13">Find Your Size</a></b>
+                    <ol class="qsRG15">
+                        <li class="active"><input type="button" value="S"></li>
+                        <li><input type="button" value="M"></li>
+                        <li><input type="button" value="L"></li>
+                        <li><input type="button" value="XL"></li>
+                        <li><input type="button" value="XXL"></li>
+                    </ol>
+                </div>
+                <div class="prodBtn clearFix">
+                    <div class="qtyComponent relative">
+                        <input type="button" value="-" title="remove button" class="absolute">
+                        <span class="mpMD20">1</span>
+                        <input type="button" value="+" title="add button" class="absolute">
+                    </div>
+                    <input type="button" value="ADD TO BAG" class="btn panelBtn qsMD15 aDj" title="add to bag" data-panel="cartPanel">
+                    <a href="account_checkout01.html" class="qsMD15 relative">BUY WITH <img src="images/icon_gPay.png" alt="google pay"> PAY</a>
+                </div>
+                <div class="additionalText">
+                    <p class="qsRG18">If for some reason you can't find the color and size you want, you can always check out the USA Wool 504 for additional options.</p>
+                </div>
+                <ul class="accComponent">
+                    <li>
+                        <h3 class="qsRG20">DETAILS</h3>
+                        <p class="qsRG18">Flat caps have gained a lot of popularity in recent years, and for good reason. Nearly any well-dressed gentleman of any age can pull one off in style. The high-quality Kangol Wool 504 flat cap is an iconic cap that makes a statement, and is easier and less intimidating to pair with a wide range of spring, fall, and winter outfits. With a soft fabric construction and a short well-rounded front brim the Wool 504 is comfortable and low-profile.</p>
+                        <p class="qsRG18">A Modern Classic</p>
+                        <p class="qsRG18">From royals to aristocrats, public figures to every day gentlemen, flat caps continue to be worn for leisure activities. The Wool 504 is the original Kangol wool cap, introduced back in 1954. It’s fashionable, breathable, and comfortable. This is an accessory for the modern man or woman looking for a versatile, traditional look.</p>
+                        <p class="qsRG18">The flat cap is entirely made of 100% seamless wool and is imported. This flat cap can be worn any day for comfort and warmth. Check out our new arrivals and enjoy free shipping on all orders.</p>
+                    </li>
+                    <li>
+                        <h3 class="qsRG20">MORE INFORMATION</h3>
+                        <dl class="qsRG18 flex wrap">
+                            <dt>Shape</dt>
+                            <dd>Ivy Caps &amp; Flat Caps</dd>
+                            <dt>Brand</dt>
+                            <dd>Kangol</dd>
+                            <dt>Fabrication</dt>
+                            <dd>Wool Felt</dd>
+                            <dt>Material</dt>
+                            <dd>100% Wool</dd>
+                            <dt>Brim</dt>
+                            <dd>1 3/4" Peak</dd>
+                            <dt>Lining</dt>
+                            <dd>Unlined</dd>
+                            <dt>Closure Type</dt>
+                            <dd>Fitted</dd>
+                            <dt>Crown</dt>
+                            <dd>Flat</dd>
+                            <dt>Season</dt>
+                            <dd>Autumn/Winter</dd>
+                            <dt>USA Made or Imported</dt>
+                            <dd>Imported</dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <div class="halfIns DTclearFixL">
+            <div class="qsRG42 flex between column">
+                <div class="flex between">
+                    <span>K</span>
+                    <span>A</span>
+                    <span>N</span>
+                    <span>G</span>
+                    <span>O</span>
+                    <span>L</span>
+                </div>
+                <p class="qsRG18">Today Kangol produces a wide range of headwear, that crosses generations and cultures.</p>
+                <div class="flex between">
+                    <span>WHO</span>
+                    <span>WE</span>
+                    <span>ARE</span>
+                </div>
+            </div>
+            <div></div>
+        </div>
+        <div class="uponGuest relative">
+            <div id="writeAPopup" class="absolute">
+                <input type="button" value="close" class="closeBtn absolute" title="close write question popup">
+                <div>
+                    <h3 class="qsMD20">WRITE A QUESTION</h3>
+                    <form>
+                        <ul class="writeText clearFix">
+                            <li>
+                                <label for="writeQtion" class="qsMD18 AclearFixR">Write a question * <small class="qsMD13">* required fields</small></label>
+                                <textarea id="writeQtion" placeholder="Tell us what you're curious about" class="qsMD15 writeOpinion" required></textarea>
+                            </li>
+                            <li>
+                                <label for="writeQtionName" class="qsMD18">Your name *</label>
+                                <input type="text" id="writeQtionName" class="qsMD15" required>
+                            </li>
+                            <li>
+                                <label for="writeQtionEmail" class="qsMD18">Your email address *</label>
+                                <input type="email" id="writeQtionEmail" class="qsMD15" required>
+                                <p class="qsMD13">We'll send you an email to verify this review came from you.</p>
+                            </li>
+                        </ul>
+                        <input type="submit" value="POST" class="btn qsMD18 aDj">
+                    </form>
+                </div>
+            </div>
+            <div class="summarySet">
+                <span class="qsRG20">REVIEWS / QUESTIONS</span>
+                <div class="introLead">
+                    <div class="DTclearFixL">
+                        <span class="qsRG42">-</span>
+                        <span class="starPrint0 qsRG13">
+                            <b>0 Reviews, 0 Q&As</b>
+                        </span>
+                    </div>
+                    <div class="qsRG15">
+                        <label for="chart5">5</label>
+                        <meter value="0" id="chart5" max="100" min="0"></meter>
+                        <label for="chart4">4</label>
+                        <meter value="0" id="chart4" max="100" min="0"></meter>
+                        <label for="chart3">3</label>
+                        <meter value="0" id="chart3" max="100" min="0"></meter>
+                        <label for="chart2">2</label>
+                        <meter value="0" id="chart2" max="100" min="0"></meter>
+                        <label for="chart1">1</label>
+                        <meter value="0" id="chart1" max="100" min="0"></meter>
+                    </div>
+                    <input type="button" value="Write A Questions" class="qsRG15 btn popupBtn aDj" title="Write A Questions" data-popup="writeAPopup">
+                </div>
+            </div>
+            <div class="menuFilter AclearFixL">
+                <ul class="tabButton AclearFixL">
+                    <li class="qsRG15 active" data-tap="reviewsTap">REVIEWS</li>
+                    <li class="qsRG15" data-tap="questionsTap">QUESTIONS</li>
+                </ul>
+                <div class="selectComponent relative">
+                    <span class="qsRG15">Sort:</span>
+                    <input type="button" value="Select" class="qsRG15" title="review select">
+                    <ul class="qsRG13L selectOption">
+                        <li class="active">Select</li>
+                        <li>ALL</li>
+                        <li>NEWEST</li>
+                        <li>HIGHEST RATING</li>
+                        <li>LOWEST RATING</li>
+                        <li>MOST VOTES</li>
+                        <li>LEAST VOTES</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tabPage active" id="reviewsTap">
+                <p class="qsRG18">
+                    We’re looking for stars&#33;<br>
+                    Be the first to write a review
+                </p>
+            </div>
+            <div class="tabPage" id="questionsTap">
+                <p class="qsRG18">
+                    Ask a question<br>
+                    Be the first to write a question
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <section class="qsRG15">
+            <h2>
+                <img src="images/logo_footer.png" alt="Kangol">
+            </h2>
+            <div class="conTent DTclearFixL">
+                <div>
+                    <b class="qsMD18">Contact Tel</b>
+                    <a href="tel:18668526465">1-866-8-KANGOL (1-866-852-6465)</a>
+                </div>
+                <nav>
+                    <b class="qsMD18">Customer Service</b>
+                    <ul>
+                        <li><a href="account_myOrdersHave.html">Track Your Order</a></li>
+                        <li><a href="account_myOrdersHave.html">Start a Return</a></li>
+                        <li><a href="footer_ordering.html">Ordering</a></li>
+                        <li><a href="footer_promotions.html">Promotions</a></li>
+                        <li><a href="footer_shipping.html">Shipping</a></li>
+                        <li><a href="footer_returns.html">Returns</a></li>
+                        <li><a href="list_giftcards.html">Gift Cards</a></li>
+                        <li><a href="footer_contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <b class="qsMD18">Resources</b>
+                    <ul>
+                        <li><a href="footer_size.html">Size Chart</a></li>
+                        <li><a href="footer_handingcare.html">Handling and Care</a></li>
+                        <li><a href="footer_journal.html">Journal</a></li>
+                        <li><a href="footer_reviews.html">Reviews</a></li>
+                        <li><a href="footer_glossary.html">Glossary</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <b class="qsMD18">About Us</b>
+                    <ul>
+                        <li><a href="footer_aboutus.html">Who We Are</a></li>
+                        <li><a href="footer_service.html">Terms of Service</a></li>
+                        <li><a href="footer_securitypolicy.html">Security &amp; Privacy Policy</a></li>
+                        <li><a href="footer_webaccessibility.html">Website Accessibility</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <b class="qsMD18">Stay Connected</b>
+                    <ol>
+                        <li><a href="https://www.instagram.com/kangol" target="_blank"><img src="images/sns_icon_01.png" alt="kangol instagram site"></a></li>
+                        <li><a href="https://kr.pinterest.com/Kangol_Usa" target="_blank"><img src="images/sns_icon_02.png" alt="kangol pinterest site"></a></li>
+                        <li><a href="https://www.facebook.com/kangol.headwear.usa" target="_blank"><img src="images/sns_icon_03.png" alt="kangol meta site"></a></li>
+                    </ol>
+                    <form>
+                        <div class="relative">
+                            <input type="email" placeholder="Email address" class="qsRG15" title="Email address" required>
+                        </div>
+                        <input type="submit"  value="SUBSCRIBE" class="anotherBtn qsMD15" title="SUBSCRIBE">
+                    </form>
+                    <p class="qsMD12 subscribeText">Your subscription has been completed.</p>
+                </div>
+            </div>
+        </section>   
+        <div>
+            <hr>
+            <p class="qsRG13">© 2024 Kangol.com. All rights reserved. KANGOL™ AND KANGOL KANGAROO™ ARE TRADEMARKS OWNED BY KANGOL, LLC AND USED UNDER AUTHORIZED LICENSE.</p>
+        </div>
+    </footer>
+</body>
+</html>

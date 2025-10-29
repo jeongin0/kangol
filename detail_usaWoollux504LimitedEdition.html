@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kangol</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/kangol.js"></script>
+    <script src="js/detailImgSwap.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    
+    <div id="searchPanel" class="fixed">
+        <form>
+            <div class="relative">
+                <input type="search" placeholder="Search" title="search bar" class="qsRG15">
+                <input type="submit" value="Search" title="search button" class="absolute">
+            </div>
+        </form>
+    </div>
+
+    <div id="cartPanel" class="fixed">
+        <h2 class="qsMD18 relative">CART<input type="button" value="close" class="closeBtn absolute" title="close cart panel"></h2>
+        <p class="haveProd qsRG18 active"><span>2</span>Item In Bag</p>
+        <p class="noneProd qsRG18">You have no items in your shopping bag.</p>
+        <ul class="clearFixL">
+            <li>
+                <figure class="AclearFixL">
+                    <img src="images/sample_cart_product_01.png" alt="wooly Floral Beret">
+                    <figcaption>
+                        <dl class="flex column">
+                            <dt class="qsRG18"><a href="detail_woolyFloralBeret.html">Wooly Floral Beret</a></dt>
+                            <dd class="loPrice">
+                                <strong class="qsRG18 priceElement">56.25</strong>
+                                <del class="qsMD13 priceElement">75.00</del>
+                            </dd>
+                            <dd class="qsRG13 optionDo">
+                                <span>Cream</span>
+                                <span>S</span>
+                            </dd>
+                        </dl>
+                        <input type="button" value="-" title="remove button">
+                        <span class="qTy qsLT13">1</span>
+                        <input type="button" value="+" title="plus button">
+                        <input type="button" class="qsRG13" value="Remove" title="delete button">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure class="AclearFixL">
+                    <img src="images/sample_cart_product_02.png" alt="Summer Prep 504 Ivy Cap">
+                    <figcaption>
+                        <dl class="flex column">
+                            <dt class="qsRG18"><a href="detail_summerPrep504LvyCap.html">Summer Prep 504 Ivy Cap</a></dt>                            
+                            <dd class="loPrice">
+                                <strong class="qsRG18 priceElement">70.00</strong>
+                            </dd>
+                            <dd class="qsRG13 optionDo">
+                                <span>Moonstruck</span>
+                                <span>S</span>
+                            </dd>
+                        </dl>
+                        <input type="button" value="-" title="remove button">
+                        <span class="qTy qsLT13">1</span>
+                        <input type="button" value="+" title="plus button">
+                        <input type="button" class="qsRG13" value="Remove" title="delete button">
+                    </figcaption>
+                </figure>
+            </li>
+        </ul>
+        <div>
+            <h3 class="qsRG18">Bag Subtotal</h3>
+            <form action="account_checkout01.html">
+                <strong class="priceElement qsRG30">126.25</strong>
+                <input type="submit" class="btn qsMD15 aDj" value="CHECKOUT" title="checkout button">
+            </form>
+        </div>
+    </div>
+    
+    <header class="fixed">
+        <div class="clearFix">
+            <h1>
+                <a href="index.html"><img src="images/logo.svg" alt="main Kangol"></a>
+            </h1>
+            <nav class="TMfixed">
+                <h2 class="qsMD18 menuTitle TMrelative">MENU<input type="button" value="close" class="closeBtn TMabsolute" title="close cart panel"></h2>
+                <ul class="qsMD15">
+                    <li>
+                        <b>Hats By Style</b>
+                        <ol>
+                            <li><a href="list_caps504_01.html">504 Caps</a></li>
+                            <li><a href="list_caps507_01.html">507 Caps</a></li>
+                            <li><a href="list_armycaps.html">Army Caps</a></li>
+                            <li><a href="list_spacecaps.html">Spacecaps</a></li>
+                            <li><a href="list_spitfires.html">Spitfires</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <b>Hats By Fabric</b>
+                        <ol>
+                            <li><a href="list_bamboo.html">Bamboo</a></li>
+                            <li><a href="list_bermuda.html">Bermuda</a></li>
+                            <li><a href="list_cotton_01.html">Cotton</a></li>
+                            <li><a href="list_fauxfur.html">Faux Fur</a></li>
+                            <li><a href="list_furgora.html">Furgora</a></li>
+                            <li><a href="list_wool_01.html">Wool</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <b>Collections</b>
+                        <ol>
+                            <li><a href="list_iconsberets.html">Icons-Berets</a></li>
+                            <li><a href="list_collaborations.html">Collaborations</a></li>
+                            <li><a href="list_uscollection.html">US Collection</a></li>
+                            <li><a href="list_newarrivals01.html">New Arrivals</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <b>Clothing &amp; Accessories</b>
+                        <ol>
+                            <li><a href="list_newarrivals02.html">New Arrivals</a></li>
+                            <li><a href="list_allaccessories.html">All Accessories</a></li>
+                            <li><a href="list_bagpacks.html">Backpacks &amp; Bags</a></li>
+                            <li><a href="list_bottoms.html">Bottoms</a></li>
+                            <li><a href="list_wallets.html">Wallets</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_giftcards.html">Gift Cards</a>
+                    </li>
+                    <li>
+                        <a href="account_myAccount.html">Account</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul>
+                <li><input type="button" value="search" title="search pannel button" class="panelBtn" data-panel="searchPanel"></li>
+                <li><a href="account_myAccount.html">account</a></li>
+                <li>
+                    <button class="panelBtn" data-panel="cartPanel">
+                        <span class="qsMD12">2</span>
+                    </button>
+                </li>
+                <li class="menu">
+                    <button class="mui">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </header>   
+
+    <div class="detailContainer">
+        <div class="showProd">
+            <img src="images/detail_504_23_.jpg" alt="USA Woollux 504 - Limited Edition">
+        </div>
+        <aside>
+            <div>
+                <h2 class="qsRG42 DTclearFixR">USA Woollux 504 - Limited Edition</h2>
+                <strong class="priceElement qsRG30">150.00</strong>
+                <div class="starRating">
+                    <span class="starPrint4 qsBD15">
+                        <b>5 Reviews</b>
+                    </span>
+                    <span class="qsBD15">
+                        <b>5 Questions / 5 Answers</b>
+                    </span>
+                </div>
+                <div class="prodColor">
+                    <b class="qsMD18">Color <em class="qsRG13">Black</em></b>
+                    <div class="flex wrap">
+                        <button type="button" class="active"><img src="images/color_Black_01.jpg" alt="Black"></button>
+                        <button type="button"><img src="images/color_BeaconBlue_01.jpg" alt="Ultramarine"></button>
+                    </div>
+                </div>
+                <div class="prodSize">
+                    <b class="qsMD18">Size<a href="footer_size.html" class="qsRG13">Find Your Size</a></b>
+                    <ol class="qsRG15">
+                        <li class="active"><input type="button" value="S"></li>
+                        <li><input type="button" value="M"></li>
+                        <li><input type="button" value="L"></li>
+                        <li><input type="button" value="XL"></li>
+                        <li><input type="button" value="XXL"></li>
+                    </ol>
+                </div>
+                <div class="prodBtn clearFix">
+                    <div class="qtyComponent relative">
+                        <input type="button" value="-" title="remove button" class="absolute">
+                        <span class="mpMD20">1</span>
+                        <input type="button" value="+" title="add button" class="absolute">
+                    </div>
+                    <input type="button" value="ADD TO BAG" class="btn panelBtn qsMD15 aDj" title="add to bag" data-panel="cartPanel">
+                    <a href="account_checkout01.html" class="qsMD15 relative">BUY WITH <img src="images/icon_gPay.png" alt="google pay"> PAY</a>
+                </div>
+                <ul class="accComponent">
+                    <li>
+                        <h3 class="qsRG20">DETAILS</h3>
+                        <p class="qsRG18">Limited Edition Exclusive</p>
+                        <p class="qsRG18">The USA Woollux 504 is a limited edition, website exclusive cap hand-crafted in America from start to finish. This new take on an old classic, made from luxe fibers of the finest merino wool will certainly impress.</p>
+                        <p class="qsRG18">The wool for the USA Woollux 504 Cap comes from merino sheep raised in the Catskills of New York. Our 100% sourced and made in the USA merino wool is a sustainable, harm free fiber harvested in New York, washed in Texas, spun into yarn in Vermont and made into a hat in Pennsylvania by Employee-Owners.</p>
+                        <p class="qsRG18">The USA Woollux 504 Cap features an embroidered Kangol logo and Kangaroo on the back of the cap, along with a comfort stretch sweatband. The Woollux 504 ships in a novelty Kangol hat box and includes a hat brush to keep your hat looking clean and fresh.</p>
+                    </li>
+                    <li>
+                        <h3 class="qsRG20">MORE INFORMATION</h3>
+                        <dl class="qsRG18 flex wrap">
+                            <dt>Shape</dt>
+                            <dd>Ivy Caps &amp; Flat Caps</dd>
+                            <dt>Brand</dt>
+                            <dd>Kangol</dd>
+                            <dt>Fabrication</dt>
+                            <dd>Wool Felt</dd>
+                            <dt>Material</dt>
+                            <dd>100% Wool</dd>
+                            <dt>Lining</dt>
+                            <dd>Unlined</dd>
+                            <dt>Closure Type</dt>
+                            <dd>Fitted</dd>
+                            <dt>Season</dt>
+                            <dd>Autumn/Winter</dd>
+                            <dt>USA Made or Imported</dt>
+                            <dd>Made in USA</dd>
+                            <dt>Country of Manufacture</dt>
+                            <dd>United States</dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <div class="halfIns DTclearFixL">
+            <div class="qsRG42 flex between column">
+                <div class="flex between">
+                    <span>K</span>
+                    <span>A</span>
+                    <span>N</span>
+                    <span>G</span>
+                    <span>O</span>
+                    <span>L</span>
+                </div>
+                <p class="qsRG18">Today Kangol produces a wide range of headwear, that crosses generations and cultures.</p>
+                <div class="flex between">
+                    <span>WHO</span>
+                    <span>WE</span>
+                    <span>ARE</span>
+                </div>
+            </div>
+            <div></div>
+        </div>
+        <div class="uponGuest relative">
+            <div id="writeAPopup" class="absolute">
+                <input type="button" value="close" class="closeBtn absolute" title="close write question popup">
+                <div>
+                    <h3 class="qsMD20">WRITE A QUESTION</h3>
+                    <form>
+                        <ul class="writeText clearFix">
+                            <li>
+                                <label for="writeQtion" class="qsMD18 AclearFixR">Write a question * <small class="qsMD13">* required fields</small></label>
+                                <textarea id="writeQtion" placeholder="Tell us what you're curious about" class="qsMD15 writeOpinion" required></textarea>
+                            </li>
+                            <li>
+                                <label for="writeQtionName" class="qsMD18">Your name *</label>
+                                <input type="text" id="writeQtionName" class="qsMD15" required>
+                            </li>
+                            <li>
+                                <label for="writeQtionEmail" class="qsMD18">Your email address *</label>
+                                <input type="email" id="writeQtionEmail" class="qsMD15" required>
+                                <p class="qsMD13">We'll send you an email to verify this review came from you.</p>
+                            </li>
+                        </ul>
+                        <input type="submit" value="POST" class="btn qsMD18 aDj">
+                    </form>
+                </div>
+            </div>
+            <div class="summarySet">
+                <span class="qsRG20">REVIEWS / QUESTIONS</span>
+                <div class="introLead">
+                    <div class="DTclearFixL">
+                        <span class="qsRG42">4.2</span>
+                        <span class="starPrint4 qsRG13">
+                            <b>5 Reviews, 5 Q&As</b>
+                        </span>
+                    </div>
+                    <div class="qsRG15">
+                        <label for="chart5">5</label>
+                        <meter value="80" optimum="100" id="chart5" max="100" min="0"></meter>
+                        <label for="chart4">4</label>
+                        <meter value="10" optimum="100" id="chart4" max="100" min="0"></meter>
+                        <label for="chart3">3</label>
+                        <meter value="0" id="chart3" max="100" min="0"></meter>
+                        <label for="chart2">2</label>
+                        <meter value="0" id="chart2" max="100" min="0"></meter>
+                        <label for="chart1">1</label>
+                        <meter value="10" optimum="100" id="chart1" max="100" min="0"></meter>
+                    </div>
+                    <input type="button" value="Write A Questions" class="qsRG15 btn popupBtn aDj" title="Write A Questions" data-popup="writeAPopup">
+                </div>
+            </div>
+            <div class="menuFilter AclearFixL">
+                <ul class="tabButton AclearFixL">
+                    <li class="qsRG15 active" data-tap="reviewsTap">REVIEWS</li>
+                    <li class="qsRG15" data-tap="questionsTap">QUESTIONS</li>
+                </ul>
+                <div class="selectComponent relative">
+                    <span class="qsRG15">Sort:</span>
+                    <input type="button" value="Select" class="qsRG15" title="review select">
+                    <ul class="qsRG13L selectOption">
+                        <li class="active">Select</li>
+                        <li>ALL</li>
+                        <li>NEWEST</li>
+                        <li>HIGHEST RATING</li>
+                        <li>LOWEST RATING</li>
+                        <li>MOST VOTES</li>
+                        <li>LEAST VOTES</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tabPage active" id="reviewsTap">
+                <ul class="globalReview qsMD15">
+                    <li>
+                        <figure class="kgViewer AclearFixL">
+                            <img src="images/icon_person.png" alt="reviewer 1">
+                            <figcaption>
+                                <dl>
+                                    <dt>Randall D</dt>
+                                    <dd>Verified Buyer</dd>
+                                </dl>
+                            </figcaption>
+                        </figure>
+                        <dl class="kgRText">
+                            <dt class="relative starPrint1 qsMD18">USA Woollux 504 - poor fit<time datetime="2024-06-12" class="qsMD15 absolute">06/12/24</time></dt>
+                            <dd>I purchased a small USA Woollux 504 and the fit was too large by approximately one size. Too expensive not to have a proper fit and I returned it for a credit.</dd>
+                        </dl>
+                        <div class="countSet">
+                            <em>Was This Answer Helpful?</em>
+                            <input type="button" value="up" class="clickUp">
+                            <span class="countUp">0</span>
+                            <input type="button" value="down" class="clickDown">
+                            <span class="countDown">0</span>
+                        </div>
+                    </li>
+                    <li>
+                        <figure class="kgViewer AclearFixL">
+                            <img src="images/icon_person.png" alt="reviewer 2">
+                            <figcaption>
+                                <dl>
+                                    <dt>D C</dt>
+                                    <dd>Verified Buyer</dd>
+                                </dl>
+                            </figcaption>
+                        </figure>
+                        <dl class="kgRText">
+                            <dt class="relative starPrint5 qsMD18">Great hat<time datetime="2024-01-22" class="qsMD15 absolute">01/22/24</time></dt>
+                            <dd>Very well done. Hat fits great. It is a nice spin on the traditional 504. Shipped in a gift box and included cleaning brush is a nice bonus</dd>
+                        </dl>
+                        <div class="countSet">
+                            <em>Was This Answer Helpful?</em>
+                            <input type="button" value="up" class="clickUp">
+                            <span class="countUp">0</span>
+                            <input type="button" value="down" class="clickDown">
+                            <span class="countDown">0</span>
+                        </div>
+                    </li>
+                    <li>
+                        <figure class="kgViewer AclearFixL">
+                            <img src="images/icon_person.png" alt="reviewer 3">
+                            <figcaption>
+                                <dl>
+                                    <dt>allan d</dt>
+                                    <dd>Verified Buyer</dd>
+                                </dl>
+                            </figcaption>
+                        </figure>
+                        <dl class="kgRText">
+                            <dt class="relative starPrint4 qsMD18">I love my kangol.<time datetime="2023-02-27" class="qsMD15 absolute">02/27/23</time></dt>
+                            <dd>I love the color of the cap. It fit like a glove. The brush that came with it was a nice touch.</dd>
+                        </dl>
+                        <div class="countSet">
+                            <em>Was This Answer Helpful?</em>
+                            <input type="button" value="up" class="clickUp">
+                            <span class="countUp">0</span>
+                            <input type="button" value="down" class="clickDown">
+                            <span class="countDown">0</span>
+                        </div>
+                    </li>
+                    <li>
+                        <figure class="kgViewer AclearFixL">
+                            <img src="images/icon_person.png" alt="reviewer 4">
+                            <figcaption>
+                                <dl>
+                                    <dt>Tom T</dt>
+                                    <dd>Verified Buyer</dd>
+                                </dl>
+                            </figcaption>
+                        </figure>
+                        <dl class="kgRText">
+                            <dt class="relative starPrint5 qsMD18">Great hat and is warm<time datetime="2023-01-20" class="qsMD15 absolute">01/20/23</time></dt>
+                            <dd>Great hat and is warm in the winter. Almost big, but fits about the same as regular Kangol wool hats.</dd>
+                        </dl>
+                        <div class="countSet">
+                            <em>Was This Answer Helpful?</em>
+                            <input type="button" value="up" class="clickUp">
+                            <span class="countUp">0</span>
+                            <input type="button" value="down" class="clickDown">
+                            <span class="countDown">0</span>
+                        </div>
+                    </li>
+                    <li>
+                        <figure class="kgViewer AclearFixL">
+                            <img src="images/icon_person.png" alt="reviewer 5">
+                            <figcaption>
+                                <dl>
+                                    <dt>Charles G</dt>
+                                    <dd>Verified Buyer</dd>
+                                </dl>
+                            </figcaption>
+                        </figure>
+                        <dl class="kgRText">
+                            <dt class="relative starPrint5 qsMD18">The cap is made of<time datetime="2022-12-07" class="qsMD15 absolute">12/07/22</time></dt>
+                            <dd>The cap is made of very luxurious fabric and like all hats from Kangol is well made and fits correctly for its size. Love it.</dd>
+                        </dl>
+                        <div class="countSet">
+                            <em>Was This Answer Helpful?</em>
+                            <input type="button" value="up" class="clickUp">
+                            <span class="countUp">0</span>
+                            <input type="button" value="down" class="clickDown">
+                            <span class="countDown">0</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="tabPage" id="questionsTap">
+                <ul class="qsMD15">
+                    <li>
+                        <figure class="kgViewer AclearFixL">
+                            <img src="images/icon_person.png" alt="questioner 1">
+                            <figcaption>
+                                <dl>
+                                    <dt>Anthony</dt>
+                                    <dd>Verified Reviewer</dd>
+                                </dl>
+                            </figcaption>
+                        </figure>
+                        <dl class="kgQText">
+                            <dt class="qsMD18 relative">Q : Is the a difference between the 504 and the woollux 504 limited edition besides the price ...for ex the softness n texture<time datetime="2021-12-09" class="qsMD15 absolute">12/09/21</time></dt>
+                            <dd>Answers (1)</dd>
+                            <dt class="relative">KANGOL<time datetime="2021-12-30" class="qsMD13 absolute">12/30/21</time></dt>
+                            <dd>A : HI Anthony, overall, the fit should be the same. The wool that is used and the process from start to finish is different. The Woollux 504 is made from luxe fibers of the finest merino wool will certainly impress.</dd>
+                        </dl>
+                        <div class="countSet">
+                            <em>Was This Answer Helpful?</em>
+                            <input type="button" value="up" class="clickUp">
+                            <span class="countUp">0</span>
+                            <input type="button" value="down" class="clickDown">
+                            <span class="countDown">0</span>
+                        </div>
+                    </li>
+                    <li>
+                        <figure class="kgViewer AclearFixL">
+                            <img src="images/icon_person.png" alt="questioner 2">
+                            <figcaption>
+                                <dl>
+                                    <dt>Matt G</dt>
+                                    <dd>Verified Reviewer</dd>
+                                </dl>
+                            </figcaption>
+                        </figure>
+                        <dl class="kgQText">
+                            <dt class="qsMD18 relative">Q : Looking for plum colored 504. Seem many but nowhere do I see them on any of your sites.<time datetime="2021-11-14" class="qsMD15 absolute">11/14/21</time></dt>
+                            <dd>Answers (1)</dd>
+                            <dt class="relative">KANGOL<time datetime="2021-11-15" class="qsMD13 absolute">11/15/21</time></dt>
+                            <dd>A : Hi Matt, we don't have plum, but we do have Vino available.</dd>
+                        </dl>
+                        <div class="countSet">
+                            <em>Was This Answer Helpful?</em>
+                            <input type="button" value="up" class="clickUp">
+                            <span class="countUp">0</span>
+                            <input type="button" value="down" class="clickDown">
+                            <span class="countDown">0</span>
+                        </div>
+                    </li>
+                    <li>
+                        <figure class="kgViewer AclearFixL">
+                            <img src="images/icon_person.png" alt="questioner 3">
+                            <figcaption>
+                                <dl>
+                                    <dt>David</dt>
+                                    <dd>Verified Reviewer</dd>
+                                </dl>
+                            </figcaption>
+                        </figure>
+                        <dl class="kgQText">
+                            <dt class="qsMD18 relative">Q : Is this limited edition 504 constructed the same way as the wool 504? I have a US wool 504 and there's a little piece of foam above the bill, wondering if this hat is the same.<time datetime="2021-02-17" class="qsMD15 absolute">02/17/21</time></dt>
+                            <dd>Answers (1)</dd>
+                            <dt class="relative">KANGOL<time datetime="2021-02-22" class="qsMD13 absolute">02/22/21</time></dt>
+                            <dd>A : Dear David, all of our knit caps are made the same way with the same specs. They will all have the same foam inside. Thanks, Customer Care</dd>
+                        </dl>
+                        <div class="countSet">
+                            <em>Was This Answer Helpful?</em>
+                            <input type="button" value="up" class="clickUp">
+                            <span class="countUp">0</span>
+                            <input type="button" value="down" class="clickDown">
+                            <span class="countDown">0</span>
+                        </div>
+                    </li>
+                    <li>
+                        <figure class="kgViewer AclearFixL">
+                            <img src="images/icon_person.png" alt="questioner 4">
+                            <figcaption>
+                                <dl>
+                                    <dt>Pete</dt>
+                                    <dd>Verified Reviewer</dd>
+                                </dl>
+                            </figcaption>
+                        </figure>
+                        <dl class="kgQText">
+                            <dt class="qsMD18 relative">Q : I was wondering about the heat retention of the Merino wool , I usually prefer the tropic ventair year round . I find it to be warm but not too hot as with the standard wool 504's.<time datetime="2021-01-13" class="qsMD15 absolute">01/13/21</time></dt>
+                            <dd>Answers (1)</dd>
+                            <dt class="relative">KANGOL<time datetime="2021-01-19" class="qsMD13 absolute">01/19/21</time></dt>
+                            <dd>A : Hi Pete, great question! The USA Woollux will keep you warm during the cold winter months. the heat retention will be similar to the wool 504</dd>
+                        </dl>
+                        <div class="countSet">
+                            <em>Was This Answer Helpful?</em>
+                            <input type="button" value="up" class="clickUp">
+                            <span class="countUp">0</span>
+                            <input type="button" value="down" class="clickDown">
+                            <span class="countDown">0</span>
+                        </div>
+                    </li>
+                    <li>
+                        <figure class="kgViewer AclearFixL">
+                            <img src="images/icon_person.png" alt="questioner 5">
+                            <figcaption>
+                                <dl>
+                                    <dt>Daryl H</dt>
+                                    <dd>Verified Reviewer</dd>
+                                </dl>
+                            </figcaption>
+                        </figure>
+                        <dl class="kgQText">
+                            <dt class="qsMD18 relative">Q : Does the current 15% discount apply to this cap?<time datetime="2020-03-25" class="qsMD15 absolute">03/25/20</time></dt>
+                            <dd>Answers (1)</dd>
+                            <dt class="relative">KANGOL<time datetime="2020-03-26" class="qsMD13 absolute">03/26/20</time></dt>
+                            <dd>A : Hi Daryl, great question! Yes, the 15% discount can apply to this exclusive cap.</dd>
+                        </dl>
+                        <div class="countSet">
+                            <em>Was This Answer Helpful?</em>
+                            <input type="button" value="up" class="clickUp">
+                            <span class="countUp">0</span>
+                            <input type="button" value="down" class="clickDown">
+                            <span class="countDown">0</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <section class="qsRG15">
+            <h2>
+                <img src="images/logo_footer.png" alt="Kangol">
+            </h2>
+            <div class="conTent DTclearFixL">
+                <div>
+                    <b class="qsMD18">Contact Tel</b>
+                    <a href="tel:18668526465">1-866-8-KANGOL (1-866-852-6465)</a>
+                </div>
+                <nav>
+                    <b class="qsMD18">Customer Service</b>
+                    <ul>
+                        <li><a href="account_myOrdersHave.html">Track Your Order</a></li>
+                        <li><a href="account_myOrdersHave.html">Start a Return</a></li>
+                        <li><a href="footer_ordering.html">Ordering</a></li>
+                        <li><a href="footer_promotions.html">Promotions</a></li>
+                        <li><a href="footer_shipping.html">Shipping</a></li>
+                        <li><a href="footer_returns.html">Returns</a></li>
+                        <li><a href="list_giftcards.html">Gift Cards</a></li>
+                        <li><a href="footer_contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <b class="qsMD18">Resources</b>
+                    <ul>
+                        <li><a href="footer_size.html">Size Chart</a></li>
+                        <li><a href="footer_handingcare.html">Handling and Care</a></li>
+                        <li><a href="footer_journal.html">Journal</a></li>
+                        <li><a href="footer_reviews.html">Reviews</a></li>
+                        <li><a href="footer_glossary.html">Glossary</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <b class="qsMD18">About Us</b>
+                    <ul>
+                        <li><a href="footer_aboutus.html">Who We Are</a></li>
+                        <li><a href="footer_service.html">Terms of Service</a></li>
+                        <li><a href="footer_securitypolicy.html">Security &amp; Privacy Policy</a></li>
+                        <li><a href="footer_webaccessibility.html">Website Accessibility</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <b class="qsMD18">Stay Connected</b>
+                    <ol>
+                        <li><a href="https://www.instagram.com/kangol" target="_blank"><img src="images/sns_icon_01.png" alt="kangol instagram site"></a></li>
+                        <li><a href="https://kr.pinterest.com/Kangol_Usa" target="_blank"><img src="images/sns_icon_02.png" alt="kangol pinterest site"></a></li>
+                        <li><a href="https://www.facebook.com/kangol.headwear.usa" target="_blank"><img src="images/sns_icon_03.png" alt="kangol meta site"></a></li>
+                    </ol>
+                    <form>
+                        <div class="relative">
+                            <input type="email" placeholder="Email address" class="qsRG15" title="Email address" required>
+                        </div>
+                        <input type="submit"  value="SUBSCRIBE" class="anotherBtn qsMD15" title="SUBSCRIBE">
+                    </form>
+                    <p class="qsMD12 subscribeText">Your subscription has been completed.</p>
+                </div>
+            </div>
+        </section>   
+        <div>
+            <hr>
+            <p class="qsRG13">© 2024 Kangol.com. All rights reserved. KANGOL™ AND KANGOL KANGAROO™ ARE TRADEMARKS OWNED BY KANGOL, LLC AND USED UNDER AUTHORIZED LICENSE.</p>
+        </div>
+    </footer>
+</body>
+</html>

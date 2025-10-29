@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kangol</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/kangol.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    
+    <div id="searchPanel" class="fixed">
+        <form>
+            <div class="relative">
+                <input type="search" placeholder="Search" title="search bar" class="qsRG15">
+                <input type="submit" value="Search" title="search button" class="absolute">
+            </div>
+        </form>
+    </div>
+
+    <div id="cartPanel" class="fixed">
+        <h2 class="qsMD18 relative">CART<input type="button" value="close" class="closeBtn absolute" title="close cart panel"></h2>
+        <p class="haveProd qsRG18 active"><span>2</span>Item In Bag</p>
+        <p class="noneProd qsRG18">You have no items in your shopping bag.</p>
+        <ul class="clearFixL">
+            <li>
+                <figure class="AclearFixL">
+                    <img src="images/sample_cart_product_01.png" alt="wooly Floral Beret">
+                    <figcaption>
+                        <dl class="flex column">
+                            <dt class="qsRG18"><a href="detail_woolyFloralBeret.html">Wooly Floral Beret</a></dt>
+                            <dd class="loPrice">
+                                <strong class="qsRG18 priceElement">56.25</strong>
+                                <del class="qsMD13 priceElement">75.00</del>
+                            </dd>
+                            <dd class="qsRG13 optionDo">
+                                <span>Cream</span>
+                                <span>S</span>
+                            </dd>
+                        </dl>
+                        <input type="button" value="-" title="remove button">
+                        <span class="qTy qsLT13">1</span>
+                        <input type="button" value="+" title="plus button">
+                        <input type="button" class="qsRG13" value="Remove" title="delete button">
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure class="AclearFixL">
+                    <img src="images/sample_cart_product_02.png" alt="Summer Prep 504 Ivy Cap">
+                    <figcaption>
+                        <dl class="flex column">
+                            <dt class="qsRG18"><a href="detail_summerPrep504LvyCap.html">Summer Prep 504 Ivy Cap</a></dt>                            
+                            <dd class="loPrice">
+                                <strong class="qsRG18 priceElement">70.00</strong>
+                            </dd>
+                            <dd class="qsRG13 optionDo">
+                                <span>Moonstruck</span>
+                                <span>S</span>
+                            </dd>
+                        </dl>
+                        <input type="button" value="-" title="remove button">
+                        <span class="qTy qsLT13">1</span>
+                        <input type="button" value="+" title="plus button">
+                        <input type="button" class="qsRG13" value="Remove" title="delete button">
+                    </figcaption>
+                </figure>
+            </li>
+        </ul>
+        <div>
+            <h3 class="qsRG18">Bag Subtotal</h3>
+            <form action="account_checkout01.html">
+                <strong class="priceElement qsRG30">126.25</strong>
+                <input type="submit" class="btn qsMD15 aDj" value="CHECKOUT" title="checkout button">
+            </form>
+        </div>
+    </div>
+    
+    <header class="fixed">
+        <div class="clearFix">
+            <h1>
+                <a href="index.html"><img src="images/logo.svg" alt="main Kangol"></a>
+            </h1>
+            <nav class="TMfixed">
+                <h2 class="qsMD18 menuTitle TMrelative">MENU<input type="button" value="close" class="closeBtn TMabsolute" title="close cart panel"></h2>
+                <ul class="qsMD15">
+                    <li>
+                        <b>Hats By Style</b>
+                        <ol>
+                            <li><a href="list_caps504_01.html">504 Caps</a></li>
+                            <li><a href="list_caps507_01.html">507 Caps</a></li>
+                            <li><a href="list_armycaps.html">Army Caps</a></li>
+                            <li><a href="list_spacecaps.html">Spacecaps</a></li>
+                            <li><a href="list_spitfires.html">Spitfires</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <b>Hats By Fabric</b>
+                        <ol>
+                            <li><a href="list_bamboo.html">Bamboo</a></li>
+                            <li><a href="list_bermuda.html">Bermuda</a></li>
+                            <li><a href="list_cotton_01.html">Cotton</a></li>
+                            <li><a href="list_fauxfur.html">Faux Fur</a></li>
+                            <li><a href="list_furgora.html">Furgora</a></li>
+                            <li><a href="list_wool_01.html">Wool</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <b>Collections</b>
+                        <ol>
+                            <li><a href="list_iconsberets.html">Icons-Berets</a></li>
+                            <li><a href="list_collaborations.html">Collaborations</a></li>
+                            <li><a href="list_uscollection.html">US Collection</a></li>
+                            <li><a href="list_newarrivals01.html">New Arrivals</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <b>Clothing &amp; Accessories</b>
+                        <ol>
+                            <li><a href="list_newarrivals02.html">New Arrivals</a></li>
+                            <li><a href="list_allaccessories.html">All Accessories</a></li>
+                            <li><a href="list_bagpacks.html">Backpacks &amp; Bags</a></li>
+                            <li><a href="list_bottoms.html">Bottoms</a></li>
+                            <li><a href="list_wallets.html">Wallets</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="list_giftcards.html">Gift Cards</a>
+                    </li>
+                    <li>
+                        <a href="account_myAccount.html">Account</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul>
+                <li><input type="button" value="search" title="search pannel button" class="panelBtn" data-panel="searchPanel"></li>
+                <li><a href="account_myAccount.html">account</a></li>
+                <li>
+                    <button class="panelBtn" data-panel="cartPanel">
+                        <span class="qsMD12">2</span>
+                    </button>
+                </li>
+                <li class="menu">
+                    <button class="mui">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <article class="sizeContainer">
+        <h2 class="qsRG60">Size Chart</h2>
+        <ul class="qsRG18">
+            <li>
+                <h3 class="qsRG42">Hat Size Charts</h3>
+                <p>We get it, you have no clue what size your head is. We can help you! Use a tape measure or piece of string to determine your head size by wrapping the tape around your head and above your ears where you would normally wear a hat. Then check out the chart below to see how your head size in inches translates into a hat size. For reasons of comfort, if your head size should fall in between two sizes we would suggest the larger of the two sizes. See? We’re totally looking out for you here. That was an insider’s tip.</p>
+                <p>Please Note: Size charts are for general reference. Each item's fit varies depending on the materials and construction.</p>
+                <p>One-Size-Fits-Most (OSFM) and Adjustable hats typically fit up to XL or 7-5/8, unless otherwise noted.</p>
+            </li>
+        </ul>
+        <div class="qsRG15">
+            <ul>
+                <li class="reactionScroll">
+                    <table>
+                        <caption class="qsRG30">Adult Sizes</caption>
+                        <thead class="qsRG18">
+                            <tr>
+                                <th>&nbsp;</th>
+                                <th>SIZE</th>
+                                <th>IN</th>
+                                <th>CM</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>S</th>
+                                <td><span>6 3/4</span><span>6 7/8</span></td>
+                                <td><span>21</span><span>21 1/2</span></td>
+                                <td><span>54</span><span>55</span></td>
+                            </tr>
+                            <tr>
+                                <th>M</th>
+                                <td><span>7</span><span>7 1/8</span></td>
+                                <td><span>22</span><span>22 1/2</span></td>
+                                <td><span>56</span><span>57</span></td>
+                            </tr>
+                            <tr>
+                                <th>L</th>
+                                <td><span>7 1/4</span><span>7 3/8</span></td>
+                                <td><span>22 3/4</span><span>23</span></td>
+                                <td><span>58</span><span>59</span></td>
+                            </tr>
+                            <tr>
+                                <th>XL</th>
+                                <td><span>7 1/2</span><span>7 5/8</span></td>
+                                <td><span>23 1/2</span><span>24</span></td>
+                                <td><span>60</span><span>61</span></td>
+                            </tr>
+                            <tr>
+                                <th>XXL</th>
+                                <td><span>7 3/4</span><span>7 7/8</span></td>
+                                <td><span>24 3/8</span><span>24 7/8</span></td>
+                                <td><span>62</span><span>63</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </li>
+            </ul>
+            <h3 class="qsRG30">Apparel Size Charts</h3>
+            <ol class="sizeCharts">
+                <li class="reactionScroll">
+                    <table>
+                        <caption class="qsRG24">- Men’s Tops &amp; Bottoms</caption>
+                        <thead class="qsRG18">
+                            <tr>
+                                <th colspan="6">SIZE RANGE (MEASUREMENTS IN INCHES)</th>
+                            </tr>
+                            <tr>
+                                <th>&nbsp;</th>
+                                <th>S/P</th>
+                                <th>M/M</th>
+                                <th>L/G</th>
+                                <th>XL/TG</th>
+                                <th>XXL/TTG</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>1. Shoulder</th>
+                                <td>34</td>
+                                <td>36</td>
+                                <td>38</td>
+                                <td>40</td>
+                                <td>42</td>
+                            </tr>
+                            <tr>
+                                <th>2. Chest</th>
+                                <td>40</td>
+                                <td>42</td>
+                                <td>44</td>
+                                <td>46</td>
+                                <td>48</td>
+                            </tr>
+                            <tr>
+                                <th>3. Waist</th>
+                                <td>30/32</td>
+                                <td>32/34</td>
+                                <td>34/36</td>
+                                <td>36/38</td>
+                                <td>38/40</td>
+                            </tr>
+                            <tr>
+                                <th>4. Hips</th>
+                                <td>40</td>
+                                <td>42</td>
+                                <td>44</td>
+                                <td>46</td>
+                                <td>48</td>
+                            </tr>
+                            <tr>
+                                <th>5. Sleeve length</th>
+                                <td>34.75</td>
+                                <td>35.5</td>
+                                <td>36.25</td>
+                                <td>37</td>
+                                <td>37.75</td>
+                            </tr>
+                            <tr>
+                                <th>6. Shirt length</th>
+                                <td>28</td>
+                                <td>28.5</td>
+                                <td>29</td>
+                                <td>29.5</td>
+                                <td>30</td>
+                            </tr>
+                            <tr>
+                                <th>7. Inseam</th>
+                                <td colspan="5">31/32</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </li>
+                <li class="reactionScroll">
+                    <table>
+                        <caption class="qsRG24">- Women’s Tops &amp; Bottoms</caption>
+                        <thead class="qsRG18">
+                            <tr>
+                                <th>(US/CAN)</th>
+                                <th>XS</th>
+                                <th>S</th>
+                                <th>M</th>
+                                <th>L</th>
+                                <th>XL</th>
+                                <th>XXL</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>1. Shoulder</th>
+                                <td>14</td>
+                                <td>14.5</td>
+                                <td>15</td>
+                                <td>15.5</td>
+                                <td>16</td>
+                                <td>17</td>
+                            </tr>
+                            <tr>
+                                <th>2. Chest</th>
+                                <td>29-31</td>
+                                <td>32-34</td>
+                                <td>35-38</td>
+                                <td>39-42</td>
+                                <td>43-46</td>
+                                <td>47-50</td>
+                            </tr>
+                            <tr>
+                                <th>3. Waist</th>
+                                <td>23-25</td>
+                                <td>26-28</td>
+                                <td>29-32</td>
+                                <td>33-36</td>
+                                <td>37-40</td>
+                                <td>41-44</td>
+                            </tr>
+                            <tr>
+                                <th>4. Hips</th>
+                                <td>32-34</td>
+                                <td>35-37</td>
+                                <td>38-41</td>
+                                <td>42-45</td>
+                                <td>46-49</td>
+                                <td>50-53</td>
+                            </tr>
+                            <tr>
+                                <th>5. Inseam</th>
+                                <td colspan="6">32</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </li>
+                <li class="reactionScroll">
+                    <table>
+                        <caption class="qsRG24">- Kid’s Tops &amp; Bottoms</caption>
+                        <thead class="qsRG18">
+                            <tr>
+                                <th colspan="9">SIZE RANGE (MEASUREMENTS IN INCHES)</th>
+                            </tr>
+                            <tr>
+                                <th>&nbsp;</th>
+                                <th>3</th>
+                                <th>4</th>
+                                <th>5</th>
+                                <th>6</th>
+                                <th>S/P(7/8)</th>
+                                <th>M/M(10/12)</th>
+                                <th>L/G(14)</th>
+                                <th>XL/TG(16)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>1. Shoulder</th>
+                                <td>25</td>
+                                <td>26</td>
+                                <td>27</td>
+                                <td>28</td>
+                                <td>31</td>
+                                <td>32</td>
+                                <td>33</td>
+                                <td>34</td>
+                            </tr>
+                            <tr>
+                                <th>2. Chest</th>
+                                <td>29</td>
+                                <td>30</td>
+                                <td>31</td>
+                                <td>32</td>
+                                <td>34</td>
+                                <td>36</td>
+                                <td>38</td>
+                                <td>40</td>
+                            </tr>
+                            <tr>
+                                <th>3. Waist</th>
+                                <td>21</td>
+                                <td>22</td>
+                                <td>23</td>
+                                <td>24</td>
+                                <td>25</td>
+                                <td>27</td>
+                                <td>29</td>
+                                <td>31</td>
+                            </tr>
+                            <tr>
+                                <th>4. Hips</th>
+                                <td>26</td>
+                                <td>27</td>
+                                <td>28</td>
+                                <td>29</td>
+                                <td>34</td>
+                                <td>36</td>
+                                <td>38</td>
+                                <td>40</td>
+                            </tr>
+                            <tr>
+                                <th>5. Sleeve length</th>
+                                <td>20</td>
+                                <td>21.5</td>
+                                <td>23</td>
+                                <td>24.5</td>
+                                <td>27.5</td>
+                                <td>29</td>
+                                <td>30.5</td>
+                                <td>32</td>
+                            </tr>
+                            <tr>
+                                <th>6. Shirt length</th>
+                                <td>17.75</td>
+                                <td>18.5</td>
+                                <td>19.25</td>
+                                <td>20</td>
+                                <td>22.75</td>
+                                <td>24</td>
+                                <td>25.25</td>
+                                <td>26.5</td>
+                            </tr>
+                            <tr>
+                                <th>7. Inseam</th>
+                                <td>18</td>
+                                <td>19</td>
+                                <td>20</td>
+                                <td>21.5</td>
+                                <td>25</td>
+                                <td>27</td>
+                                <td>28.5</td>
+                                <td>30</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </li>
+            </ol>
+        </div>
+        <input type="button" value="Back" class="backBtn qsMD15" title="back page">
+    </article>
+
+    <footer>
+        <section class="qsRG15">
+            <h2>
+                <img src="images/logo_footer.png" alt="Kangol">
+            </h2>
+            <div class="conTent DTclearFixL">
+                <div>
+                    <b class="qsMD18">Contact Tel</b>
+                    <a href="tel:18668526465">1-866-8-KANGOL (1-866-852-6465)</a>
+                </div>
+                <nav>
+                    <b class="qsMD18">Customer Service</b>
+                    <ul>
+                        <li><a href="account_myOrdersHave.html">Track Your Order</a></li>
+                        <li><a href="account_myOrdersHave.html">Start a Return</a></li>
+                        <li><a href="footer_ordering.html">Ordering</a></li>
+                        <li><a href="footer_promotions.html">Promotions</a></li>
+                        <li><a href="footer_shipping.html">Shipping</a></li>
+                        <li><a href="footer_returns.html">Returns</a></li>
+                        <li><a href="list_giftcards.html">Gift Cards</a></li>
+                        <li><a href="footer_contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <b class="qsMD18">Resources</b>
+                    <ul>
+                        <li><a href="footer_size.html">Size Chart</a></li>
+                        <li><a href="footer_handingcare.html">Handling and Care</a></li>
+                        <li><a href="footer_journal.html">Journal</a></li>
+                        <li><a href="footer_reviews.html">Reviews</a></li>
+                        <li><a href="footer_glossary.html">Glossary</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <b class="qsMD18">About Us</b>
+                    <ul>
+                        <li><a href="footer_aboutus.html">Who We Are</a></li>
+                        <li><a href="footer_service.html">Terms of Service</a></li>
+                        <li><a href="footer_securitypolicy.html">Security &amp; Privacy Policy</a></li>
+                        <li><a href="footer_webaccessibility.html">Website Accessibility</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <b class="qsMD18">Stay Connected</b>
+                    <ol>
+                        <li><a href="https://www.instagram.com/kangol" target="_blank"><img src="images/sns_icon_01.png" alt="kangol instagram site"></a></li>
+                        <li><a href="https://kr.pinterest.com/Kangol_Usa" target="_blank"><img src="images/sns_icon_02.png" alt="kangol pinterest site"></a></li>
+                        <li><a href="https://www.facebook.com/kangol.headwear.usa" target="_blank"><img src="images/sns_icon_03.png" alt="kangol meta site"></a></li>
+                    </ol>
+                    <form>
+                        <div class="relative">
+                            <input type="email" placeholder="Email address" class="qsRG15" title="Email address" required>
+                        </div>
+                        <input type="submit"  value="SUBSCRIBE" class="anotherBtn qsMD15" title="SUBSCRIBE">
+                    </form>
+                    <p class="qsMD12 subscribeText">Your subscription has been completed.</p>
+                </div>
+            </div>
+        </section>   
+        <div>
+            <hr>
+            <p class="qsRG13">© 2024 Kangol.com. All rights reserved. KANGOL™ AND KANGOL KANGAROO™ ARE TRADEMARKS OWNED BY KANGOL, LLC AND USED UNDER AUTHORIZED LICENSE.</p>
+        </div>
+    </footer>
+</body>
+</html>
