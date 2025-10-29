@@ -1,0 +1,858 @@
+main{padding-top: 86px;}
+main .videoBox > div:nth-child(2){left: 0; top: 0; padding: 0 3.57%; height: 100%;}
+main .videoBox > div div h2{color: var(--dc01); font-weight: inherit;}
+main .videoBox > div div a{color: var(--dc01); border: 1px solid var(--dc01); min-width: 140px;}
+main div:nth-of-type(4) a,
+.halfSplit > div > div:nth-child(2) a{color: var(--dc01); background-color: var(--dc06);}
+main > div:nth-of-type(2) div{padding: var(--sp40) var(--sp30);}
+main > div:nth-of-type(2) div > span.cenTer{letter-spacing: var(--sp30);}
+main > div:nth-of-type(2) div:first-child{background-color: var(--gc01);}
+main > div:nth-of-type(2) div:first-child > span{color: var(--dc06);}
+main > div:nth-of-type(2) div:last-child{background-color: var(--dc06);}
+main > div:nth-of-type(2) div:last-child > span{color: var(--gc01);}
+main > div:nth-of-type(2) div:last-child p{color: var(--gc01);}
+main section h2{color: var(--dc06);}
+main section ul li{background-position: center top;}
+main section ul li:nth-child(1){background-image: url('../images/icon_01.png');}
+main section ul li:nth-child(2){background-image: url('../images/icon_02.png');}
+main section ul li:nth-child(3){background-image: url('../images/icon_03.png');}
+main section ul li:nth-child(4){background-image: url('../images/icon_04.png');}
+main section ul li figure figcaption dl dt{color: var(--bc03);}
+main div:nth-of-type(4){background: url('../images/bg_02.png') center / cover no-repeat;}
+main div:nth-of-type(4) a{left: 9.37%; width: 4.5%; min-width: 100px;}
+main div:nth-of-type(5) img:first-of-type{position: sticky; top: 0; z-index: -1;}
+main div:nth-of-type(5) img:last-of-type{margin-top: -1px;}
+.splitForm h2{color: var(--dc06);}
+[class^="half"] > div{padding: var(--sp40) var(--sp30);}
+.halfSplit > div div:not(:nth-child(2)),
+.halfIns > div div{flex-direction: row;}
+[class^="half"] > div div span{color: var(--sc04);}
+.halfSplit > div div:nth-child(2) a{min-width: 90px;}
+.halfSplit > div div:nth-child(2) p{color: var(--dc06);}
+.halfIns{border-top: 1px; border-color: var(--dc02); border-style: solid;}
+.halfIns > div:nth-of-type(2){background: url('../images/ex_kangol_image.png') right 45% center / cover no-repeat;}
+.halfSplit > div:nth-of-type(2){background: url('../images/bg_06.jpg') right 45% center / cover no-repeat;}
+.halfIns > div p{color: var(--dc06);}
+[class*="Container"]{padding-top: 86px;}
+.listContainer ul li{background-color: var(--dc01);}
+.listContainer ul li a{color: var(--dc06);}
+.listContainer ul li a img{width: 80%;}
+.listContainer ul li a b{color: var(--dc06); left: 0; top: 15px; z-index: 1;}
+.listContainer ul li a b i{font-style: normal;}
+.listContainer ul li a b mark{color: var(--sc04); right: 15px; background-color: var(--sc02); padding: 10px 1%; border-radius: 10px;}
+.listContainer ul li a div{justify-content: flex-end;}
+.listContainer ul li a div strong{color: var(--dc06);}
+.listContainer ul li a div del{color: var(--dc03); margin-left: var(--sp05);}
+.detailContainer .showProd{background-color: var(--dc01);}
+.detailContainer .showProd img{width: 80%;}
+.detailContainer aside > div h2{color: var(--dc06);}
+.detailContainer aside > div h2 mark{color: var(--sc04); background-color: var(--sc02); border-radius: 10px;}
+.detailContainer aside > div strong{color: var(--dc06);}
+.detailContainer aside > div del{color: var(--dc03);}
+.detailContainer aside > div .starRating{margin: var(--sp50) 0;}
+.detailContainer aside > div .starRating span{color: var(--dc06);}
+.detailContainer aside > div .starRating span:first-of-type{padding-left: 140px;}
+.detailContainer aside > div .starRating span:last-of-type{background-image: url('../images/icon_question.png');}
+.detailContainer aside > div .starRating span b{font-weight: inherit; font-family: inherit;}
+.detailContainer aside > div .prodColor b{color: var(--dc06);}
+.detailContainer aside > div .prodColor b em{font-style: inherit;}
+.detailContainer aside > div .prodColor div{justify-content: start;}
+.detailContainer aside > div .prodColor div button{width: 25px; height: 25px; background: transparent; padding: 0;}
+.detailContainer aside > div .prodColor div button.active img{border: 2px solid var(--dc06);}
+.detailContainer aside > div .prodSize b{color: var(--dc06);}
+.detailContainer aside > div .prodSize b a{color: var(--dc05); text-decoration: underline;}
+.detailContainer aside > div .prodSize ol li{padding: var(--sp15); border-radius: 5px;}
+.detailContainer aside > div .prodSize ol li:not(:last-child){margin-right: var(--sp40);}
+.detailContainer aside > div .prodSize ol li.active,
+.detailContainer aside > div .prodSize ol li.active input{color: var(--dc01); background-color: var(--bc03);}
+.detailContainer aside > div .prodSize ol li input{color: var(--dc06); font-size: inherit; font-family: inherit;}
+.detailContainer aside > div .prodBtn .qtyComponent{border: 1px solid var(--dc03);}
+.detailContainer aside > div .prodBtn .qtyComponent span{color: var(--dc05);}
+.detailContainer aside > div .prodBtn .qtyComponent input{border-style: solid; border-color: var(--dc03); background-position: center; background-size: 13px;}
+.detailContainer aside > div .prodBtn .qtyComponent input:first-of-type{left: 0; border-width: 0 1px 0 0; background-image: url('../images/bul_remove.png');}
+.detailContainer aside > div .prodBtn .qtyComponent input:last-of-type{right: 0; top: 0; border-width: 0 0 0 1px; background-image: url('../images/bul_plus.png');}
+.detailContainer aside > div .prodBtn > input{float: left;}
+.detailContainer aside > div .prodBtn a{float: left; border-radius: 25px; margin-left: 2%;}
+.detailContainer aside > div .prodBtn a img{margin: 0 var(--sp05); vertical-align: sub; width: 16px;}
+.detailContainer aside > div .additionalText p{color: var(--dc06);}
+.detailContainer aside > div .additionalText + .accComponent{margin-top: var(--sp85);}
+.detailContainer aside > div .accComponent > li:first-child{padding-bottom: var(--sp25);}
+.detailContainer aside > div .accComponent li h3{color: var(--dc06); transition: margin-bottom .3s ease;}
+.detailContainer aside > div .accComponent li ul li{color: var(--dc05);}
+.detailContainer aside > div .accComponent li h3:after{content: ''; float: right; height: 11px; width: 11px; margin-top: 6px; background: url('../images/bul_plus.png') right top / 11px no-repeat;}
+.detailContainer aside > div .accComponent li h3 ~ *{overflow-y: hidden; opacity: 0; line-height: 0; transition: all .3s ease;}
+.detailContainer aside > div .accComponent li h3.active ~ *{opacity: 1;}
+.detailContainer aside > div .accComponent li h3.active ~ p{color: var(--dc05); margin-bottom: var(--sp30);}
+.detailContainer aside > div .accComponent li  h3.active ~ p:last-child{margin-bottom: 0;}
+.detailContainer aside > div .accComponent li ul:last-of-type:last-child{margin-bottom: 0;}
+.detailContainer aside > div .accComponent li h3.active:after{background: url('../images/bul_remove.png') right top 4px / 11px no-repeat;}
+.detailContainer aside > div .accComponent li dl{flex-direction: row;}
+.detailContainer aside > div .accComponent li dl *{color: var(--dc05);}
+.detailContainer aside > div .accComponent li h3 + dl dt:not(:last-of-type),
+.detailContainer aside > div .accComponent li h3 + dl dd:not(:last-of-type){margin-bottom: 0;}
+.detailContainer aside > div .accComponent li h3.active + dl dt:not(:last-of-type),
+.detailContainer aside > div .accComponent li h3.active + dl dd:not(:last-of-type){margin-bottom: var(--sp20);}
+.detailContainer aside > div .accComponent li dl dt{width: 38%; margin-right: 4%;}
+.detailContainer aside > div .accComponent li dl dd{width: 58%;}
+.detailContainer .uponGuest{border-width: 1px 0 0; border-style: solid; border-color: var(--dc02);}
+.writeText li label,
+.writeText li p
+.writeText li textarea,
+.writeOrderText li label,
+.writeOrderText li textarea{color: var(--dc06);}
+[id$='Popup']{background-color: var(--dc01); border-radius: 10px; z-index: 100;}
+[id$='Popup'] input[type="button"].closeBtn{right: 15px; top: 15px;}
+[id$='Popup'] > div{padding: var(--sp60) var(--sp50);}
+[id$='wReview'] .writeText li input{border-color: var(--gc02);}
+[id$='Popup'] div form .writeText li input:not([type="button"]){color: var(--dc06); border-color: var(--dc03);}
+[id$='Popup'] div form input[type='submit']{border-color: var(--bc03);}
+.detailContainer .uponGuest .summarySet > span{color: var(--dc05);}
+.detailContainer .uponGuest .summarySet .introLead div:first-of-type span{color: var(--dc06);}
+.detailContainer .uponGuest .summarySet .introLead div:first-of-type span > b{color: var(--dc05);}
+.detailContainer .uponGuest .summarySet .introLead div:first-of-type span:last-of-type{padding-top: 20px;}
+.detailContainer .uponGuest .summarySet .introLead div:last-of-type label{background: url('../images/icon_star_active.png') right center / 20px no-repeat;}
+.detailContainer .uponGuest .summarySet .introLead div:last-of-type meter::-webkit-meter-optimum-value{height: 100%; background-color: var(--bc03);}
+.detailContainer .uponGuest .summarySet .introLead input[type="button"]{font-size: inherit;}
+.menuFilter{padding-bottom: 18px;}
+.menuFilter .tabButton{width: 60%;}
+.menuFilter .tabButton li{color: var(--dc04); line-height: 24px;}
+.menuFilter .tabButton li.active{color: var(--dc06); text-decoration: underline; text-decoration-color: var(--dc06); text-underline-offset: 10px;}
+.menuFilter .selectComponent{width: 35%; margin-left: 5%;}
+.menuFilter .selectComponent span{color: var(--dc06); margin-right: var(--sp05);}
+.menuFilter .selectComponent input[type="button"]{color: var(--dc06); text-align: left; background: url('../images/bul_arrow_bottom.png') right center / 12px no-repeat;}
+.menuFilter .selectComponent input[type="button"].active{background: url('../images/bul_arrow_top.png') right center / 12px no-repeat;}
+.menuFilter .selectOption.active,
+.flexCome .selectOption.active{background-color: var(--dc01); padding: var(--sp10) var(--sp15); z-index: 1;}
+.menuFilter .selectOption.active{right: 0; z-index: 100; top: 43px;}
+.menuFilter .selectOption.active li{padding-left: var(--sp10); color: var(--dc06); text-align: left;}
+.menuFilter .selectOption.active li.active{background: url('../images/icon_check.png') right 15px center / 10px no-repeat; background-color: var(--yc01);}
+.menuFilter .selectOption.active li:not(:last-child){margin-bottom: var(--sp10);}
+.tabPage ul li .kgViewer img{margin-right: var(--sp20);}
+.tabPage ul li .kgViewer figcaption dl dt{color: var(--dc06);}
+.tabPage ul li .kgViewer figcaption dl dd{color: var(--dc04);}
+.tabPage ul li :is(.kgRText, .kgQText) dt time{color: var(--dc06); z-index: -1; right: 0;}
+.tabPage ul li .kgRText dd,
+.tabPage ul li .kgQText dd:last-of-type,
+.tabPage ul li .countSet,
+.tabPage ul li .countSet span{color: var(--dc05);}
+.tabPage ul li .kgQText dd:first-of-type{color: var(--dc06); padding-left: 35px; background: url('../images/icon_question.png') left center / 19px no-repeat;}
+.tabPage ul li .kgQText dt:last-of-type{color: var(--dc06);}
+.tabPage ul li .kgQText dd a{color: var(--bc02);}
+.tabPage ul li .countSet em{font-style: inherit;}
+.tabPage ul li .countSet input{width: 18px; margin-right: 5px; background-size: 15px;}
+.tabPage ul li .countSet input:first-of-type{background-image: url('../images/icon_up.png');}
+.tabPage ul li .countSet input:first-of-type.active{background-image: url('../images/icon_up_active.png');}
+.tabPage ul li .countSet input:last-of-type{background-image: url('../images/icon_down.png');}
+.tabPage ul li .countSet input:last-of-type.active{background-image: url('../images/icon_down_active.png');}
+.detailContainer .tabPage p,
+.reviewFooterContainer .tabPage p{color: var(--dc06);}
+.detailContainer .tabPage p,
+.reviewFooterContainer .tabPage p{padding: var(--sp15) 0 var(--sp60);}
+.accountContainer .dashLeft h2{color: var(--dc06);}
+.accountContainer .dashLeft .dashBar{margin-top: var(--sp50);}
+.accountContainer .dashLeft .dashBar ol li.active{color: var(--bc03); font-weight: 600;}
+.accountContainer .dashLeft .dashBar a{color: var(--dc04);}
+.accountContainer .dashLeft .dashBar > a{text-decoration: underline; text-underline-offset: 4px;}
+.accountContainer .personalInfo h3,
+.accountContainer .personalInfo > p{color: var(--dc06);}
+.accountContainer .personalInfo h3 mark{color: var(--rc02);}
+.accountContainer .personalInfo form > ul.writeContent{margin: var(--sp60) 0 var(--sp40);}
+.accountContainer .personalInfo form input[type="text"] + .visibleBtn{background-image: url('../images/icon_visibility.png');}
+.invalidUse:user-invalid{border: 2px solid var(--rc02);}
+.invalidUse ~ p,
+.contactContainer .sendUs input[type="submit"] + span{display: none;}
+.invalidUse:user-invalid ~ *{color: var(--rc02); margin-top: 5px;}
+.contactContainer .sendUs input[type="submit"] + span{color: var(--rc02);}
+.accountContainer .personalInfo > form input[type="submit"]{border-color: var(--bc03);}
+.accountContainer .personalInfo > strong{color: var(--dc05);}
+.accountContainer .personalInfo .newCreate{margin-top: var(--sp20);}
+.accountContainer .personalInfo .newCreate > a{color: var(--dc06);}
+.accountContainer .personalInfo .newCreate span small{color: var(--dc04);}
+.accountContainer .personalInfo .newCreate span a{color: var(--bc02);}
+.accountContainer .personalInfo .selChoose dl dt,
+.accountContainer .personalInfo > span{color: var(--dc06);}
+.accountContainer .personalInfo .selChoose dl dd{color: var(--dc05);}
+.accountContainer .personalInfo > span:first-of-type{margin-top: var(--sp60);}
+.accountContainer .personalInfo .noneOrder{margin-top: var(--sp60);}
+.accountContainer .personalInfo .noneOrder span{color: var(--rc02);}
+.accountContainer .personalInfo .haveOrder{margin-top: var(--sp60);}
+.accountContainer .personalInfo .haveOrder li .dayTime time,
+.accountContainer .personalInfo .haveOrder li .orderInfo dl dt,
+.accountContainer .personalInfo .haveOrder li .orderInfo div b{color: var(--dc06);}
+.accountContainer .personalInfo .haveOrder li .dayTime em{color: var(--dc03); font-style: inherit;}
+.accountContainer .personalInfo .haveOrder li .orderInfo div b,
+.accountContainer .personalInfo .haveOrder li .orderInfo div strong{font-weight: inherit;}
+.accountContainer .personalInfo .haveOrder li .orderInfo dl dd,
+.accountContainer .personalInfo .haveOrder li .orderInfo div address span,
+.accountContainer .personalInfo .haveOrder li .orderInfo div strong{color: var(--dc03);}
+.accountContainer .personalInfo .haveOrder li .statusInfo ol{justify-content: flex-end;}
+.accountContainer .personalInfo .haveOrder li .statusInfo ol li{width: 30px; height: 30px; background-position: center; background-size: 30px;}
+.accountContainer .personalInfo .haveOrder li .statusInfo ol li:nth-child(1){background-image: url('../images/icon_deliveryReady.png');}
+.accountContainer .personalInfo .haveOrder li .statusInfo ol li:nth-child(2){background-image: url('../images/icon_deliveryShipping.png');}
+.accountContainer .personalInfo .haveOrder li .statusInfo ol li:nth-child(3){background-image: url('../images/icon_deliveryComplete.png');}
+.accountContainer .personalInfo .haveOrder li .statusInfo ol li.active:nth-child(1){background-image: url('../images/icon_deliveryReady_active.png');}
+.accountContainer .personalInfo .haveOrder li .statusInfo ol li.active:nth-child(2){background-image: url('../images/icon_deliveryShipping_active.png');}
+.accountContainer .personalInfo .haveOrder li .statusInfo ol li.active:nth-child(3){background-image: url('../images/icon_deliveryComplete_active.png');}
+.accountContainer .personalInfo .haveOrder li .statusInfo input:disabled{color: var(--bc03); background-color: var(--dc02); border-color: var(--dc02); cursor: not-allowed;}
+.accountContainer .personalInfo .haveOrder li .statusInfo input:nth-of-type(2).changeBtn{color: var(--dc06); background-color: var(--sc03); border-color: var(--sc03);}
+.accountContainer .personalInfo .haveOrder li .statusInfo input:nth-of-type(2){margin-top: var(--sp25);}
+[id*="reOrder"],
+[id*="wReview"]{height: 100%; padding-top: var(--sp60);}
+[id*="reOrder"] h4,
+[id*="reOrder"] strong,
+[id*="wReview"] h4,
+[id*="wReview"] > span{color: var(--dc06);}
+[id*="reOrder"] > p,
+[id*="reOrder"] span.qsRG18{color: var(--dc05);}
+[id*="wReview"] > span small{color: var(--rc02);}
+[id*="reOrder"] .flexCome .selectComponent input[type='button']{color: var(--dc05); text-align: left; padding: var(--sp15); border: 1px solid var(--dc03); background: url('../images/bul_arrow_bottom.png') right 15px center / 14px no-repeat; text-overflow: ellipsis;}
+[id*="reOrder"] .flexCome .selectComponent input[type='button'].active{background-image: url('../images/bul_arrow_top.png');}
+.flexCome .selectComponent .selectOption.active{left: 0;}
+.flexCome .selectComponent .selectOption.active li{padding: 0 var(--sp10); color: var(--dc06);}
+.flexCome .selectComponent .selectOption.active li.active{background-color: var(--yc01); border-radius: 15px;}
+.flexCome .selectComponent .selectOption.active li:not(:last-child){margin-bottom: var(--sp10);}
+.flexCome .selectComponent .selectOption.active li:last-child{margin-bottom: 0;}
+[id*="wReview"] .starCount li{width: 30px; height: 30px; background: url('../images/icon_star_before.png') center / 30px no-repeat;}
+[id*="wReview"] .starCount li.active{background-image: url('../images/icon_star_active.png');}
+[id*="wReview"] .starCount li:not(:first-child){margin-left: var(--sp05);}
+#cancelOrderPopup{padding: var(--sp60) 0;}
+#cancelOrderPopup span{gap: var(--sp40);}
+#cancelOrderPopup p{padding: 0 3%;}
+#cancelOrderPopup button{border-style: solid; border-width: 1px;}
+#cancelOrderPopup button:first-of-type{color: var(--dc06); border-color: var(--sc05);}
+#cancelOrderPopup button:last-of-type{color: var(--dc01); background-color: var(--rc03); border-color: var(--rc03);}
+.checkoutContainer > p mark{color: var(--bc03);}
+.checkoutContainer .payProgress li{text-align: left; color: var(--dc04);}
+.checkoutContainer .payProgress li:not(:last-child):before{content: ''; left: 0; bottom: 50%; width: 90%; height: 1px;}
+.checkoutContainer .payProgress li:nth-child(1){background-image: url('../images/icon_shipping.png');}
+.checkoutContainer .payProgress li.active{color: var(--bc03);}
+.checkoutContainer .payProgress li.active:nth-child(1){background-image: url('../images/icon_shipping_active.png');}
+.checkoutContainer .payProgress li:nth-child(2){background-image: url('../images/icon_payments.png');}
+.checkoutContainer .payProgress li.active:nth-child(2){background-image: url('../images/icon_payments_active.png');}
+.checkoutContainer .payProgress li:nth-child(3){background-image: url('../images/icon_complete.png');}
+.checkoutContainer .payProgress li.active:nth-child(3){background-image: url('../images/icon_complete_active.png');}
+.checkoutContainer .productInfo div:not(.totalValue){background-color: var(--dc01); padding: var(--sp40);}
+.checkoutContainer .productInfo div h2{color: var(--dc06);}
+.checkoutContainer .productInfo div ul li dl dt{color: var(--dc06);}
+.checkoutContainer .productInfo div ul li strong{color: var(--dc06); right: 0; bottom: 0;}
+.checkoutContainer .productInfo div ul li dl dd{color: var(--dc05);}
+.checkoutContainer .productInfo div address span,
+.checkoutContainer .productInfo div > span{color: var(--dc06);}
+.checkoutContainer .productInfo .totalValue{margin-top: var(--sp50); padding-top: var(--sp50);}
+.checkoutContainer .productInfo .totalValue span{vertical-align: middle; background-size: 11px;}
+.checkoutContainer .productInfo .totalValue span:nth-of-type(1){margin-right: 1%;}
+.checkoutContainer .productInfo .totalValue span:nth-of-type(1) strong{color: var(--rc02);}
+.checkoutContainer .productInfo .totalValue span:nth-of-type(2){margin-right: 2%;}
+.checkoutContainer .productInfo .totalValue span:nth-of-type(2) strong{color: var(--dc05);}
+.checkoutContainer .productInfo .totalValue span strong{margin-top: var(--sp10);}
+.checkoutContainer .productInfo .totalValue span:nth-of-type(3) strong{color: var(--bc01);}
+.checkoutContainer .productInfo .totalValue img{width: 11px;}
+.checkoutContainer .enterInfo fieldset legend,
+.checkoutContainer .enterInfo fieldset .writeContent li label,
+.checkoutContainer .enterInfo fieldset .shippingWrite li label span{color: var(--dc06);}
+.checkoutContainer .enterInfo fieldset legend mark{color: var(--rc02); font-style: initial;}
+.checkoutContainer .enterInfo fieldset .shippingWrite li:not(:first-child){margin-top: var(--sp20);}
+.checkoutContainer .enterInfo .payChoose > input{margin-top: 0;}
+.checkoutContainer .enterInfo .payChoose > label:first-of-type{margin-right: var(--sp50);}
+.checkoutContainer .enterInfo .payChoose label img{max-width: 70px;}
+.checkoutContainer .enterInfo .payChoose .cardInfo{margin-top: var(--sp30); overflow: hidden; opacity: 1; transition: margin 0.4s ease;}
+.checkoutContainer .enterInfo .payChoose .cardInfo.showHide{max-height: 0; opacity: 0; padding: 0; margin: 0;}
+.checkoutContainer .enterInfo .etcInfo li{padding-top: var(--sp20);}
+.checkoutContainer .enterInfo .etcInfo li.active:first-child{padding-bottom: var(--sp20);}
+.checkoutContainer .enterInfo .etcInfo li h3{color: var(--dc06); padding-left: 40px; transition: all 0.4s ease;}
+.checkoutContainer .enterInfo .etcInfo li h3:after{content: ''; left: 0; top: 6px; height: 11px; width: 11px; background: url('../images/bul_plus.png') left top / 11px no-repeat;}
+.checkoutContainer .enterInfo .etcInfo li.active h3:after{background: url('../images/bul_remove.png') left top 5px / 11px no-repeat;}
+.checkoutContainer .enterInfo .etcInfo li input{opacity: 0; padding: 0; line-height: 0; transition: all 0.4s ease;}
+.checkoutContainer .enterInfo .etcInfo li.active input{opacity: 1; padding: var(--sp15); margin-top: var(--sp20);}
+.checkoutContainer .afterOrder{padding: var(--sp120) 0 var(--sp30);}
+.checkoutContainer .afterOrder p{color: var(--dc06); padding-top: var(--sp30);}
+.checkoutContainer .afterOrder span{color: var(--dc04);}
+.checkoutContainer .returnCheck a{color: var(--dc06);}
+.checkoutContainer .returnCheck a:first-of-type{border: 1px solid var(--sc05);}
+.checkoutContainer .returnCheck a:last-of-type{border: 1px solid var(--rc03);}
+.checkoutContainer > div:not(.afterOrder):not(.returnCheck){margin-bottom: var(--sp260);}
+article[class*="Container"]:not(.reviewFooterContainer) *:not(a):not(mark):not(input[value='Back']):not(.invalidUse:user-invalid ~ *):not(input[type="submit"]):not(.aboutArea h3){color: var(--dc06);}
+.checkoutContainer,
+article[class*="Container"]{padding-bottom: var(--sp180);}
+article[class*="Container"] h2{margin: 0 auto var(--sp60); padding-bottom: var(--sp70);}
+.contactContainer h3 mark{color: var(--rc02);}
+.contactContainer > div:first-of-type{padding-bottom: var(--sp60);}
+.contactContainer dl dt,
+.serviceContainer ul li dl dt,
+.privacyContainer .introduce li dl dt{float: left;}
+.contactContainer .callUs dl dt,
+.contactContainer .aroundStore dl dt{margin-right: var(--sp05);}
+.contactContainer .callUs dl dd a,
+.contactContainer .aroundStore dl dd a{text-decoration: underline; text-underline-offset: 5px;}
+.contactContainer .sendUs fieldset .contactSend li textarea{min-height: 80px;}
+.contactContainer .sendUs fieldset .contactSend li p{margin-bottom: 0;}
+.careContainer > ul li p + ul{margin-top: var(--sp30);}
+.careContainer ol{margin-top: var(--sp20);}
+.journalContainer ul li{border-bottom: none;}
+.journalContainer ul li > img{border-radius: var(--sp20); max-height: 980px;}
+.journalContainer ul li div{bottom: 0; background-color: var(--dc01); padding: var(--sp60) var(--sp20); border-radius: 0 0 var(--sp20) var(--sp20);}
+.journalContainer ul li div a{color: var(--dc01); background-color: var(--dc06);}
+.journalPageContainer ul li img + p{margin-top: var(--sp40);}
+.journalPageContainer ul li .journalImg{gap: var(--sp20);}
+.journalPageContainer ul li .journalColor{margin: 0 auto var(--sp40);;}
+.journalPageContainer ul li .journalColor li span{height: 105px; width: 105px;}
+.journalPageContainer ul li .journalColor li:nth-child(1) span{background-color: #9ebcd6;}
+.journalPageContainer ul li .journalColor li:nth-child(2) span{background-color: #d6da25;}
+.journalPageContainer ul li .journalColor li:nth-child(3) span{background-color: #195266;}
+.journalPageContainer ul li .journalColor li:nth-child(4) span{background-color: #fccf72;}
+.journalPageContainer ul li .journalColor li:nth-child(5) span{background-color: #e24a56;}
+.journalPageContainer ul li .journalColor li:nth-child(6) span{background-color: #772a3a;}
+.journalPageContainer ul li .journalColor li:nth-child(7) span{background-color: #b09fcc;}
+.journalPageContainer ul li .changeColor li:nth-child(1) span{background-color: #f4b083;}
+.journalPageContainer ul li .changeColor li:nth-child(2) span{background-color: #b09fcb;}
+.journalPageContainer ul li .changeColor li:nth-child(3) span{background-color: #1a5367;}
+.journalPageContainer ul li .changeColor li:nth-child(4) span{background-color: #782a3a;}
+.journalPageContainer ul li .changeColor li:nth-child(5) span{background-color: #c3c3c5;}
+.journalPageContainer ul li .changeColor li:nth-child(6) span{background-color: #9bbcdb;}
+.journalPageContainer ul li .changeColor li:nth-child(7) span{background-color: #374a85;}
+.journalPageContainer ul ol{padding: 0;}
+.reviewFooterContainer .paging{padding-left: 0; padding-right: 0;}
+.reviewFooterContainer .paging span{right: 0;}
+.aboutUsContainer .scrollPage .scrollBar{left: 0; height: 100%;}
+.aboutUsContainer .scrollPage .scrollBar span:nth-child(1){transition: all .2s ease-out;}
+.aboutUsContainer .scrollPage .scrollBar span:nth-child(2){height: 100%; border-left: 2px solid var(--dc02);}
+.aboutUsContainer .scrollPage .aboutArea li:not(:last-child){margin-bottom: var(--sp120);}
+.aboutUsContainer .scrollPage .aboutArea li div h3{color: var(--gc03); margin-bottom: 30px;}
+.policyContainer ul li p + ol{margin-top: var(--sp20);}
+.policyContainer ul li p + div{margin-top: var(--sp30);}
+.policyContainer ul li div time{margin-left: var(--sp05);}
+.serviceContainer ul > li:not(:last-child),
+.privacyContainer > ul > li:not(:last-child){padding-bottom: var(--sp60);}
+.serviceContainer ul li ol:not(.introduce){padding-left: 15px;}
+.serviceContainer ul li dl dt{margin-right: var(--sp05);}
+.privacyContainer ul li:nth-of-type(2) .introduce{padding-top: var(--sp20); padding-left: var(--sp70);}
+.privacyContainer .introduce .reactionScroll .introTable ul li{margin: 0;}
+.privacyContainer .introduce .reactionScroll .introTable caption{display: none;}
+.introTable td{padding-left: var(--sp20); padding-right: var(--sp20);}
+.introTable ul{list-style: lower-alpha; padding-left: var(--sp20);}
+.privacyContainer .introduce li dl dt{margin-right: var(--sp05);}
+/* mobile */
+@media screen and (max-width: 767px){
+    .detailContainer .uponGuest .summarySet .introLead div:first-of-type,
+    .checkoutContainer .payProgress li:nth-child(3),
+    .checkoutContainer .productInfo .totalValue span:nth-of-type(1),
+    .checkoutContainer .productInfo .totalValue span:nth-of-type(2){text-align: center;}
+    .checkoutContainer .productInfo .totalValue span:nth-of-type(1),
+    .checkoutContainer .productInfo .totalValue span:nth-of-type(2),
+    .accountContainer .dashLeft .dashBar ol li:not(:first-child){display: inline-block;}
+    .detailContainer .uponGuest .summarySet .introLead div:first-of-type span,
+    .checkoutContainer .enterInfo fieldset .shippingWrite li input,
+    .checkoutContainer .enterInfo fieldset .shippingWrite li label,
+    .accountContainer .personalInfo form #btn_chkNews,
+    .accountContainer .personalInfo form label[for="btn_chkNews"],
+    .accountContainer .personalInfo form #btn_chkAllow,
+    .accountContainer .personalInfo form label[for="btn_chkAllow"]{display: inline-block; vertical-align: middle;}
+    .writeOrderText li:not(:last-child),
+    .checkoutContainer .enterInfo fieldset .writeContent li:not(:last-child):not(.cardInfo li),
+    .accountContainer .personalInfo .selChoose:not(:last-child){margin-bottom: var(--sp40);}
+    .detailContainer aside > div .starRating span,
+    .accountContainer .dashLeft .dashBar ol li:first-child,
+    .checkoutContainer .productInfo .totalValue span:nth-of-type(3){display: block;}
+    main > div:nth-of-type(3) img,
+    .splitForm img,
+    .halfIns img,
+    .detailContainer [id$='Popup'] div form input[type='submit'],
+    .detailContainer .uponGuest .summarySet .introLead input[type="button"],
+    .accountContainer .personalInfo .haveOrder li img,
+    .checkoutContainer .enterInfo fieldset .shippingWrite li label span,
+    .checkoutContainer .enterInfo input[type='submit'],
+    .contactContainer .sendUs input[type="submit"]{width: 100%;}
+    main .videoBox > div:nth-child(2){justify-content: center; font-size: 20px;}
+    main .videoBox > div > span{display: none;}
+    main section ul li{background-size: 150px; padding: 170px 0 0;}
+    main section ul li:not(:last-child){margin-bottom: 40px;}
+    main div:nth-of-type(4){padding: 35vw;}
+    main div:nth-of-type(4) a{top: 50%; transform: translateY(-50%);}
+    .splitForm h2{padding: var(--sp40) 3.57% 0; margin-bottom: 100px;}
+    .halfSplit > div,
+    .halfIns > div{height: 420px;}
+    .halfSplit > div div:nth-child(2) a{width: 20%;}
+    .listContainer ul li:not(:last-child){border-bottom: 1px solid var(--dc02);}
+    .listContainer ul li a img{max-width: 420px; margin: 0 auto 25px;}
+    .listContainer ul li a b{padding: 0 3.57%;}
+    .detailContainer .showProd img{max-width: 420px; padding: 40px 0;}
+    .detailContainer aside{padding: var(--sp180) 3.57%;}
+    .detailContainer aside > div h2 mark{padding: 8px 1%; width: 15%; margin-top: 15px;}
+    .detailContainer aside > div .starRating span:first-of-type{margin-bottom: 25px;}
+    .detailContainer aside > div .starRating span:last-of-type{text-align: right; background-position: right 160px center; background-size: 19px;}
+    .detailContainer aside > div .prodSize ol{overflow-x: auto; white-space: nowrap;}
+    .detailContainer aside > div .prodBtn .qtyComponent{margin-bottom: var(--sp45); height: 48px;}
+    .detailContainer aside > div .prodBtn .qtyComponent input{width: 14%; height: 47px;}
+    .detailContainer aside > div .prodBtn .qtyComponent span{padding: 13px 0;}
+    .detailContainer aside > div .prodBtn a{padding: 16px 1%;}
+    .detailContainer aside > div .accComponent li h3.active ~ *{line-height: 20px;}
+    [id$='Popup']{width: 93%; top: 25%; left: 3.57%;}
+    .writeText li textarea,
+    .writeOrderText li textarea{height: 80px;}
+    .detailContainer .uponGuest .summarySet .introLead div:first-of-type{margin-bottom: 20px;}
+    .detailContainer .uponGuest .summarySet .introLead div:first-of-type span:last-of-type{padding-right: 30px; margin-left: 10px;}
+    .detailContainer .uponGuest .summarySet .introLead div:last-of-type{margin-bottom: 20px;}
+    .detailContainer .uponGuest .summarySet .introLead div:last-of-type label{margin-right: 1%; width: 10vw; padding-right: 22px;}
+    .detailContainer .uponGuest .summarySet .introLead div:last-of-type meter{width: 78vw;}
+    .menuFilter .tabButton li{font-size: 12px;}
+    .menuFilter .tabButton li:not(:first-child){margin-left: 10%;}
+    .menuFilter .selectComponent input[type="button"]{width: 55px; padding-right: 12px; padding-left: 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+    .menuFilter .selectOption.active{width: 240px;}
+    .tabPage ul li .kgViewer figcaption{width: 80%;}
+    .tabPage ul li .kgRText dt,
+    .tabPage ul li .kgQText dt:first-of-type{margin-bottom: 15px; padding-right: 55px;}
+    .tabPage ul li .kgRText dt time{top: 2px;}
+    .tabPage ul li .kgQText dt:first-of-type time{top: 0;}
+    .tabPage ul li .kgQText dt:last-of-type time{top: 10px;}
+    .tabPage ul li .kgQText dd:first-of-type{margin-bottom: 10px;}
+    .tabPage ul li .countSet{display: flex; justify-content: space-between; align-items: center;}
+    .tabPage ul li .countSet em{margin-right: auto;}
+    .tabPage ul li .countSet input{padding: 2px 0;}
+    .tabPage ul li .countSet input:first-of-type{background-position: center 2px;}
+    .tabPage ul li .countSet input:last-of-type{background-position: center 4px;}
+    .accountContainer .dashLeft .dashBar ol li:first-child{margin-bottom: 15px;}
+    .accountContainer .dashLeft .dashBar ol li:not(:first-child):not(:nth-child(2)){margin-left: 10px;}
+    .accountContainer .dashLeft .dashBar > a{max-width: 70px;}
+    .accountContainer .personalInfo{padding: var(--sp180) 3.57%; position: relative;}
+    .accountContainer .personalInfo form #btn_chkAllow{margin-right: 2%;}
+    .accountContainer .personalInfo form #btn_chkAllow,
+    .accountContainer .personalInfo form label[for="btn_chkAllow"]{margin-top: 15px;}
+    .accountContainer .personalInfo form label[for="btn_chkNews"],
+    .accountContainer .personalInfo form label[for="btn_chkAllow"]{width: calc(91% - 4px);}
+    #subOptionPopup form label[for="btn_chkNews"]{width: max-content;}
+    .accountContainer .personalInfo form #btn_chkNews{margin: 0 2% 0 0;}
+    .accountContainer .personalInfo form input[type="password"] + .visibleBtn,
+    .accountContainer .personalInfo form input[type="text"] + .visibleBtn{right: 10px; top: 8px; background-size: 18px 16px;}
+    .accountContainer .personalInfo .haveOrder li .dayTime time{float: left;}
+    .accountContainer .personalInfo .haveOrder li .dayTime em{float: right;}
+    .accountContainer .personalInfo .haveOrder li img{margin-bottom: 25px;}
+    .accountContainer .personalInfo .haveOrder li .orderInfo{margin-bottom: 25px;}
+    [id*="reOrder"] form .flexCome > li:not(:last-child){margin-bottom: 20px;}
+    .checkoutContainer,
+    article[class*="Container"]{padding-left: 3.57%; padding-right: 3.57%;}
+    .checkoutContainer .payProgress li{padding: 40px 0 0; background-size: 35px;}
+    .checkoutContainer .payProgress li:last-child{width: 20%;}
+    .checkoutContainer .payProgress li:not(:last-child):before{background: url('../images/bul_border.png') right / 40% no-repeat;}
+    .checkoutContainer .payProgress li:nth-child(1){width: 42%; background-position: top left 4px;}
+    .checkoutContainer .payProgress li:nth-child(2){width: 38%; background-position: top left 10px;}
+    .checkoutContainer .payProgress li:nth-child(3){background-position: top center;}
+    .checkoutContainer .productInfo .totalValue span:nth-of-type(1){width: calc(40% - 4px);}
+    .checkoutContainer .productInfo .totalValue span:nth-of-type(2){width: calc(39% - 4px);}
+    .checkoutContainer .productInfo .totalValue span:nth-of-type(3){text-align: right; margin-top: 30px;}
+    .checkoutContainer .productInfo .totalValue img{margin: 0 1%;}
+    .checkoutContainer .enterInfo fieldset .shippingWrite li label{width: 85%;}
+    .checkoutContainer .enterInfo .payChoose{padding-bottom: 10px;}
+    .checkoutContainer .enterInfo .payChoose .cardInfo li:not(:last-child){margin-bottom: var(--sp20);}
+    .checkoutContainer .enterInfo .etcInfo li.active input{line-height: 18px;}
+    .checkoutContainer .returnCheck a:first-of-type{margin-bottom: 20px;}
+    article[class*="Container"] h2{padding-top: 74px;}
+    .contactContainer h3 mark{margin-top: 15px; text-align: right;}
+    .sizeContainer div .sizeCharts .reactionScroll,
+    .privacyContainer .introduce .reactionScroll{overflow-x: scroll;}
+    .sizeContainer div .sizeCharts li:not(:last-child){margin-bottom: 40px;}
+    .careContainer img{margin-bottom: var(--sp60);}
+    .journalContainer ul li:not(:last-child){margin-bottom: var(--sp90);}
+    .journalPageContainer ul li .journalColor{display: flex; justify-content: center; flex-wrap: wrap; flex-direction: row; gap: 10px;}
+    .aboutUsContainer .scrollPage .scrollBar span:nth-child(1){padding: 7px 0; width: 30px; background: url('../images/icon_scroll.png') center / 30px no-repeat;}
+    .aboutUsContainer .scrollPage .scrollBar span:nth-child(2){margin-left: 14px;}
+    .privacyContainer .introduce li .introTable,
+    .sizeContainer div .sizeCharts li table{min-width: 767px;}
+    main > div:nth-of-type(2) div{height: 420px;}
+    main section{margin: var(--sp85) 3.57%;}
+    .listContainer ul li a{padding: 60px 3.57% var(--sp15);}
+    .listContainer ul li a b mark{top: 30px; width: 13%;}
+    .detailContainer .uponGuest{padding: 60px 3.57% 0;}
+    .tabPage ul li .kgViewer{margin-bottom: 20px;}
+    .tabPage ul li .kgRText dt{padding-top: 25px;}
+    .accountContainer .dashLeft{padding: 80px 0;}
+    #cancelOrderPopup{box-shadow: 0px 0px 10px 5px var(--dc04);}
+    #cancelOrderPopup button{width: 32%;}
+    .checkoutContainer .afterOrder{background: url('../images/icon_fin.png') center top 12px / 40px no-repeat;}
+    input[value='Back']{padding: 0 25px;}
+    .contactContainer .map{height: 230px;}
+    .contactContainer .map .place-picker-container{padding: 10px; width: 80%;}
+    .sizeContainer div .sizeCharts .reactionScroll{padding-top: 450px; background-repeat: no-repeat; background-position: center 0, center 180px; background-size: 260px, 130px;}
+    .sizeContainer div .sizeCharts .reactionScroll:nth-child(1){background-image: url('../images/footer_sizeChart_manKids_top.png'), url('../images/footer_sizeChart_manKids_bottom.png');}
+    .sizeContainer div .sizeCharts .reactionScroll:nth-child(2){background-image: url('../images/footer_sizeChart_women_top.png'), url('../images/footer_sizeChart_women_bottom.png');}
+    .sizeContainer div .sizeCharts .reactionScroll:nth-child(3){background-image: url('../images/footer_sizeChart_manKids_top.png'), url('../images/footer_sizeChart_manKids_bottom.png');}
+    .journalPageContainer ul li .journalImg img{max-width: 260px;}
+    .aboutUsContainer .scrollPage .aboutArea{width: 88%; margin-left: 12%;}
+    .aboutUsContainer .scrollPage .aboutArea li:nth-child(4) img{max-width: 370px;}
+}
+/* tablet mobile 병합 */
+@media screen and (max-width: 1279px){
+    .detailContainer .showProd,
+    .accountContainer .dashLeft,
+    .accountContainer .personalInfo .selChoose dl{border-bottom: 1px solid var(--dc02);}
+    .detailContainer aside > div .prodBtn a,
+    [id$='Popup'] div form input[type='submit'],
+    .contactContainer .sendUs input[type="submit"],
+    .accountContainer .personalInfo > a,
+    .accountContainer .personalInfo .noneOrder a,
+    .accountContainer .personalInfo > form input[type="submit"],
+    .accountContainer .personalInfo .haveOrder li .statusInfo input:nth-of-type(2),
+    [id*="reOrder"] form input[type='submit'],
+    [id*="wReview"] form input[type="submit"],
+    .checkoutContainer .enterInfo input[type='submit'],
+    .checkoutContainer .returnCheck a:last-of-type{color: var(--dc01);}
+    [id$='Popup'] div form input[type='submit'],
+    .contactContainer .sendUs input[type="submit"],
+    .accountContainer .personalInfo > a,
+    .accountContainer .personalInfo .noneOrder a,
+    .accountContainer .personalInfo > form input[type="submit"],
+    [id*="reOrder"] form input[type='submit'],
+    [id*="wReview"] form input[type="submit"],
+    .checkoutContainer .enterInfo input[type='submit']{background-color: var(--bc03);}
+    .detailContainer .showProd img{margin: 0 auto;}
+    .detailContainer aside > div h2 mark{padding: 10px 1%;}
+    .detailContainer aside > div .prodBtn > input{width: 49%;}
+    .detailContainer aside > div .prodBtn a{width: 49%; background-color: var(--sc05);}
+    .detailContainer aside > div .prodBtn > input,
+    .detailContainer .uponGuest .summarySet .introLead input[type="button"]{color: var(--dc06); background-color: transparent;}
+    .menuFilter .selectOption.active li{line-height: 22px;}
+    .tabPage ul li .kgViewer img{max-width: 35px;}
+    .tabPage ul li .kgQText dt:last-of-type{padding: 10px 0 10px 35px; background: url('../images/icon_answer.png') left center / 22px no-repeat;}
+    .checkoutContainer .payProgress{padding-top: 24px;}
+    main div:first-child > div div a{width: 11%;}
+    [id$='Popup'] input[type="button"].closeBtn{width: 15px; height: 15px;}
+    .checkoutContainer .enterInfo .payChoose > label{width: 80px;}
+    .accountContainer .personalInfo > p{margin-top: 15px;}
+    .accountContainer .personalInfo .newCreate{text-align: right;}
+    .accountContainer .personalInfo .newCreate > a{margin-bottom: var(--sp25);}
+    .accountContainer .personalInfo .newCreate span small{margin-bottom: 5px;}
+    .accountContainer .personalInfo .selChoose dl{padding-bottom: 10px;}
+    .accountContainer .personalInfo .selChoose input{display: block; margin-left: auto;}
+    .accountContainer .personalInfo .haveOrder li .statusInfo input:first-of-type{border-color: var(--bc03); color: var(--dc06); background-color: transparent;}
+    .accountContainer .personalInfo .haveOrder li .statusInfo input:nth-of-type(2){background-color: var(--gc02); border-color: var(--gc02);}
+    .flexCome .selectComponent .selectOption.active li{line-height: 22px;}
+    [id*="reOrder"] form input[type='submit'],
+    [id*="wReview"] form input[type="submit"]{border-color: var(--bc03);}
+    .checkoutContainer .productInfo div address span:not(:last-child){margin-bottom: 5px;}
+    .checkoutContainer .returnCheck a:last-of-type{background-color: var(--rc03);}
+    input[value='Back']{color: var(--bc03); text-decoration: none; background: url('../images/icon_back_active.png') left / 20px 10px no-repeat;}
+    .contactContainer .callUs,
+    .contactContainer .aroundStore{margin-bottom: var(--sp60);}
+    .contactContainer .callUs ol li:not(:last-child){margin-bottom: 5px;}
+    .aboutUsContainer .scrollPage .aboutArea li div{margin-bottom: 20px;}
+    .aboutUsContainer .scrollPage .aboutArea li img{width: 100%;}
+}
+/* desktop tablet 병합 */
+@media screen and (min-width: 768px){
+    .detailContainer aside > div .starRating span,
+    .accountContainer .dashLeft .dashBar ol li,
+    .checkoutContainer .productInfo .totalValue span,
+    .checkoutContainer .returnCheck a{display: inline-block;}
+    main .videoBox > div > span,
+    .detailContainer .uponGuest .summarySet .introLead,
+    .detailContainer .uponGuest .summarySet .introLead input[type="button"]{display: flex;}
+    main .videoBox > div:nth-child(2),
+    main .videoBox > div > span{justify-content: space-between;}
+    main .videoBox > div > span{color: var(--dc01);}
+    main > div:nth-of-type(2) div{width: 50%;}
+    main > div:nth-of-type(3) img{width: 50%;}
+    main section ul li{padding: 220px 0 0;}
+    main div:nth-of-type(4){padding: 18vw;}
+    main div:nth-of-type(4) a{top: 45%;}
+    .splitForm h2{width: 50%; padding: var(--sp40) 2%;}
+    .halfSplit > div{height: 500px;}
+    .halfSplit > div,
+    .halfIns > div{width: 50%;}
+    .halfSplit > div div:nth-child(2) a{width: 9%;}
+    .splitForm img,
+    .halfIns img{width: 50%;}
+    .listContainer ul li{border-bottom: 1px solid var(--dc02);}
+    .listContainer ul li a img{margin: 0 auto 40px;}
+    .listContainer ul li a b{padding: 0 15px;}
+    .detailContainer aside{padding: var(--sp180) 5%;}
+    .detailContainer aside > div .starRating span:first-of-type{margin-right: 10.75%;}
+    .detailContainer aside > div .starRating span:last-of-type{padding-left: 40px; background-position: left center; background-size: 20px;}
+    .detailContainer aside > div .prodBtn .qtyComponent{height: 52px;}
+    .detailContainer aside > div .prodBtn .qtyComponent input{height: 51px;}
+    .detailContainer aside > div .prodBtn .qtyComponent span{padding: 12px 0;}
+    .detailContainer aside > div .prodBtn a{padding: 15px 1%;}
+    .detailContainer aside > div .accComponent li h3.active ~ *{line-height: 24px;}
+    .detailContainer [id$='Popup']{top: 50%;}
+    .writeText li:not(:first-child){float: left;}
+    .writeOrderText li:nth-child(1),
+    .writeOrderText li:nth-child(2),
+    .checkoutContainer .enterInfo fieldset .writeContent li:not(:nth-last-child(1),:nth-last-child(2)):not(.cardInfo li),
+    .sizeContainer div .sizeCharts .reactionScroll:not(:last-child){margin-bottom: var(--sp40);}
+    .writeText li:nth-last-child(1),
+    .writeOrderText li:nth-last-child(1){width: 48%;}
+    .writeText li:nth-last-child(2),
+    .writeOrderText li:nth-last-child(2){margin-right: 4%; width: 48%;}
+    .writeText li textarea,
+    .writeOrderText li textarea{height: 130px;}
+    .writeOrderText li:nth-last-child(1),
+    .writeOrderText li:nth-last-child(2){float: left;}
+    [id$='Popup'] div form input[type='submit']{margin-left: auto; width: 20%;}
+    .detailContainer .uponGuest .summarySet .introLead{justify-content: center;}
+    .detailContainer .uponGuest .summarySet .introLead div{margin-right: var(--sp40); border-right: 1px solid var(--dc02);}
+    .detailContainer .uponGuest .summarySet .introLead div:first-of-type{padding-right: var(--sp40);}
+    .detailContainer .uponGuest .summarySet .introLead div:first-of-type span{padding-right: var(--sp15);}
+    .detailContainer .uponGuest .summarySet .introLead div:first-of-type span:last-of-type{max-width: 130px;}
+    .detailContainer .uponGuest .summarySet .introLead div:last-of-type label{padding-right: 25px; margin-right: 5px; width: 34px;}
+    .detailContainer .uponGuest .summarySet .introLead div:last-of-type meter{max-width: 150px; width: 100%;  }
+    .detailContainer .uponGuest .summarySet .introLead input[type="button"]{align-self: center; position: relative; min-width: 220px;}
+    .menuFilter .tabButton li:not(:first-child){margin-left: 5%;}
+    .menuFilter .selectComponent input[type="button"]{width: 150px; padding: 0;}
+    .menuFilter .selectOption.active{width: 225px;}
+    .tabPage ul li .kgViewer{float: left; margin-right: 2%;}
+    .tabPage ul li :is(.kgRText, .kgQText){float: left;}
+    .tabPage ul li .kgRText dt{background-position: left top 2px;}
+    .tabPage ul li :is(.kgRText, .kgQText) dt time{width: 100px; text-align: right;}
+    .tabPage ul li .kgRText dt time,
+    .tabPage ul li .kgQText dt:not(:last-of-type) time{top: 2px;}
+    .tabPage ul li .countSet{text-align: right;}
+    .tabPage ul li .countSet em{margin-right: var(--sp40);}
+    .tabPage ul li .countSet input:first-of-type{background-position: center;}
+    .tabPage ul li .countSet input:last-of-type{background-position: center 2px;}
+    .accountContainer .dashLeft .dashBar ol li:not(:first-child){margin-left: 6px;}
+    .accountContainer .dashLeft .dashBar > a{max-width: 80px;}
+    .accountContainer .personalInfo{padding: var(--sp180) 3%;}
+    .accountContainer .personalInfo form label[for="btn_chkNews"] + input[id="btn_chkAllow"]{margin-left: 60px;}
+    .accountContainer .personalInfo form input[type="password"] + .visibleBtn,
+    .accountContainer .personalInfo form input[type="text"] + .visibleBtn{right: 20px; top: 15px;}
+    .accountContainer .personalInfo .haveOrder li img{max-width: 210px; float: left; margin-right: 2%;}
+    .accountContainer .personalInfo .haveOrder li .orderInfo{float: left; margin-right: 2%;}
+    .accountContainer .personalInfo .haveOrder li .statusInfo{float: right;}
+    [id*="reOrder"] form .flexCome > li{width: 32%;}
+    [id*="reOrder"] form .flexCome > li:not(:first-child){margin-left: 2%;}
+    .checkoutContainer .payProgress li{padding: 50px 0 0; background-size: 40px;}
+    .checkoutContainer .payProgress li:last-child{width: 70px;}
+    .checkoutContainer .payProgress li:not(:last-child):before{background: url('../images/bul_border.png') right / 80px no-repeat;}
+    .checkoutContainer .productInfo div ul li dl{width: 50%;}
+    .checkoutContainer .productInfo .totalValue span{text-align: center;}
+    .checkoutContainer .productInfo .totalValue span:nth-of-type(1){width: calc(24% - 4px);}
+    .checkoutContainer .productInfo .totalValue span:nth-of-type(2){width: calc(23% - 4px);}
+    .checkoutContainer .productInfo .totalValue span:nth-of-type(3){width: calc(32% - 4px);}
+    .checkoutContainer .productInfo .totalValue img{margin: 0 2.5%;}
+    .checkoutContainer .enterInfo fieldset .writeContent:not(.cardInfo) li{width: 49%;}
+    .checkoutContainer .enterInfo fieldset .writeContent li:nth-child(2n-1):not(.cardInfo li){margin-right: 2%;}
+    .checkoutContainer .enterInfo fieldset .shippingWrite li input{display: block; float: left;}
+    .checkoutContainer .enterInfo fieldset .shippingWrite li label span:nth-child(1){width: 14%; padding-left: 1%;}
+    .checkoutContainer .enterInfo fieldset .shippingWrite li label span:nth-child(2){width: 49%; padding-left: 1%;}
+    .checkoutContainer .enterInfo fieldset .shippingWrite li label span:nth-child(3){width: 27%; padding-left: 1%;}
+    .checkoutContainer .enterInfo .payChoose{padding-bottom: 20px;}
+    .checkoutContainer .enterInfo .payChoose .cardInfo li{width: 32%;}
+    .checkoutContainer .enterInfo .payChoose .cardInfo li:not(:first-child){margin-left: 2%;}
+    .checkoutContainer .enterInfo .etcInfo li.active input{line-height: 22px;}
+    .checkoutContainer .enterInfo input[type='submit']{margin-left: auto; width: 23%;}
+    .checkoutContainer .returnCheck a{width: calc(30% - 4px); margin: 0 auto;}
+    .checkoutContainer .returnCheck a:last-of-type{margin-left: 4%;}
+    .contactContainer .sendUs input[type="submit"]{margin-left: auto; width: 23%;}
+    .contactContainer .map .place-picker-container{padding: 10px;}
+    .sizeContainer div .sizeCharts .reactionScroll{position: relative;}
+    .sizeContainer div .sizeCharts .reactionScroll table{position: absolute;}
+    .careContainer img{margin: 0 auto var(--sp60);}
+    .journalContainer ul li{width: 49%;}
+    .journalContainer ul li:not(:nth-last-child(1),:nth-last-child(2)){margin-bottom: var(--sp90);}
+    .journalContainer ul li:nth-child(2n-1){margin-right: 2%;}
+    .journalPageContainer ul li .journalColor li{width: 14%;}
+    .journalPageContainer ul .jourImg li{width: 25%;}
+    .aboutUsContainer .scrollPage .scrollBar span:nth-child(1){padding: 12px 0; width: 40px; background: url('../images/icon_scroll.png') center / 40px no-repeat;}
+    .aboutUsContainer .scrollPage .scrollBar span:nth-child(2){margin-left: 18px;}
+}
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1279px){
+    main > div:nth-of-type(2) div{height: 500px;}
+    main section{margin: var(--sp85) 3%;}
+    main section ul li{width: 48%;}
+    main section ul li:nth-child(2n){margin-left: 2%;}
+    main section ul li:nth-child(1){margin-bottom: 35px;}
+    main section ul li:nth-child(2){margin-bottom: 35px;}
+    main section ul li figure figcaption dl dd{width: 80%; margin: 0 auto;}
+    .halfIns > div{height: 500px;}
+    .listContainer ul li{width: calc(50% - 0.6px);}
+    .listContainer ul li:not(:nth-child(2n)){border-right: 1px solid var(--dc02);}
+    .listContainer ul li a{padding: 60px 15px var(--sp15);}
+    .listContainer ul li a img{max-width: 300px;}
+    .listContainer ul li a b mark{top: 25px; width: 10%;}
+    .detailContainer .showProd img{max-width: 500px;}
+    .detailContainer aside > div h2 mark{width: 9.7%;}
+    .detailContainer aside > div .prodBtn .qtyComponent{margin-bottom: var(--sp45);}
+    .detailContainer aside > div .prodBtn .qtyComponent input{width: 7%;}
+    .detailContainer .uponGuest{padding: 60px 3% 0;}
+    .detailContainer [id$='Popup']{left: 20%;}
+    [id$='Popup']{width: 60%;}
+    .personalInfo > [id$='Popup']{top: 40%; left: 20%;}
+    .tabPage ul li .kgViewer{width: 22%;}
+    .tabPage ul li :is(.kgRText, .kgQText){width: 76%;}
+    .tabPage ul li .kgRText dt{padding-left: 130px;}
+    .tabPage ul li .kgRText dt,
+    .tabPage ul li .kgQText dt:first-of-type{margin-bottom: 25px; padding-right: 70px;}
+    .tabPage ul li .kgRText dd,
+    .tabPage ul li .kgQText dd:last-of-type{width: 90%;}
+    .tabPage ul li .kgQText dd:first-of-type{margin-bottom: 25px;}
+    .tabPage ul li .kgQText dt:last-of-type time{top: 12px;}
+    .accountContainer .dashLeft{padding: 160px 0;}
+    .accountContainer .personalInfo .selChoose{width: 30%; float: left;}
+    .accountContainer .personalInfo .selChoose:not(.marFirst){margin-left: 4.5%;}
+    .accountContainer .personalInfo .selChoose:last-of-type dl dd{width: 82%;}
+    .accountContainer .personalInfo .selChoose dl dd.noneSub,
+    .accountContainer .personalInfo .selChoose dl dd.checkSub{width: 64%;}
+    .accountContainer .personalInfo > a,
+    .accountContainer .personalInfo .noneOrder a,
+    .accountContainer .personalInfo > form input[type="submit"]{width: 34%; margin-left: auto;}
+    .accountContainer .personalInfo .haveOrder li img{width: 26%;}
+    .accountContainer .personalInfo .haveOrder li .orderInfo{width: 45%;}
+    .accountContainer .personalInfo .haveOrder li .statusInfo{width: 25%;}
+    .flexCome .selectComponent .selectOption.active{top: 53px;}
+    #cancelOrderPopup{top: 20%; left: 20%;}
+    #cancelOrderPopup button{width: 16%;}
+    .checkoutContainer .payProgress li:not(:last-child){width: 170px;}
+    .checkoutContainer .payProgress li{background-position: top left 10px;}
+    .checkoutContainer .productInfo div ul li img{max-width: 185px; margin-right: 2%;}
+    .checkoutContainer .afterOrder{background: url('../images/icon_fin.png') center top 25px / 40px no-repeat;}
+    .checkoutContainer,
+    article[class*="Container"]{padding-left: 3%; padding-right: 3%;}
+    article[class*="Container"] h2{padding-top: 90px;}
+    .contactContainer .map{height: 430px;}
+    .sizeContainer div .sizeCharts .reactionScroll{padding-top: 400px;}
+    .sizeContainer div .sizeCharts .reactionScroll:nth-child(1){background: url('../images/footer_sizeChart_manKids.png') top center / 530px no-repeat; min-height: 400px;}
+    .sizeContainer div .sizeCharts .reactionScroll:nth-child(2){background: url('../images/footer_sizeChart_women.png') top center / 530px no-repeat; min-height: 265px;}
+    .sizeContainer div .sizeCharts .reactionScroll:nth-child(3){background: url('../images/footer_sizeChart_manKids.png') top center / 530px no-repeat; min-height: 400px;}
+    .sizeContainer div .sizeCharts .reactionScroll table{width: 100%; bottom: 0;}
+    .careContainer img{max-width: 900px; min-width: 600px;}
+    .journalPageContainer ul li .journalImg img{max-width: 300px;}
+    .journalPageContainer ul li > img{max-width: 1000px;}
+    .reviewFooterContainer{position: relative;}
+    .reviewFooterContainer .backBtn{position: absolute; bottom: 122px;}
+    .aboutUsContainer .scrollPage .aboutArea{width: 90%; margin-left: 10%;}
+    .aboutUsContainer .scrollPage .aboutArea li:nth-child(4) img{max-width: 440px;}
+}
+/* desktop */
+@media screen and (min-width: 1280px){
+    .accountContainer:after,
+    .aboutUsContainer .scrollPage .aboutArea li:after,
+    .contactContainer > div:after,
+    .contactContainer .aroundStore:after,
+    .contactContainer .map:after{content: ''; display: block; clear: both;}
+    main div:first-child > div div a{width: 7.5%; transition: padding .3s ease;}
+    main div:first-child > div div a:hover{background-color: var(--bc03); border-color: var(--bc03); background-position: right 35px center;}
+    main div:first-child > div div a:hover,
+    main div:nth-of-type(4) a:hover,
+    .halfSplit > div > div:nth-child(2) a:hover{background-image: url('../images/bul_backspace.png'); background-size: 19px; background-repeat: no-repeat; padding-right: 60px;}
+    main div:nth-of-type(4) a,
+    .halfSplit > div > div:nth-child(2) a{transition: padding .3s ease;}
+    main div:nth-of-type(4) a:hover,
+    .halfSplit > div > div:nth-child(2) a:hover{background-position: right 25px center;}
+    main > div:nth-of-type(2) div{height: 970px;}
+    main section{margin: var(--sp85) 1.5%;}
+    main section ul,
+    .checkoutContainer,
+    article[class*="Container"]{max-width: 1770px; margin: 0 auto;}
+    main section ul li{width: 18%;}
+    main section ul li:not(:first-child){margin-left: 8.98%;}
+    .halfSplit > div{height: 970px;}
+    .halfIns > div{height: 810px;}
+    .listContainer ul li{width: calc(25% - 0.6px);}
+    .listContainer ul li:not(:nth-child(4n)){border-right: 1px solid var(--dc02);}
+    .listContainer ul li a{padding: 40px 15px var(--sp15);}
+    .listContainer ul li a img{max-width: 350px; transition: transform .3s ease;}
+    .listContainer ul li a:hover img{transform: scale(1.05);}
+    .listContainer ul li a b mark{top: 30px; width: 15.6%;}
+    .detailContainer .showProd{float: left; width: 50%; border-right: 1px solid var(--dc02);}
+    .detailContainer .showProd img{max-width: 600px; margin: 160px auto;}
+    .detailContainer aside{float: left; width: 50%;}
+    .detailContainer aside > div h2 mark{width: 8.6%; margin-top: 5px; padding: 0 10px;}
+    .detailContainer aside > div .prodBtn .qtyComponent{float: left; width: 30%;}
+    .detailContainer aside > div .prodBtn .qtyComponent input{width: 20%;}
+    .detailContainer aside > div .prodBtn > input{width: 30%; margin-left: 2%;}
+    .detailContainer aside > div .prodBtn a{width: 31%; color: var(--dc06);}
+    .detailContainer aside > div .prodBtn a:before{content: ''; position: absolute; left: 0; top: 0; width: 50px; height: 50px; border-radius: 25px; z-index: -1; background-color: var(--sc05); transition: width .3s ease;}
+    .detailContainer aside > div .prodBtn a:hover:before{width: 100%; max-width: 250px;}
+    .detailContainer aside > div .prodBtn a:hover,
+    .checkoutContainer .returnCheck a:hover{color: var(--dc01);}
+    .detailContainer .uponGuest{padding: 85px 9.37% 0;}
+    [id$='Popup']{width: 50vw;}
+    .detailContainer [id$='Popup']{left: 25%;}
+    .personalInfo > [id$='Popup']{left: -25vw; top: 25%;}
+    [id$='Popup'] input[type="button"].closeBtn{width: 20px; height: 20px;}
+    [id*="wReview"] form input[type='submit']{border-color: var(--bc03);}
+    .detailContainer .uponGuest .summarySet .introLead div:first-of-type span:last-of-type{margin-top: 8px;}
+    .menuFilter .selectOption.active li{line-height: 26px;}
+    .menuFilter .selectOption.active li:hover{background: url('../images/icon_check.png') right 15px center / 10px no-repeat; background-color: var(--yc01);}
+    .tabPage ul li .kgViewer{width: 18%;}
+    .tabPage ul li .kgViewer img{max-width: 40px;}
+    .tabPage ul li :is(.kgRText, .kgQText){width: 80%;}
+    .tabPage ul li .kgRText dt{padding-left: 140px;}
+    .tabPage ul li .kgRText dt,
+    .tabPage ul li .kgQText dt:first-of-type{margin-bottom: 30px; padding-right: 100px;}
+    .tabPage ul li .kgRText dd,
+    .tabPage ul li .kgQText dd:last-of-type{width: 75%;}
+    .tabPage ul li .kgQText dd:first-of-type{margin-bottom: 30px;}
+    .tabPage ul li .kgQText dt:last-of-type{padding: 15px 0 15px 45px; background: url('../images/icon_answer.png') left center / 30px no-repeat;}
+    .tabPage ul li .kgQText dt:last-of-type time{top: 16px;}
+    .accountContainer .dashLeft,
+    .accountContainer .personalInfo{width: 50%; float: left;}
+    .accountContainer .dashLeft{padding: 180px 0;}
+    .accountContainer .dashLeft .dashBar,
+    .checkoutContainer > p{clear: both;}
+    .accountContainer .personalInfo{border-left: 1px solid var(--dc02); box-sizing: border-box; position: relative;}
+    .accountContainer .personalInfo > p{margin-top: 20px;}
+    .accountContainer .personalInfo > form input[type="submit"]{width: 30%;}
+    .accountContainer .personalInfo .newCreate > a{float: left;}
+    .accountContainer .personalInfo .newCreate span{float: right; text-align: right;}
+    .accountContainer .personalInfo .newCreate span small{margin-bottom: 10px;}
+    .accountContainer .personalInfo .selChoose:not(:last-child){margin-bottom: var(--sp40);}
+    .accountContainer .personalInfo > a,
+    .accountContainer .personalInfo .noneOrder a{width: 30%;}
+    .accountContainer .personalInfo .haveOrder li img{width: 24%;}
+    .accountContainer .personalInfo .haveOrder li .orderInfo{width: 48%;}
+    .accountContainer .personalInfo .haveOrder li .statusInfo{width: 24%;}
+    [id*="reOrder"] form .flexCome > li{max-width: 285px;}
+    [id*="reOrder"] .flexCome .selectComponent input[type='button']{max-width: 285px;}
+    .flexCome .selectComponent .selectOption.active{top: 53px;}
+    .flexCome .selectComponent .selectOption.active li{line-height: 26px;}
+    .flexCome .selectComponent .selectOption.active li:hover{background-color: var(--yc01); border-radius: 15px;}
+    [id*="reOrder"] form input[type='submit']{border-color: var(--bc03);}
+    #cancelOrderPopup{left: -28vw;}
+    #cancelOrderPopup button{width: 14%;}
+    .checkoutContainer,
+    article[class*="Container"]{padding-left: 2%; padding-right: 2%;}
+    .checkoutContainer .payProgress{padding-top: 42px;}
+    .checkoutContainer .payProgress li:not(:last-child){width: 190px;}
+    .checkoutContainer .payProgress li{background-position: top left 16px;}
+    .checkoutContainer .productInfo,
+    .checkoutContainer .enterInfo{float: left;}
+    .checkoutContainer .productInfo{width: 43%; margin-right: 2%;}
+    .checkoutContainer .productInfo div ul li img{max-width: 195px; min-width: 150px; margin-right: 3%;}
+    .checkoutContainer .productInfo div address span:not(:last-child){margin-bottom: 10px;}
+    .checkoutContainer .enterInfo{width: 55%;}
+    .checkoutContainer .enterInfo .payChoose > label{width: 100px;}
+    .checkoutContainer .afterOrder{background: url('../images/icon_fin.png') center top 50px / 40px no-repeat;}
+    .checkoutContainer .returnCheck a:hover{transition-duration: 0.3s;}
+    .checkoutContainer .returnCheck a:first-of-type:hover{background-color: var(--sc05);}
+    .checkoutContainer .returnCheck a:last-of-type:hover{background-color: var(--rc03);}
+    input[value='Back']{color: var(--dc04); background-color: transparent; text-decoration: underline;}
+    article[class*="Container"] h2{padding-top: 162px;}
+    .contactContainer h3 mark{padding: 10px 0;}
+    .contactContainer .callUs,
+    .contactContainer .sendUs{float: left; width: 49%;}
+    .contactContainer .callUs{margin-right: 2%;}
+    .contactContainer .callUs ol li:not(:last-child){margin-bottom: 10px;}
+    .contactContainer .sendUs fieldset .contactSend li textarea{line-height: 22px;}
+    .contactContainer .sendUs input[type="submit"].active{background-color: var(--dc02); border-color: var(--dc02); color: var(--bc03); cursor: not-allowed;}
+    .contactContainer .aroundStore,
+    .contactContainer .map{float: left;}
+    .contactContainer .aroundStore{width: 46%; margin-right: 2%;}
+    .contactContainer .map{width: 52%; height: 780px;}
+    .sizeContainer div .sizeCharts .reactionScroll:nth-child(1){background: url('../images/footer_sizeChart_manKids.png') left center / 35% no-repeat; min-height: 620px;}
+    .sizeContainer div .sizeCharts .reactionScroll:nth-child(2){background: url('../images/footer_sizeChart_women.png') left center / 35% no-repeat; min-height: 440px;}
+    .sizeContainer div .sizeCharts .reactionScroll:nth-child(3){background: url('../images/footer_sizeChart_manKids.png') left center / 35% no-repeat; min-height: 620px;}
+    .sizeContainer div .sizeCharts .reactionScroll table{width: 60%; right: 0;}
+    .careContainer img{max-width: 1400px;}
+    .journalContainer ul li div{display: none;}
+    .journalContainer ul li:hover div{display: block;}
+    .journalContainer ul li div a{width: 20%; transition: padding .3s ease;}
+    .journalContainer ul li div a:hover{background-image: url("../images/bul_backspace.png"); background-position: right 30px center; background-size: 19px; background-repeat: no-repeat; padding-right: var(--sp60);}
+    .journalPageContainer ul li h3 span{float: right;}
+    .journalPageContainer ul li .journalImg img{max-width: 390px;}
+    .journalPageContainer ul li .journalColor{width: 65%;}
+    .journalPageContainer ul li > img{max-width: 1200px;}
+    .aboutUsContainer .scrollPage .aboutArea{width: 95%; margin-left: 5%;}
+    .aboutUsContainer .scrollPage .aboutArea li div{float: left; width: 56%; margin-right: 2%;}
+    .aboutUsContainer .scrollPage .aboutArea li img{width: 42%;}
+    .aboutUsContainer .scrollPage .aboutArea li:nth-child(4) img{max-width: 510px;}
+}

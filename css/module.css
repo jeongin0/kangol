@@ -1,0 +1,320 @@
+:root{
+    --sc01: #F5EAE0;
+    --sc02: #F8E6CB;
+    --sc03: #D0C1AB;
+    --sc04: #948979;
+    --sc05: #756D60;
+    --rc01: #F83E25;
+    --rc02: #D0331F;
+    --rc03: #751D12;
+    --bc01: #0065D0;
+    --bc02: #004894;
+    --bc03: #002C5C;
+    --yc01: #f8f692;
+    --gc01: #C4C374;
+    --gc02: #949357;
+    --gc03: #5c5b36;
+    --dc01: #ffffff;
+    --dc02: #d0d0d0;
+    --dc03: #949494;
+    --dc04: #757575;
+    --dc05: #5c5c5c;
+    --dc06: #313131;
+    --sp05: 5px;
+    --sp10: 10px;
+    --sp15: 15px;
+    --sp20: 20px;
+    --sp25: 25px;
+    --sp30: 30px;
+    --sp35: 35px;
+    --sp40: 40px;
+    --sp45: 45px;
+    --sp50: 50px;
+    --sp60: 60px;
+    --sp70: 70px;
+    --sp85: 85px;
+    --sp90: 90px;
+    --sp120: 120px;
+    --sp160: 160px;
+    --sp180: 180px;
+    --sp260: 260px;
+    --ft12: 12px;
+    --ft13: 13px;
+    --ft15: 15px;
+    --ft18: 18px;
+    --ft20: 20px;
+    --ft24: 24px;
+    --ft30: 30px;
+    --ft42: 42px;
+    --ft50: 50px;
+    --ft60: 60px;
+}
+[class*='qs']{font-family: 'Quicksand';}
+[class*='mp']{font-family: 'Maven Pro';}
+[class*='LT']{font-weight: 300;}
+[class*='RG']{font-weight: 400;}
+[class*='MD']{font-weight: 500;}
+[class*='SB']{font-weight: 600;}
+[class*='BD']{font-weight: 700;}
+[class*='12']{font-size: var(--ft12);}
+[class*='13']{font-size: var(--ft13);}
+[class*='13L']{font-size: var(--ft13);}
+[class*='15']{font-size: var(--ft15);}
+[class*='18']{font-size: var(--ft18);}
+[class*='20']{font-size: var(--ft20);}
+[class*='24']{font-size: var(--ft24);}
+[class*='30']{font-size: var(--ft30);}
+[class*='42']{font-size: var(--ft42);}
+[class*='50']{font-size: var(--ft50);}
+[class*='60']{font-size: var(--ft60);}
+.close{
+    background: url('../images/bul_close.png') center / contain no-repeat;
+}
+[class*="btn"]{
+    display: block;
+    border: 1px solid var(--bc03);
+    border-radius: var(--sp05);
+    padding: 15px 3%;
+    text-align: center;
+    cursor: pointer;
+}
+[class*="anotherBtn"]{
+    display: block;
+    padding: 15px var(--sp30);
+    text-align: center;
+}
+[class*="anotherBtn"]:not(footer section .conTent div:last-child input[type="submit"]){
+    border-radius: var(--sp05);
+}
+[class*="closeBtn"]{
+    background: url('../images/bul_close.png') center / cover no-repeat;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+}
+input:not([type="button"],[type="submit"],[type='checkbox'],[type='radio']),
+textarea{
+    border: 1px solid var(--dc03);
+    padding: var(--sp15);
+    background-color: transparent;
+}
+textarea{
+    display: block;
+    resize: none;
+    padding: var(--sp15);
+    border-width: 1px;
+    border-style: solid;
+    background-color: var(--sc01);
+    outline: none;
+}
+[class*="chkBtn"]{
+    width: 18px;
+    height: 18px;
+    margin: 0 5px 0 0;
+    background: url('../images/bul_checkbox.png') left / 18px 18px no-repeat;
+}
+[class*="chkBtn"]:checked{
+    background-image: url('../images/bul_checkbox_active.png');
+}
+[class*="customRad"],
+[class*="radBtn"]{
+    width: 20px;
+    height: 20px;
+    margin: 0 var(--sp20) 0 0;
+    background: url('../images/bul_radio.png') left no-repeat;
+    background-size: 20px;
+}
+[class*="customRad"]:checked,
+[class*="radBtn"]:checked{
+    background-image: url('../images/bul_radio_active.png');
+}
+[class*="txtBtn"]{
+    background-color: transparent;
+    border: none;
+    color: var(--bc03);
+    padding: 0;
+}
+[class*="visibleBtn"]{
+    position: absolute;
+    text-indent: -9999px;
+    background: url('../images/icon_visibility_active.png') center / 24px 21px no-repeat transparent;
+    border: none;
+    width: 24px;
+    height: 21px;
+    cursor: pointer;
+}
+[class*="visibleBtn"].active{
+    background: url('../images/icon_visibility.png') center / 24px 21px no-repeat transparent;
+}
+[class*="writeOpinion"]{
+    border-color: var(--dc03);
+}
+table{
+    border: 1px solid var(--dc02);
+}
+/* table [colspan]{
+    font-size: inherit;
+} */
+table caption{
+    text-align: left;
+}
+table thead{
+    background-color: var(--sc03);
+    box-sizing: border-box;
+}
+table :is(thead tr, tbody tr:not(:last-of-type)){
+    border-bottom: 1px solid var(--dc02);
+}
+table th{
+    font-weight: inherit;
+}
+table :is(th, td){
+    padding: var(--sp20) 1%;
+}
+table :is(thead th:not(:last-of-type), tbody th),
+table tbody td:not(:last-of-type){
+    border-right:  1px solid var(--dc02);
+}
+[class*="starPrint"]{
+    background-repeat: no-repeat;
+}
+.starPrint0{
+    background-image: url('../images/icon_starPrint0.png');
+}
+.starPrint1{
+    background-image: url('../images/icon_starPrint1.png');
+}
+.starPrint2{
+    background-image: url('../images/icon_starPrint2.png');
+}
+.starPrint3{
+    background-image: url('../images/icon_starPrint3.png');
+}
+.starPrint4{
+    background-image: url('../images/icon_starPrint4.png');
+}
+.starPrint4half{
+    background-image: url('../images/icon_starPrint4half.png');
+}
+.starPrint5{
+    background-image: url('../images/icon_starPrint5.png');
+}
+[class*="backBtn"]{
+    display: block;
+    margin: 0 auto;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+@media screen and (max-width: 767px){
+    :root{
+        --sp15: 10px;
+        --sp20: 10px;
+        --sp25: 20px;
+        --sp30: 20px;
+        --sp35: 20px;
+        --sp40: 20px;
+        --sp45: 20px;
+        --sp50: 25px;
+        --sp60: 30px;
+        --sp70: 40px;
+        --sp85: 50px;
+        --sp90: 60px;
+        --sp120: 70px;
+        --sp160: 25px;
+        --sp180: 80px;
+        --sp260: 100px;
+        --ft13: 11px;
+        --ft15: 12px;
+        --ft18: 13px;
+        --ft20: 15px;
+        --ft24: 18px;
+        --ft30: 18px;
+        --ft42: 25px;
+        --ft50: 28px;
+        --ft60: 30px;
+    }
+    [class*='13']{line-height: calc(var(--ft13) + 6px);}
+    [class*='15']{line-height: calc(var(--ft15) + 6px);}
+    [class*='18']{line-height: calc(var(--ft18) + 6px);}
+    [class*='20']{line-height: calc(var(--ft20) + 6px);}
+    [class*='24']{line-height: calc(var(--ft24) + 6px);}
+    [class*='30']{line-height: calc(var(--ft30) + 6px);}
+    [class*='42']{line-height: calc(var(--ft42) + 6px);}
+    [class*='50']{line-height: calc(var(--ft50) + 6px);}
+    [class*='60']{line-height: calc(var(--ft60) + 6px);}
+}
+@media screen and (min-width: 768px) and (max-width: 1279px){
+    :root{
+        --sp20: 15px;
+        --sp25: 20px;
+        --sp30: 25px;
+        --sp35: 30px;
+        --sp40: 25px;
+        --sp45: 25px;
+        --sp50: 35px;
+        --sp60: 40px;
+        --sp70: 50px;
+        --sp85: 60px;
+        --sp90: 70px;
+        --sp120: 80px;
+        --sp160: 60px;
+        --sp180: 90px;
+        --sp260: 140px;
+        --ft13: 12px;
+        --ft18: 15px;
+        --ft20: 18px;
+        --ft24: 20px;
+        --ft30: 20px;
+        --ft42: 30px;
+        --ft50: 35px;
+        --ft60: 40px;
+    }
+    [class*='13']{line-height: calc(var(--ft13) + 6px);}
+    [class*='15']{line-height: calc(var(--ft15) + 6px);}
+    [class*='18']{line-height: calc(var(--ft18) + 6px);}
+    [class*='20']{line-height: calc(var(--ft20) + 6px);}
+    [class*='24']{line-height: calc(var(--ft24) + 6px);}
+    [class*='30']{line-height: calc(var(--ft30) + 6px);}
+    [class*='42']{line-height: calc(var(--ft42) + 6px);}
+    [class*='50']{line-height: calc(var(--ft50) + 6px);}
+    [class*='60']{line-height: calc(var(--ft60) + 6px);}
+}
+@media screen and (max-width: 1279px){
+    :root{
+        --ft12: 10px;
+    }
+    [class*='12']{line-height: calc(var(--ft12) + 6px);}
+}
+@media screen and (min-width: 768px){
+    [class*="backBtn"]{
+        padding: 0 var(--sp30);
+    }
+}
+@media screen and (min-width: 1280px){
+    [class*='12']{line-height: calc(var(--ft12) + 6px);}
+    [class*='13']{line-height: calc(var(--ft13) + 6px);}
+    [class*='18']{line-height: calc(var(--ft18) + 6px);}
+    [class*='20']{line-height: calc(var(--ft20) + 6px);}
+    [class*='24']{line-height: calc(var(--ft24) + 6px);}
+    [class*='30']{line-height: calc(var(--ft30) + 6px);}
+    [class*='42']{line-height: calc(var(--ft42) + 6px);}
+    [class*='50']{line-height: calc(var(--ft50) + 6px);}
+    [class*="aDj"]{
+        color: var(--dc06);
+        background-color: transparent;
+    }
+    [class*="btn"]:hover{
+        background-color: var(--bc03);
+        color: var(--dc01);
+        transition-duration: 0.3s;
+    }
+    [class*="backBtn"]:hover{
+        color: var(--bc03);
+        text-decoration: none;
+        background: url('../images/icon_back_active.png') left 5px / 20px no-repeat;
+    }
+    [class*="txtBtn"]:hover{
+        text-decoration: underline;
+    }
+}
