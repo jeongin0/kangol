@@ -13,6 +13,7 @@ input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration{display: none;}
+div:has(#introPop),
 [id$='Panel']:not(#cartPanel),
 [id$='Popup'],
 [id$='Tap'],
@@ -21,6 +22,8 @@ input[type="search"]::-webkit-search-results-decoration{display: none;}
 [class*='noneProd'],
 footer section .conTent .subscribeText,
 .accountContainer .personalInfo .selChoose dl .chooseIt{display: none;}
+div:has(#introPop).active,
+#introPop div *:not(p),
 [id$='Panel']:not(#cartPanel).active,
 [id$='Popup'].active,
 [id$='Tap'].active,
@@ -53,6 +56,7 @@ footer section .conTent :is(.subscribeText, div:last-of-type ol),
 .menuFilter .selectComponent,
 .contactContainer .sendUs input[type="submit"] + span,
 [id*="reOrder"] :is(span.qsRG18, strong){text-align: right;}
+#introPop,
 .paging :is(> a, ol li),
 .listPager,
 footer > div p,
@@ -70,6 +74,7 @@ article[class*="Container"] h2,
 .reactionScroll table:not(.introTable),
 .journalPageContainer ul li .journalColor li,
 .introTable thead{text-align: center;}
+#introPop,
 #searchPanel form div input,
 #cartPanel :is(ul, div),
 header div > ul li.menu .mui span,
@@ -176,6 +181,7 @@ main section ul li,
 .accountContainer .personalInfo .haveOrder li .statusInfo ol li,
 .checkoutContainer .payProgress li,
 .checkoutContainer .productInfo .totalValue span{background-repeat: no-repeat;}
+#introPop .closeBtn,
 :is(#searchPanel form div, footer section .conTent div:last-of-type) input[type="submit"],
 #cartPanel h2 input,
 #cartPanel ul li figure figcaption input,
@@ -345,6 +351,7 @@ main section ul li figure figcaption dl dt,
 .accountContainer .personalInfo .haveOrder li .statusInfo ol,
 .detailContainer aside > div .accComponent > li:first-child,
 .detailContainer aside > div .accComponent :is(li h3.active, li:first-child h3.active ~ dl, li:first-child h3.active ~ ul){margin-bottom: var(--sp25);}
+#introPop div p,
 .tabPage ul li :is(.kgRText, .kgQText),
 .accountContainer .dashLeft .dashBar ol,
 :is([id*="reOrder"], [id*="wReview"]) h4,
@@ -420,8 +427,15 @@ main section h2,
 .checkoutContainer .enterInfo fieldset :is(legend, .shippingWrite li),
 .reviewFooterContainer .globalReview li{padding-bottom: var(--sp20);}
 /* all */
+div:has(#introPop){background-color: rgba(0, 0, 0, 0.4); z-index: 500; width: 100%; height: 100%;}
+#introPop{left: 50%; transform: translateX(-50%); top: 30%; min-width: 260px; background: url("../images/introImg.jpg") center / cover no-repeat; border-radius: 30px; width: 40%; padding: var(--sp90) var(--sp50); box-shadow: 0px 3px 7px var(--dc06);}
+#introPop .closeBtn{width: 15px; height: 15px; right: 30px; top: 30px;}
+#introPop div img{margin: 0 auto var(--sp30); max-width: 85px;}
+#introPop div p,
+#introPop div a{color: var(--dc06);}
+#introPop div a{width: max-content; margin: 0 auto;}
 [class*='clearFix']:after{content: ''; display: block; clear: both;}
-[class*='AclearFixL'] > *{  float: left;}
+[class*='AclearFixL'] > *{float: left;}
 [class*='AclearFixR'] > *{float: right;}
 #searchPanel{left: 0; top: 86px; z-index: 100; background-color: var(--sc01);}
 #searchPanel form div{padding: var(--sp60) 0; margin: 0 auto;}

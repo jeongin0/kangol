@@ -803,7 +803,7 @@ article[class*="Container"] h2{margin: 0 auto var(--sp60); padding-bottom: var(-
     .accountContainer .personalInfo .haveOrder li .statusInfo{width: 24%;}
     [id*="reOrder"] form .flexCome > li{max-width: 285px;}
     [id*="reOrder"] .flexCome .selectComponent input[type='button']{max-width: 285px;}
-    .flexCome .selectComponent .selectOption.active{top: 53px;}
+    .flexCome .selectComponent .selectOption.active{top: 51px;}
     .flexCome .selectComponent .selectOption.active li{line-height: 26px;}
     .flexCome .selectComponent .selectOption.active li:hover{background-color: var(--yc01); border-radius: 15px;}
     [id*="reOrder"] form input[type='submit']{border-color: var(--bc03);}

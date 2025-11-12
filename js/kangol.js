@@ -2,7 +2,7 @@ $(document).ready(function(){
     detailHeaderScroll();
     menu();
     menuTransition();
-    menuClose();
+    closeBtn();
     footerContents();
     panelControl();
     cartPanel();
@@ -68,7 +68,7 @@ function menuTransition(){
     });
 }
 
-function menuClose(){
+function closeBtn(){
     $(".closeBtn").click(function(){
         $(this).parent().parent().removeClass('active');
     });
