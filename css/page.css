@@ -37,7 +37,7 @@ main div:nth-of-type(5) img:last-of-type{margin-top: -1px;}
 .listContainer ul li{background-color: var(--dc01);}
 .listContainer ul li a{color: var(--dc06);}
 .listContainer ul li a img{width: 80%;}
-.listContainer ul li a b{color: var(--dc06); left: 0; top: 15px; z-index: 1;}
+.listContainer ul li a b{left: 0; top: 15px; z-index: 1;}
 .listContainer ul li a b i{font-style: normal;}
 .listContainer ul li a b mark{color: var(--sc04); right: 15px; background-color: var(--sc02); padding: 10px 1%; border-radius: 10px;}
 .listContainer ul li a div{justify-content: flex-end;}
@@ -746,9 +746,9 @@ article[class*="Container"] h2{margin: 0 auto var(--sp60); padding-bottom: var(-
     main section ul li:not(:first-child){margin-left: 8.98%;}
     .halfSplit > div{height: 970px;}
     .halfIns > div{height: 810px;}
-    .listContainer ul li{width: calc(25% - 0.6px);}
+    .listContainer ul li{width: calc(25% - 0.7px);}
     .listContainer ul li:not(:nth-child(4n)){border-right: 1px solid var(--dc02);}
-    .listContainer ul li a{padding: 40px 15px var(--sp15);}
+    .listContainer ul li a{padding: 10% 15px var(--sp15);}
     .listContainer ul li a img{max-width: 350px; transition: transform .3s ease;}
     .listContainer ul li a:hover img{transform: scale(1.05);}
     .listContainer ul li a b mark{top: 30px; width: 15.6%;}
