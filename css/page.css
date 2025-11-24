@@ -746,7 +746,7 @@ article[class*="Container"] h2{margin: 0 auto var(--sp60); padding-bottom: var(-
     main section ul li:not(:first-child){margin-left: 8.98%;}
     .halfSplit > div{height: 970px;}
     .halfIns > div{height: 810px;}
-    .listContainer ul li{width: calc(25% - 0.7px);}
+    .listContainer ul li{width: 25%; box-sizing: border-box;}
     .listContainer ul li:not(:nth-child(4n)){border-right: 1px solid var(--dc02);}
     .listContainer ul li a{padding: 10% 15px var(--sp15);}
     .listContainer ul li a img{max-width: 350px; transition: transform .3s ease;}
