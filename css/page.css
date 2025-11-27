@@ -554,7 +554,6 @@ article[class*="Container"] h2{margin: 0 auto var(--sp60); padding-bottom: var(-
     main div:nth-of-type(4){padding: 18vw;}
     main div:nth-of-type(4) a{top: 45%;}
     .splitForm h2{width: 50%; padding: var(--sp40) 2%;}
-    .halfSplit > div{height: 500px;}
     .halfSplit > div,
     .halfIns > div{width: 50%;}
     .halfSplit > div div:nth-child(2) a{width: 9%;}
@@ -662,7 +661,8 @@ article[class*="Container"] h2{margin: 0 auto var(--sp60); padding-bottom: var(-
     main section ul li:nth-child(1){margin-bottom: 35px;}
     main section ul li:nth-child(2){margin-bottom: 35px;}
     main section ul li figure figcaption dl dd{width: 80%; margin: 0 auto;}
-    .halfIns > div{height: 500px;}
+    .halfIns > div,
+    .halfSplit > div{height: 500px;}
     .listContainer ul li{width: calc(50% - 0.6px);}
     .listContainer ul li:not(:nth-child(2n)){border-right: 1px solid var(--dc02);}
     .listContainer ul li a{padding: 60px 15px var(--sp15);}
