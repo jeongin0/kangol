@@ -570,7 +570,7 @@ article[class*="Container"] h2{margin: 0 auto var(--sp60); padding-bottom: var(-
     .detailContainer aside > div .prodBtn .qtyComponent span{padding: 12px 0;}
     .detailContainer aside > div .prodBtn a{padding: 15px 1%;}
     .detailContainer aside > div .accComponent li h3.active ~ *{line-height: 24px;}
-    .detailContainer [id$='Popup']{top: 50%;}
+    .detailContainer [id$='Popup']{top: 10%;}
     .writeText li:not(:first-child){float: left;}
     .writeOrderText li:nth-child(1),
     .writeOrderText li:nth-child(2),
