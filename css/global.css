@@ -659,7 +659,7 @@ footer > div p{color: var(--sc02);}
     header div nav ul > li ol li:not(:last-of-type){margin-bottom: var(--sp20);}
     header div > ul{float: left; width: 39.2%;}
     header div > ul li:not(:first-child){margin-left: 4.8%;}
-    header div > ul li:nth-child(2) a{background-image: url('../images/bul_account.png'); text-align: left;}
+    header div > ul li:nth-child(2) a{background-image: url('../images/bul_account.png'); text-align: left; overflow: hidden; white-space: nowrap;}
     .paging > a img{width: 12px;}
     footer section{max-width: 1580px; margin: 0 auto;}
     footer section .conTent nav ul li:hover a{background: url('../images/bul_arrow.png') left 5px / contain no-repeat; background-size: 8px 13px; padding-left: 15px; transition: padding-left 0.3s ease-out;}
