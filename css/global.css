@@ -186,7 +186,7 @@ main section ul li,
 #cartPanel h2 input,
 #cartPanel ul li figure figcaption input,
 header div nav h2 input,
-header div nav ul > li b,
+header div nav ul > li button,
 header div > ul li.menu .mui,
 header div > ul li :is(input, a),
 header div > ul li:nth-child(3) :is(button, button span),
@@ -206,7 +206,7 @@ header div > ul li:nth-child(3) :is(button, button span),
 footer section .conTent div:last-of-type div:before,
 #cartPanel :is(ul li, ul li figure img, ul li figure figcaption dl dt a, div form *),
 header div h1 :is(a, a img),
-header div nav ul > li :is(b, a),
+header div nav ul > li :is(button, a),
 header div > ul li :is(input, a, :nth-child(3) button, :nth-child(3) button span, .menu .mui, .menu .mui span),
 .paging :is(ol li a, span),
 .listPager :is(small, small a),
@@ -472,7 +472,7 @@ footer section .conTent div:last-of-type div{margin-top: var(--sp40);}
 #cartPanel div form strong{color: var(--dc06); margin-bottom: var(--sp20);}
 header{top: 0; z-index: 150; background-color: var(--sc01);}
 header div h1{float: left; padding: 20px 0;}
-header div nav ul > li b{font-weight: inherit; color: var(--dc06);}
+header div nav ul > li button{color: var(--dc06); background-color: transparent; border: none;}
 header div > ul{line-height: 86px;}
 header div > ul li :first-child{background-position: center;}
 header div nav ul > li a{color: var(--dc06);}
@@ -514,6 +514,7 @@ footer > div p{color: var(--sc02);}
     #introPop{top: 15%;}
     #searchPanel form div{max-width: 260px;}
     #searchPanel form div input[type="submit"]{right: 15px; top: 37px;}
+    header div nav ul > li:focus-within ol li a{line-height: 24px;}
     #cartPanel h2,
     header div nav .menuTitle{padding: 32px var(--sp35) 33px;}
     #cartPanel h2 input,
@@ -577,6 +578,7 @@ footer > div p{color: var(--sc02);}
     header div nav ul > li.active ol{margin-top: var(--sp25);}
     header div nav ul > li ol{margin-top: 0; padding-left: var(--sp40); box-sizing: border-box; transition: margin .3s ease;}
     header div nav ul > li ol li a{line-height: 0; opacity: 0; overflow-y: hidden; transition: all .3s ease;}
+    header div nav ul > li:focus-within ol li a{margin-top: var(--sp25); opacity: 1;}
     header div nav ul > li.active ol li a{opacity: 1;}
     header div nav ul > li.active ol li:not(:last-of-type){margin-bottom: var(--sp20);}
     header div > ul{float: right;}
@@ -623,7 +625,8 @@ footer > div p{color: var(--sc02);}
     header div h1{width: 5%;}
     header div nav{max-width: 440px;}
     header div > ul li:not(:first-child){margin-left: 10%;}
-    header div nav ul > li.active ol li a{line-height: 26px;}
+    header div nav ul > li.active ol li a,
+    header div nav ul > li:focus-within ol li a{line-height: 26px;}
     header div > ul{width: 20%;}
     footer section .conTent > div:first-child{width: 28%;}
     footer section .conTent > nav:nth-child(2){width: 18%; margin-left: 5%;}
@@ -636,6 +639,7 @@ footer > div p{color: var(--sc02);}
 /* desktop */
 @media screen and (min-width: 1280px){
     header div nav ul > li:hover ol,
+    header div nav ul > li:focus-within ol,
     header div nav ul > li ol li a:before{display: block;}
     header div nav h2,
     header div nav ul > li ol,
@@ -650,7 +654,7 @@ footer > div p{color: var(--sc02);}
     header div nav{float: left; width: 53%; margin-left: 3.8%;}
     header div nav ul > li{position: relative; display: inline-block;}
     header div nav ul > li:not(:first-child){margin-left: 3.32%;}
-    header div nav ul > li b{line-height: 86px;}
+    header div nav ul > li button{margin: 34px 0;}
     header div nav ul > li ol{background-color: var(--sc01); padding: var(--sp30); position: absolute; left: 0; z-index: 1; transform: translateX(-30px); border-width: 0px 1px 1px; border-color: var(--dc02); border-style: solid;}
     header div nav ul > li ol li{width: max-content;}
     header div nav ul > li ol li a{position: relative;}
